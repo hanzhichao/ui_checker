@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from base.data_file_parser import ConfFile
+from data import ConfFile
 
 class Chrome():
     def __init__(self):
