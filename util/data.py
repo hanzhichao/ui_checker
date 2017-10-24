@@ -1,6 +1,6 @@
 import json
 import ConfigParser
-import xlrd
+# import xlrd
 import codecs
 
 
@@ -25,7 +25,7 @@ class ConfFile:
     def _open(cls, path):
         conf = ConfigParser.ConfigParser()
         try:
-            with open(path, encoding='utf-8-sig') as f:
+            with codecs.open(path, encoding='utf-8-sig') as f:
                 conf.readfp(f)
                 return conf
         except IOError,e:
@@ -60,33 +60,33 @@ class ConfFile:
         return _dict
 
 
-class ExcelFile:
-    def __init__(self):
-        pass
-    @classmethod
-    def get(cls, path, sheet, row, col):
-        wb = xlrd.open_workbook(path)
-        if isinstance(sheet, int):
-            sh = wb.sheet_by_index(sheet)
-        else:
-            sh = wb.sheet_by_name(sheet)
-        return sh.cell_value(row, col)
-    @classmethod
-    def load(cls, path, sheet=0):
-        wb = xlrd.open_workbook(path)
-        if isinstance(sheet, int):
-            sh = wb.sheet_by_index(sheet)
-        else:
-            sh = wb.sheet_by_name(sheet)
-        cols = sh.ncols
-        rows = sh.nrows
-        data_list = []
-        for row in range(1, rows):
-            data = {}
-            for col in range(0, cols):
-                data[sh.cell_value(0, col)] = sh.cell_value(row, col)
-            data_list.append(data)
-        return data_list
+# class ExcelFile:
+#     def __init__(self):
+#         pass
+#     @classmethod
+#     def get(cls, path, sheet, row, col):
+#         wb = xlrd.open_workbook(path)
+#         if isinstance(sheet, int):
+#             sh = wb.sheet_by_index(sheet)
+#         else:
+#             sh = wb.sheet_by_name(sheet)
+#         return sh.cell_value(row, col)
+#     @classmethod
+#     def load(cls, path, sheet=0):
+#         wb = xlrd.open_workbook(path)
+#         if isinstance(sheet, int):
+#             sh = wb.sheet_by_index(sheet)
+#         else:
+#             sh = wb.sheet_by_name(sheet)
+#         cols = sh.ncols
+#         rows = sh.nrows
+#         data_list = []
+#         for row in range(1, rows):
+#             data = {}
+#             for col in range(0, cols):
+#                 data[sh.cell_value(0, col)] = sh.cell_value(row, col)
+#             data_list.append(data)
+#         return data_list
 
 
 class XMLFile:

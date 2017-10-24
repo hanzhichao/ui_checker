@@ -21,22 +21,27 @@ class Config(object):
             return _dict[section][option]
         except Exception,e:
             raise Exception,e
-
+    def check():
+        pass
 
 class PageElm(object):
     def __init__(self, path):
         self.path = path
-    _dict = ConfFile.load(self.path)
-    
-    try:
-        menu = _dict['page']['menu']
-        subject = _dict['page']['subject']
-    except Exception,e:
-        raise Exception,e
+        self._dict = ConfFile.load(path)
+        
+        try:
+            self.menu =tuple(self._dict['page']['menu'].split(',')) 
+            self.subject = self._dict['page']['subject']
+        except Exception,e:
+            raise Exception,e
 
     @property
     def get(option):
         try:
-            return _dict['element'][option]
+            return tuple(_dict['element'][option].split(','))
         except Exception,e:
             raise Exception,e
+    
+    def check():
+        pass
+
