@@ -1,61 +1,28 @@
-from data import ConfFile
-
-def conf(section, option):
-    path = '../conf/default.conf'
-    return ConfFile.get(path,section,option)
-
-def page(filename):
-    path = '../conf/page_elm/' + filename + '.ini'
-    _page = ConfFile.load_section(path,'page')
-    _page['menu']=tuple(_page['menu'].split(','))
-    return _page
+from file import ConfFile
 
 
-def elm(filename, element):
-    path = '../conf/page_elm/' + filename + '.ini'
-    return tuple(ConfFile.get(path,'element',option).split(','))
+class Config(object):
+    def __init__(self, path='../conf/default.conf'):
+        self.path = path
+        self._dict = ConfFile.load(path)
 
-# class Config(object):
-#     def __init__(self):
-#         pass
-#     PATH = '../conf/default.conf'
-#     _dict = ConfFile.load(PATH)
-#     try:
-#         base_url = _dict['env']['base_url']
-#         wait = _dict['env']['wait']
-#         sleep = _dict['env']['sleep']
-#         username = _dict['login']['username']
-#         password = _dict['login']['password']
-#     except Exception,e:
-#         raise Exception,e
+    def config(self):
+        return self._dict
 
-#     @property
-#     def get(cls, section, option):
-#         try:
-#             return _dict[section][option]
-#         except Exception,e:
-#             raise Exception,e
-#     def check():
-#         pass
+    def section(self, section):
+        try:
+            return self._dict[section]
+        except KeyError:
+            raise KeyError, "No section '%s' in '%s'" % (section, self.path)
 
-# class PageElm(object):
-#     def __init__(self, path):
-#         self.path = path
-#         self._dict = ConfFile.load(path)
-        
-#         try:
-#             self.menu =tuple(self._dict['page']['menu'].split(',')) 
-#             self.subject = self._dict['page']['subject']
-#         except Exception,e:
-#             raise Exception,e
+    def get(self, section, option):
+        section_dict = self.section(section)
+        try:
+            return section_dict[option]
+        except KeyError, e:
+            raise KeyError, "No option '%s' in section '%s' of '%s'" % (option, section, self.path)
 
-#     @property
-#     def get(option):
-#         try:
-#             return tuple(_dict['element'][option].split(','))
-#         except Exception,e:
-#             raise Exception,e
-    
-#     def check():
-#         pass
 
+if __name__ == '__main__':
+    conf = Config()
+    print conf.get('email', 'wsmtp_server')

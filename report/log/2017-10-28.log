@@ -1,0 +1,16 @@
+2017-10-28 09:11:38,820 - log.py[line:37] - INFO: this is a logger info message
+2017-10-28 09:11:38,820 - log.py[line:38] - WARNING: this is a logger warning message
+2017-10-28 09:11:38,820 - log.py[line:39] - ERROR: this is a logger error message
+2017-10-28 09:11:38,820 - log.py[line:40] - CRITICAL: this is a logger critical message
+2017-10-28 09:11:51,974 - log.py[line:37] - INFO: this is a logger info message
+2017-10-28 09:11:51,975 - log.py[line:38] - WARNING: this is a logger warning message
+2017-10-28 09:11:51,975 - log.py[line:39] - ERROR: this is a logger error message
+2017-10-28 09:11:51,975 - log.py[line:40] - CRITICAL: this is a logger critical message
+2017-10-28 09:11:52,225 - log.py[line:37] - INFO: this is a logger info message
+2017-10-28 09:11:52,225 - log.py[line:38] - WARNING: this is a logger warning message
+2017-10-28 09:11:52,225 - log.py[line:39] - ERROR: this is a logger error message
+2017-10-28 09:11:52,225 - log.py[line:40] - CRITICAL: this is a logger critical message
+2017-10-28 09:11:52,515 - log.py[line:37] - INFO: this is a logger info message
+2017-10-28 09:11:52,515 - log.py[line:38] - WARNING: this is a logger warning message
+2017-10-28 09:11:52,515 - log.py[line:39] - ERROR: this is a logger error message
+2017-10-28 09:11:52,515 - log.py[line:40] - CRITICAL: this is a logger critical message
