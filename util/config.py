@@ -1,4 +1,20 @@
 from file import ConfFile
+from util import project_root
+
+
+def get_all():
+    path = project_root() + '/conf/default.conf'
+    return ConfFile.load(path)
+
+
+def get_section(section):
+    path = project_root() + '/conf/default.conf'
+    return ConfFile.load_section(path, section)
+
+
+def get(section, option):
+    path = project_root() + '/conf/default.conf'
+    return ConfFile.get(path, section, option)
 
 
 class Config(object):
@@ -25,4 +41,4 @@ class Config(object):
 
 if __name__ == '__main__':
     conf = Config()
-    print conf.get('email', 'wsmtp_server')
+    print conf.get('email', 'smtp_server')

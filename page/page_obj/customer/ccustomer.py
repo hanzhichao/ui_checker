@@ -2,7 +2,6 @@ import sys
 from time import sleep
 
 import os
-from selenium import webdriver
 
 sys.path.append('..')
 
@@ -13,16 +12,18 @@ from util.browser import Chrome
 class CCustomer(Page):
 
     def search_phone(self):
-        pass
-        # elm(self.filename, 'search_phone').send_keys('18010181267')
-        # elm(self.filename, 'search_btn').click()
+        self.element('search_phone').send_keys('18010181267')
+        self.element('search_btn').click()
 
 
 if __name__ == '__main__':
-    # d = Chrome.headless()
-    # print os.path.dirname(__file__)
-    d = webdriver.Chrome('../../../driver/chromedriver')
-    p=CCustomer(d,'customer/ccustomer.ini')
+
+    d = Chrome.normal()
+    p = CCustomer(d)
+    p.login()
+    p.load()
+    p.search_phone()
+    sleep(10)
     d.quit()
     # p.login()
     # sleep(1)

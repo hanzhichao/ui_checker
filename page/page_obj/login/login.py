@@ -18,5 +18,3 @@ class Login(Page):
         self.driver.find_element_by_id('password').send_keys(self.password)
         self.driver.find_element_by_id('login').click()
 
-    def logout(self):
-        self.driver.find_element_by_class_name('btn-bg1').click()
