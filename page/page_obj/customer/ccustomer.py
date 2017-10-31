@@ -1,30 +1,37 @@
-import sys
+# !/usr/bin/env python
+# -*- coding=utf-8 -*-
+
+"""
+-------------------------------------------------------
+File Name:      mark.py
+Author:         Han Zhichao
+Date:           2017/11/05
+Description:
+
+-------------------------------------------------------
+"""
+__author__ = 'Han Zhichao'
+
 from time import sleep
-
-import os
-from selenium import webdriver
-
-sys.path.append('..')
-
 from page.page import Page
 from util.browser import Chrome
 
 
 class CCustomer(Page):
-
-    def search_phone(self):
-        pass
-        # elm(self.filename, 'search_phone').send_keys('18010181267')
-        # elm(self.filename, 'search_btn').click()
+    page = 'customer/ccustomer'
+    
+    def search_phone(self, phone):
+        self.find_element('customer_search_phone').send_keys(phone)
+        self.find_element('customer_search_btn').click()
+        sleep(1)
 
 
 if __name__ == '__main__':
-    # d = Chrome.headless()
-    # print os.path.dirname(__file__)
-    d = webdriver.Chrome('../../../driver/chromedriver')
-    p=CCustomer(d,'customer/ccustomer.ini')
+
+    # d = Chrome.normal()
+    d = Chrome.headless()
+    p = CCustomer(d)
+    p.load()
+    p.search_phone('18010181267')
+    sleep(10)
     d.quit()
-    # p.login()
-    # sleep(1)
-    # p.load()
-    # p.search_phone()

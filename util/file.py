@@ -1,11 +1,24 @@
+# !/usr/bin/env python
+# -*- coding=utf-8 -*-
+
+"""
+-------------------------------------------------------
+File Name:      mark.py
+Author:         Han Zhichao
+Date:           2017/11/05
+Description:
+
+-------------------------------------------------------
+"""
+__author__ = 'Han Zhichao'
+
 # -*- coding=utf-8 -*-
 import json
-import ConfigParser
-try:
-    import xlrd
-except Exception, e:
-    xlrd_not_installed = True
-    print e
+from configparser import ConfigParser, NoSectionError, NoOptionError
+# try:
+#     import xlrd
+# except Exception:
+#     xlrd_not_installed = True
 
 import codecs
 
@@ -31,13 +44,13 @@ class ConfFile:
 
     @classmethod
     def _open(cls, path):
-        conf = ConfigParser.ConfigParser()
+        conf = ConfigParser()
         try:
             with codecs.open(path, encoding='utf-8-sig') as f:
-                conf.readfp(f)
+                conf.read_file(f)
                 return conf
-        except IOError, e:
-            raise IOError, e
+        except IOError:
+            raise IOError
             # todo logging.error()
 
     @classmethod
@@ -45,13 +58,13 @@ class ConfFile:
         conf = cls._open(path)
         try:
             return conf.get(section, option)
-        except ConfigParser.NoOptionError, e:
-            raise ConfigParser.NoOptionError, e
+        except NoOptionError:
+            raise NoOptionError
             # todo logging.error()
             # print '文件：%s，[%s]中找不到%s项' % (path, section, option)
 
-        except ConfigParser.NoSectionError, e:
-            raise ConfigParser.NoSectionError, e
+        except NoSectionError:
+            raise NoSectionError
             # todo logging.error()
             # print '文件：%s，[%s]中找不到%s项' % (path, section, option)
 
@@ -78,35 +91,35 @@ class ConfFile:
         return _dict
 
 
-class ExcelFile:
-    def __init__(self):
-        pass
-
-    @classmethod
-    def get(cls, path, sheet, row, col):
-        wb = xlrd.open_workbook(path)
-        if isinstance(sheet, int):
-            sh = wb.sheet_by_index(sheet)
-        else:
-            sh = wb.sheet_by_name(sheet)
-        return sh.cell_value(row, col)
-
-    @classmethod
-    def load(cls, path, sheet=0):
-        wb = xlrd.open_workbook(path)
-        if isinstance(sheet, int):
-            sh = wb.sheet_by_index(sheet)
-        else:
-            sh = wb.sheet_by_name(sheet)
-        cols = sh.ncols
-        rows = sh.nrows
-        data_list = []
-        for row in range(1, rows):
-            data = {}
-            for col in range(0, cols):
-                data[sh.cell_value(0, col)] = sh.cell_value(row, col)
-            data_list.append(data)
-        return data_list
+# class ExcelFile:
+#     def __init__(self):
+#         pass
+#
+#     @classmethod
+#     def get(cls, path, sheet, row, col):
+#         wb = xlrd.open_workbook(path)
+#         if isinstance(sheet, int):
+#             sh = wb.sheet_by_index(sheet)
+#         else:
+#             sh = wb.sheet_by_name(sheet)
+#         return sh.cell_value(row, col)
+#
+#     @classmethod
+#     def load(cls, path, sheet=0):
+#         wb = xlrd.open_workbook(path)
+#         if isinstance(sheet, int):
+#             sh = wb.sheet_by_index(sheet)
+#         else:
+#             sh = wb.sheet_by_name(sheet)
+#         cols = sh.ncols
+#         rows = sh.nrows
+#         data_list = []
+#         for row in range(1, rows):
+#             data = {}
+#             for col in range(0, cols):
+#                 data[sh.cell_value(0, col)] = sh.cell_value(row, col)
+#             data_list.append(data)
+#         return data_list
 
 
 class XMLFile:
@@ -119,5 +132,4 @@ class XMLFile:
 
 
 if __name__ == '__main__':
-    a=A
-    a.test()
+    pass

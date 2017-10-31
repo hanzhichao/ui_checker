@@ -69,3 +69,14 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 driver.get("https://github.com/")
 print driver.title
+
+# 分层
+1. 驱动层： 文件的读取解析，db链接的建立，ssh链接的建立，smtp链接的建立，浏览器驱动
+2. 逻辑层： 配置文件的读取，db ORM, client对象，webdriver补充定位方法，及操作方法，邮件功能，报告功能
+3. 页面层:  page 原型，page object 和 page element，页面基本操作，登陆，登出
+5. 业务层： 基本业务，如下单，申购，开具发票等
+6. 用例层： 基于页面层的单测用例和基于业务层的场景用例，包括prepare和clean
+7. 控制层： 用例执行控制，并发，多次，多种执行策略
+8. web层：  网站Dashboard
+
+其他： 批量生产page object 和 page elment   自动获取 元素 定位方式
