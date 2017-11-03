@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 sys.path.append('../..')
 from util.browser import Chrome
 from util import config
+from util.decorator import show_duration
 
 
 class Page(object):
@@ -28,38 +29,50 @@ class Page(object):
             self.elements = _page['element']  # todo try...except...
 
     def on_page(self, subject):
-        actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text  # todo
+        actual_subject = self.driver.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text  # todo
         return subject == actual_subject
 
+    @show_duration
     def login(self):
         login_url = self.base_url + '/index/index/login'
         self.driver.get(login_url)
         sleep(1)
         self.find_element(By.ID, 'nickname').clear()
-        self.find_element(By.ID, 'nickname').send_keys(self.username)
-        self.find_element(By.ID, 'password').clear()
-        self.find_element(By.ID, 'password').send_keys(self.password)
-        self.find_element(By.ID, 'login').click()
+        self.driver.find_element(By.ID, 'nickname').send_keys(self.username)
+        self.driver.find_element(By.ID, 'password').clear()
+        self.driver.find_element(By.ID, 'password').send_keys(self.password)
+        self.driver.find_element(By.ID, 'login').click()
         sleep(1)
 
     def logout(self):
         self.find_element(By.CLASS_NAME, 'btn-bg1').click()
 
+    @show_duration
     def load(self):
         # login required
         self.driver.get(self.base_url+'/index/index/index')
-        self.find_element(By.PARTIAL_LINK_TEXT, self.menu[0]).click()
-        self.find_element(By.LINK_TEXT, self.menu[1]).click()
-        self.find_element(By.LINK_TEXT, self.menu[2]).click()
+        self.driver.find_element(By.PARTIAL_LINK_TEXT, self.menu[0]).click()
+        self.driver.find_element(By.LINK_TEXT, self.menu[1]).click()
+        self.driver.find_element(By.LINK_TEXT, self.menu[2]).click()
         sleep(1)
         assert self.on_page(self.subject), "Load Page Error."
 
     def element(self, element_name):
         element_loc = tuple(self.elements[element_name].split(','))  # todo try... except ...
-        return self.find_element(*element_loc)
+        return self.driver.find_element(*element_loc)
 
+    @show_duration
     def find_element(self, *loc):
         return self.driver.find_element(*loc)
+
+    @show_duration
+    def type(self, element, *value):
+        element.clear()
+        element.send_keys(*value)
+
+    @show_duration
+    def open(self, url):
+        self.driver.get(url)
 
 
 if __name__ == '__main__':
