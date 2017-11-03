@@ -11,8 +11,8 @@ from util.browser import Chrome
 
 class CCustomer(Page):
 
-    def search_phone(self):
-        self.element('search_phone').send_keys('18010181267')
+    def search_phone(self, phone):
+        self.element('search_phone').send_keys(phone)
         self.element('search_btn').click()
 
     def type_username(self, username):

@@ -21,6 +21,8 @@ class Page(object):
 
         # 得到子类PageObject页面所对应的PageElm文件路径，并解析
         if __name__ != '__main__':
+            print '---------------------------------------------------------------------'
+            print inspect.stack()
             page_obj_file = inspect.stack()[1][1]  # 获取上级调用函数的文件名
             page_elm_file = page_obj_file.replace('page_obj', 'page_elm').replace('.py', '.ini')
             _page = ConfFile.load(page_elm_file)
