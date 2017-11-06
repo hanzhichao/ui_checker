@@ -14,7 +14,7 @@ __author__ = 'Han Zhichao'
 
 # -*- coding=utf-8 -*-
 import json
-from configparser import ConfigParser, NoSectionError, NoOptionError
+from configparser import ConfigParser, NoSectionError, NoOptionError, RawConfigParser
 # try:
 #     import xlrd
 # except Exception:
@@ -44,17 +44,14 @@ class ConfFile:
 
     @classmethod
     def _open(cls, path):
-        cf = ConfigParser()
+        # cf1 = ConfigParser()
+        cf1 = RawConfigParser()
         try:
             # python 2
-            # with codecs.open(path, encoding='utf-8-sig') as f:
-            #     cf.readfp(f)
-            #     print(cf['runtime'])
-            #     return cf
-            
-            # python3
-            cf.read(path, encoding='utf8')
-            return cf
+            with codecs.open(path, encoding='utf-8-sig') as f:
+                cf1.readfp(f)
+                print(cf1['runtime'])
+                return cf1
             
         except IOError:
             raise IOError
@@ -62,9 +59,9 @@ class ConfFile:
 
     @classmethod
     def get(cls, path, section, option):
-        cf = cls._open(path)
+        cf2 = cls._open(path)
         try:
-            return cf.get(section, option)
+            return cf2.get(section, option)
         except NoOptionError:
             raise NoOptionError
             # todo logging.error()
@@ -78,12 +75,12 @@ class ConfFile:
     @classmethod
     def load(cls, path):
         _dict = {}
-        cf = cls._open(path)
+        cf3 = cls._open(path)
         # todo try ... except NoSuchKeys
-        for section in cf.sections():
+        for section in cf3.sections():
             _dict[section] = {}
-            for option in cf.options(section):
-                _dict[section][option] = cf.get(section, option)
+            for option in cf3.options(section):
+                _dict[section][option] = cf3.get(section, option)
         
         return _dict
         
@@ -91,42 +88,43 @@ class ConfFile:
     def load_section(cls, path, section):
         _dict = {}
         # conf = ConfigParser.ConfigParser()
-        cf = cls._open(path)
+        cf4 = cls._open(path)
         # todo try ... except ...
-        for option in cf.options(section):
-            _dict[option] = cf.get(section, option)
+        for option in cf4.options(section):
+            _dict[option] = cf4.get(section, option)
         return _dict
 
+'''
+class ExcelFile:
+    def __init__(self):
+        pass
 
-# class ExcelFile:
-#     def __init__(self):
-#         pass
-#
-#     @classmethod
-#     def get(cls, path, sheet, row, col):
-#         wb = xlrd.open_workbook(path)
-#         if isinstance(sheet, int):
-#             sh = wb.sheet_by_index(sheet)
-#         else:
-#             sh = wb.sheet_by_name(sheet)
-#         return sh.cell_value(row, col)
-#
-#     @classmethod
-#     def load(cls, path, sheet=0):
-#         wb = xlrd.open_workbook(path)
-#         if isinstance(sheet, int):
-#             sh = wb.sheet_by_index(sheet)
-#         else:
-#             sh = wb.sheet_by_name(sheet)
-#         cols = sh.ncols
-#         rows = sh.nrows
-#         data_list = []
-#         for row in range(1, rows):
-#             data = {}
-#             for col in range(0, cols):
-#                 data[sh.cell_value(0, col)] = sh.cell_value(row, col)
-#             data_list.append(data)
-#         return data_list
+    @classmethod
+    def get(cls, path, sheet, row, col):
+        wb = xlrd.open_workbook(path)
+        if isinstance(sheet, int):
+            sh = wb.sheet_by_index(sheet)
+        else:
+            sh = wb.sheet_by_name(sheet)
+        return sh.cell_value(row, col)
+
+    @classmethod
+    def load(cls, path, sheet=0):
+        wb = xlrd.open_workbook(path)
+        if isinstance(sheet, int):
+            sh = wb.sheet_by_index(sheet)
+        else:
+            sh = wb.sheet_by_name(sheet)
+        cols = sh.ncols
+        rows = sh.nrows
+        data_list = []
+        for row in range(1, rows):
+            data = {}
+            for col in range(0, cols):
+                data[sh.cell_value(0, col)] = sh.cell_value(row, col)
+            data_list.append(data)
+        return data_list
+'''
 
 
 class XMLFile:
@@ -140,7 +138,6 @@ class XMLFile:
 
 if __name__ == '__main__':
     conf = ConfFile()
-    cf=conf._open('../conf/default.conf')
-    print(cf.sections())
-    print(cf.get('runtime','wait'))
-    
+    sleep = ConfFile.load('../conf/default.conf')
+    print(sleep)
+
