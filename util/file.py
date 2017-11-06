@@ -3,7 +3,7 @@
 
 """
 -------------------------------------------------------
-File Name:      mark.py
+File Name:      file.py
 Author:         Han Zhichao
 Date:           2017/11/05
 Description:
@@ -14,7 +14,7 @@ __author__ = 'Han Zhichao'
 
 # -*- coding=utf-8 -*-
 import json
-from configparser import ConfigParser, NoSectionError, NoOptionError
+from configparser import ConfigParser, NoSectionError, NoOptionError, RawConfigParser
 # try:
 #     import xlrd
 # except Exception:
@@ -44,7 +44,7 @@ class ConfFile:
 
     @classmethod
     def _open(cls, path):
-        cf = ConfigParser()
+        cf = RawConfigParser()
         try:
             # python 2
             # with codecs.open(path, encoding='utf-8-sig') as f:

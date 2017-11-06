@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a794d2-3f52-4373-9706-ee8adb5562ca" name="New changelist" comment="change to python3">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/decorator.py" afterPath="$PROJECT_DIR$/util/decorator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/file.py" afterPath="$PROJECT_DIR$/util/file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/log.py" afterPath="$PROJECT_DIR$/util/log.py" />
     </list>
     <list id="c4051f0c-bcae-438d-9a4b-fba6b18599e4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,19 +25,19 @@
     <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer Coverage Results" MODIFIED="1509800050447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_checker$born.coverage" NAME="born Coverage Results" MODIFIED="1509889504419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$logging.coverage" NAME="logging Coverage Results" MODIFIED="1509151886086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/ui_checker$file.coverage" NAME="file Coverage Results" MODIFIED="1509960207635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/ui_checker$file.coverage" NAME="file Coverage Results" MODIFIED="1509968011983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$Unittests_in_test_ccustomer_py.coverage" NAME="Unittests in test_ccustomer.py Coverage Results" MODIFIED="1509780067791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_checker$wdeliveryer.coverage" NAME="wdeliveryer Coverage Results" MODIFIED="1509888239180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/page_obj/logistics" />
     <SUITE FILE_PATH="coverage/ui_checker$ccustomer.coverage" NAME="ccustomer Coverage Results" MODIFIED="1509787414416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/page_obj/customer" />
-    <SUITE FILE_PATH="coverage/ui_checker$page.coverage" NAME="page Coverage Results" MODIFIED="1509947950464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/ui_checker$config.coverage" NAME="config Coverage Results" MODIFIED="1509950737833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/ui_checker$page.coverage" NAME="page Coverage Results" MODIFIED="1509968031645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="born.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/born.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="413">
               <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
               <folding>
                 <element signature="e#288#297#0" expanded="true" />
@@ -49,14 +46,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="e#313#327#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/util/decorator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
                 <element signature="e#288#299#0" expanded="true" />
               </folding>
@@ -73,16 +68,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="file.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1061">
-              <caret line="144" column="10" lean-forward="false" selection-start-line="144" selection-start-column="10" selection-end-line="144" selection-end-column="10" />
+            <state relative-caret-position="159">
+              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="e#311#322#0" expanded="true" />
-                <element signature="e#506#793#0" expanded="false" />
-                <element signature="e#2448#2466#0" expanded="false" />
-                <element signature="e#3366#3447#0" expanded="false" />
+                <element signature="e#523#810#0" expanded="false" />
+                <element signature="e#2468#2486#0" expanded="false" />
+                <element signature="e#3386#3467#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -91,7 +86,7 @@
       <file leaf-file-name="configparser.py" pinned="false" current-in-tab="false">
         <entry file="file://E:/Program Files (x86)/Python3.6.3/Lib/configparser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
+            <state relative-caret-position="11865">
               <caret line="799" column="0" lean-forward="false" selection-start-line="799" selection-start-column="0" selection-end-line="799" selection-end-column="0" />
               <folding />
             </state>
@@ -101,8 +96,8 @@
       <file leaf-file-name="log.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#288#302#0" expanded="true" />
               </folding>
@@ -114,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/conf/default.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
+              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -123,7 +118,7 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
+            <state relative-caret-position="450">
               <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#288#318#0" expanded="true" />
@@ -212,7 +207,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1420" />
     <option name="y" value="-15" />
     <option name="width" value="1380" />
@@ -252,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,7 +310,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -344,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file">
+  <component name="RunManager" selected="Python.page">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,10 +439,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.file" />
-        <item index="1" class="java.lang.String" itemvalue="Python.config" />
-        <item index="2" class="java.lang.String" itemvalue="Python.log" />
-        <item index="3" class="java.lang.String" itemvalue="Python.page" />
+        <item index="0" class="java.lang.String" itemvalue="Python.page" />
+        <item index="1" class="java.lang.String" itemvalue="Python.file" />
+        <item index="2" class="java.lang.String" itemvalue="Python.config" />
+        <item index="3" class="java.lang.String" itemvalue="Python.log" />
         <item index="4" class="java.lang.String" itemvalue="Python.mark" />
       </list>
     </recent_temporary>
@@ -507,16 +502,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="1358" y="-8" width="1616" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.151875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15359898" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68927443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2158809" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21583652" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -757,16 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/born.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-          <folding>
-            <element signature="e#288#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/page_obj/customer/ccustomer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -826,20 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#313#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/decorator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="e#288#299#0" expanded="true" />
           </folding>
@@ -849,15 +824,15 @@
     <entry file="file://$PROJECT_DIR$/conf/default.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#288#302#0" expanded="true" />
           </folding>
@@ -866,7 +841,7 @@
     </entry>
     <entry file="file://E:/Program Files (x86)/Python3.6.3/Lib/configparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
+        <state relative-caret-position="11865">
           <caret line="799" column="0" lean-forward="false" selection-start-line="799" selection-start-column="0" selection-end-line="799" selection-end-column="0" />
           <folding />
         </state>
@@ -876,14 +851,12 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="77" column="45" lean-forward="false" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-255">
             <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -891,7 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
+        <state relative-caret-position="450">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="e#288#318#0" expanded="true" />
@@ -901,14 +874,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1061">
-          <caret line="144" column="10" lean-forward="false" selection-start-line="144" selection-start-column="10" selection-end-line="144" selection-end-column="10" />
+        <state relative-caret-position="159">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="e#311#322#0" expanded="true" />
-            <element signature="e#506#793#0" expanded="false" />
-            <element signature="e#2448#2466#0" expanded="false" />
-            <element signature="e#3366#3447#0" expanded="false" />
+            <element signature="e#523#810#0" expanded="false" />
+            <element signature="e#2468#2486#0" expanded="false" />
+            <element signature="e#3386#3467#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/born.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#288#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
