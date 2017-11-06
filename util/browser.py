@@ -15,8 +15,13 @@ __author__ = 'Han Zhichao'
 # -*- coding:utf-8 -*-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+<<<<<<< HEAD
 from util.root import project_root
 import platform
+=======
+from file import ConfFile
+from util import project_root
+>>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
 
 
 class Chrome(object):
@@ -26,6 +31,8 @@ class Chrome(object):
         chrome_driver = project_root() + '/driver/chromedriver.exe'
     else:
         chrome_driver = project_root() + '/driver/chromedriver'
+
+    chrome_driver = project_root() + '/driver/chromedriver'
 
     @classmethod
     def normal(cls):

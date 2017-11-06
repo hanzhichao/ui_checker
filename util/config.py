@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
@@ -14,6 +15,10 @@ __author__ = 'Han Zhichao'
 
 from util.file import ConfFile
 from util.root import project_root
+=======
+from file import ConfFile
+from util import project_root
+>>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
 
 
 def get_all():
@@ -55,4 +60,8 @@ class Config(object):
 
 if __name__ == '__main__':
     conf = Config()
+<<<<<<< HEAD
     print(conf.get('email', 'smtp_server'))
+=======
+    print conf.get('email', 'smtp_server')
+>>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259

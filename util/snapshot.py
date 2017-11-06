@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
@@ -14,6 +15,10 @@ __author__ = 'Han Zhichao'
 
 # -*- coding=utf-8 -*-
 from util.root import project_root
+=======
+# -*- coding=utf-8 -*-
+from util import project_root
+>>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
 
 
 # 截图函数

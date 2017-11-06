@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
@@ -83,6 +84,25 @@ def limit_time(func):
 
 
 
+=======
+import time
+import inspect
+
+
+def show_duration(action):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        end = time.time()
+        duration = end - start
+        parent_action = inspect.stack()[1][4][0].strip()
+        # inspect.getargspec(action)
+        # varnames = action.__code__.co_varnames
+        print '%s---%s---%ss' % (parent_action, action.__name__, duration)
+        return action(*args, **kwargs)
+    return wrapper
+
+
+>>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
 if __name__ == '__main__':
     pass
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
@@ -15,10 +16,16 @@ __author__ = 'Han Zhichao'
 from time import sleep
 
 from .base import Base
+=======
+from time import sleep
+
+from base import Base
+>>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
 from page.page_obj.customer.ccustomer import CCustomer
 
 
 class TestCcustomer(Base):
+<<<<<<< HEAD
     
     def test_search_exist_customer(self):
         phone = '18010181267'
@@ -66,3 +73,12 @@ class TestCcustomer(Base):
         self.assertEqual(customer_source, db_customer_source)
         self.assertEqual(customer_remark, db_customer_remark)
 
+=======
+    def test_search_customer(self):
+        page = CCustomer(self.driver)
+        page.login()
+        page.load()
+        page.search_phone('18010181267')
+        sleep(10)
+        self.driver.quit()
+>>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
@@ -12,6 +13,8 @@ Description:
 """
 __author__ = 'Han Zhichao'
 
+=======
+>>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
 import sys
 from time import sleep
 
