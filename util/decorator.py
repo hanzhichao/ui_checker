@@ -40,8 +40,8 @@ def exec_time(func):
         # print("@%s, {%s} start" % (time.strftime("%X", time.localtime()), func.__name__))
         back = func(*args, **kwargs)
         # print("@%s, {%s} end" % (time.strftime("%X", time.localtime()), func.__name__))
-        # print("@%.3fs taken for {%s}" % (time.time() - t0, func.__name__))
-        logger.debug('{0}---{1}---{2}s'.format(parent_action, func.__name__, time.time()-t0))
+        print("@%.3fs taken for {%s}" % (time.time() - t0, func.__name__))
+        # logger.debug(parent_action, func.__name__, time.time()-t0)
         return back
     return wrapper
 

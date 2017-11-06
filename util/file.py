@@ -44,20 +44,27 @@ class ConfFile:
 
     @classmethod
     def _open(cls, path):
-        conf = ConfigParser()
+        cf = ConfigParser()
         try:
-            with codecs.open(path, encoding='utf-8-sig') as f:
-                conf.read_file(f)
-                return conf
+            # python 2
+            # with codecs.open(path, encoding='utf-8-sig') as f:
+            #     cf.readfp(f)
+            #     print(cf['runtime'])
+            #     return cf
+            
+            # python3
+            cf.read(path, encoding='utf8')
+            return cf
+            
         except IOError:
             raise IOError
             # todo logging.error()
 
     @classmethod
     def get(cls, path, section, option):
-        conf = cls._open(path)
+        cf = cls._open(path)
         try:
-            return conf.get(section, option)
+            return cf.get(section, option)
         except NoOptionError:
             raise NoOptionError
             # todo logging.error()
@@ -71,12 +78,12 @@ class ConfFile:
     @classmethod
     def load(cls, path):
         _dict = {}
-        conf = cls._open(path)
+        cf = cls._open(path)
         # todo try ... except NoSuchKeys
-        for section in conf.sections():
+        for section in cf.sections():
             _dict[section] = {}
-            for option in conf.options(section):
-                _dict[section][option] = conf.get(section, option)
+            for option in cf.options(section):
+                _dict[section][option] = cf.get(section, option)
         
         return _dict
         
@@ -84,10 +91,10 @@ class ConfFile:
     def load_section(cls, path, section):
         _dict = {}
         # conf = ConfigParser.ConfigParser()
-        conf = cls._open(path)
+        cf = cls._open(path)
         # todo try ... except ...
-        for option in conf.options(section):
-            _dict[option] = conf.get(section, option)
+        for option in cf.options(section):
+            _dict[option] = cf.get(section, option)
         return _dict
 
 
@@ -132,4 +139,8 @@ class XMLFile:
 
 
 if __name__ == '__main__':
-    pass
+    conf = ConfFile()
+    cf=conf._open('../conf/default.conf')
+    print(cf.sections())
+    print(cf.get('runtime','wait'))
+    

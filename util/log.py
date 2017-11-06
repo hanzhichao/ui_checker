@@ -12,11 +12,10 @@ Description:
 """
 __author__ = 'Han Zhichao'
 
-# coding=utf-8
 import logging
 import time
 import os
-from config import Config
+from util.config import Config
 
 
 conf = Config()
