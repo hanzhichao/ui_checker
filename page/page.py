@@ -3,7 +3,7 @@
 
 """
 -------------------------------------------------------
-File Name:      mark.py
+File Name:      page.py
 Author:         Han Zhichao
 Date:           2017/11/05
 Description:
@@ -46,12 +46,6 @@ class Page(object):
             for element_name in elements_conf:
                 elements_conf[element_name] = tuple(elements_conf[element_name].split(','))
             self.elements = elements_conf
-            
-    def on_page(self, subject):
-        actual_subject = self._find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text  # todo
-        print("实际文本：%s" % actual_subject, "配置文件中的文本：%s" % subject)
-        # return subject == actual_subject
-        return subject in actual_subject
 
     @exec_time
     def login(self):
@@ -67,6 +61,12 @@ class Page(object):
 
     def logout(self):
         self._find_element(By.CLASS_NAME, 'btn-bg1').click()
+
+    def on_page(self, subject):
+        actual_subject = self._find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text  # todo
+        print("实际文本：%s" % actual_subject, "配置文件中的文本：%s" % subject)
+        # return subject == actual_subject
+        return subject in actual_subject
 
     def _load(self, page=page):
         # login required
@@ -91,14 +91,14 @@ class Page(object):
     def turn_to(self, page):  # maybe bugs exists when turn_to other page
         self.driver.refresh()
         self._load(page)
-        
+     
+    def _find_element(self, *loc):
+        return self.driver.find_element(*loc)
+      
     @exec_time
     def find_element(self, element_name):
         element_loc = self.elements[element_name]  # todo try... except ...
         return self._find_element(*element_loc)
-    
-    def _find_element(self, *loc):
-        return self.driver.find_element(*loc)
     
     @exec_time
     def get_value(self, element_name):

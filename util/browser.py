@@ -1,18 +1,6 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
-
-"""
--------------------------------------------------------
-File Name:      mark.py
-Author:         Han Zhichao
-Date:           2017/11/05
-Description:
-
--------------------------------------------------------
-"""
-__author__ = 'Han Zhichao'
-
-# -*- coding:utf-8 -*-
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from util.root import project_root
@@ -40,3 +28,9 @@ class Chrome(object):
         options.add_argument('--headless')  # 无界面模式
         options.add_argument('--disable-gpu')
         return webdriver.Chrome(cls.chrome_driver, chrome_options=options)
+
+
+if __name__ == '__main__':
+    print(os.path.abspath(__file__))
+    d = webdriver.Chrome('C:\\Users\\Administrator\\Projects\\ui_checker\\driver\\chromedriver.exe')
+    d.get('http://www.baidu.com')

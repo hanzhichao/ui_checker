@@ -55,7 +55,7 @@ def create_page(path_dict):
                 with open(page_elm, 'w') as f:
                     f.write(page_elm_tpl)
                 print("make dir %s done" % page_elm)
-                
+            
 
 if __name__ == '__main__':
     test_dict = {'system1': ['page1', 'page2', 'page3'], 'system2': ['page4', 'page5']}

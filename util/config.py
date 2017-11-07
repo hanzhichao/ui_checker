@@ -32,7 +32,7 @@ def get(section, option):
 
 
 class Config(object):
-    def __init__(self, path='../conf/default.conf'):
+    def __init__(self, path=project_root() + '/conf/default.conf'):
         self.path = path
         self._dict = ConfFile.load(path)
 
