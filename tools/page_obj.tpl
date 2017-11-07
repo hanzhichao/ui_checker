@@ -7,7 +7,7 @@ from util.browser import Chrome
 
 
 class %s(BasePage):
-    page = '%s'
+    page = __file__
 
     def do_something(self):
         pass
