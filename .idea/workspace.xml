@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85a794d2-3f52-4373-9706-ee8adb5562ca" name="New changelist" comment="change to python3">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/born.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/util/born.py" afterPath="$PROJECT_DIR$/tools/born.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/util/header.txt" afterPath="$PROJECT_DIR$/tools/header.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/util/mark.py" afterPath="$PROJECT_DIR$/tools/mark.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/util/monkey.py" afterPath="$PROJECT_DIR$/tools/monkey.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/util/page_elm.tpl" afterPath="$PROJECT_DIR$/tools/page_elm.tpl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/util/page_obj.tpl" afterPath="$PROJECT_DIR$/tools/page_obj.tpl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/util/spider.py" afterPath="$PROJECT_DIR$/tools/spider.py" />
+    <list default="true" id="85a794d2-3f52-4373-9706-ee8adb5562ca" name="New changelist" comment="not ok for run chrome">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/default.conf" afterPath="$PROJECT_DIR$/conf/default.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/page.py" afterPath="$PROJECT_DIR$/page/page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/page_elm/customer/ccustomer.ini" afterPath="$PROJECT_DIR$/page/page_elm/customer/ccustomer.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/page_obj/customer/ccustomer.py" afterPath="$PROJECT_DIR$/page/page_obj/customer/ccustomer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/log/2017-11-06.log" afterPath="$PROJECT_DIR$/report/log/2017-11-06.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test_ccustomer.py" afterPath="$PROJECT_DIR$/test_case/test_ccustomer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/browser.py" afterPath="$PROJECT_DIR$/util/browser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/config.py" afterPath="$PROJECT_DIR$/util/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/decorator.py" afterPath="$PROJECT_DIR$/util/decorator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/log.py" afterPath="$PROJECT_DIR$/util/log.py" />
     </list>
     <list id="c4051f0c-bcae-438d-9a4b-fba6b18599e4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -412,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509896705380</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="not ok for run chrome">
+      <created>1510024470493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510024470493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -449,13 +437,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18251929" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68927443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.68909824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33243608" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -521,12 +508,39 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change to python3" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to python3" />
+    <MESSAGE value="not ok for run chrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="not ok for run chrome" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
