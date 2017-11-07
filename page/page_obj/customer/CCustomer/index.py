@@ -13,7 +13,6 @@ class IndexPage(BasePage):
     def search_phone(self, phone):
         self.find_element('customer_search_phone').send_keys(phone)
         self.find_element('customer_search_btn').click()
-
         sleep(1)
 
 

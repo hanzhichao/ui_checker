@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85a794d2-3f52-4373-9706-ee8adb5562ca" name="New changelist" comment="not ok for run chrome">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/page_elm/customer/CCustomer/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/page_obj/customer/CCustomer/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/page_obj/customer/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/page_obj/customer/ccustomer2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/util/action.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/util/locate.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/page/page.py" afterPath="$PROJECT_DIR$/page/base_page.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/page/page_elm/customer/ccustomer.ini" afterPath="$PROJECT_DIR$/page/page_elm/customer/CCustomer/index.property" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/page/page_obj/customer/ccustomer.py" afterPath="$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_case/base.py" afterPath="$PROJECT_DIR$/test_case/base_case.py" />
+    <list default="true" id="85a794d2-3f52-4373-9706-ee8adb5562ca" name="New changelist" comment="add locate methods in base_page.py,modify some file name">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/page_obj_generator.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/born.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tools/born.py" afterPath="$PROJECT_DIR$/tools/page_obj_generator.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/util/file.py" afterPath="$PROJECT_DIR$/util/data_file_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/default.conf" afterPath="$PROJECT_DIR$/conf/default.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/page_obj/login/login.py" afterPath="$PROJECT_DIR$/page/page_obj/login/login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/page_obj/logistics/wdeliveryer.py" afterPath="$PROJECT_DIR$/page/page_obj/logistics/wdeliveryer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py" afterPath="$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test_ccustomer.py" afterPath="$PROJECT_DIR$/test_case/test_ccustomer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/page_obj.tpl" afterPath="$PROJECT_DIR$/tools/page_obj.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/config.py" afterPath="$PROJECT_DIR$/util/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/db.py" afterPath="$PROJECT_DIR$/util/db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/log.py" afterPath="$PROJECT_DIR$/util/log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/root.py" afterPath="$PROJECT_DIR$/util/root.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/e_mail.py" afterPath="$PROJECT_DIR$/util/e_mail.py" />
     </list>
     <list id="c4051f0c-bcae-438d-9a4b-fba6b18599e4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +33,9 @@
     <SUITE FILE_PATH="coverage/ui_checker$email.coverage" NAME="email Coverage Results" MODIFIED="1509151879786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_customer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_customer Coverage Results" MODIFIED="1509767006165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_checker$db.coverage" NAME="db Coverage Results" MODIFIED="1509790420871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/ui_checker$page_obj_generator.coverage" NAME="page_obj_generator Coverage Results" MODIFIED="1510062943488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_locator.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator Coverage Results" MODIFIED="1510056546497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer Coverage Results" MODIFIED="1510054303355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer Coverage Results" MODIFIED="1510062064814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_checker$born.coverage" NAME="born Coverage Results" MODIFIED="1509889504419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$logging.coverage" NAME="logging Coverage Results" MODIFIED="1509151886086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$file.coverage" NAME="file Coverage Results" MODIFIED="1509968011983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
@@ -62,8 +52,8 @@
       <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="e#47#69#0" expanded="true" />
               </folding>
@@ -88,8 +78,8 @@
       <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#47#69#0" expanded="true" />
               </folding>
@@ -97,47 +87,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.property" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/page_elm/customer/CCustomer/index.property">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_ccustomer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_ccustomer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/test_ccustomer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="30">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="60" />
               <folding>
                 <element signature="n#!!doc" expanded="false" />
                 <element signature="e#47#107#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-              <folding>
-                <element signature="e#47#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/default.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -148,6 +106,38 @@
             <state relative-caret-position="90">
               <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_elm.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/page_elm.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_obj.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/page_obj.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_obj_generator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/page_obj_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+              <folding>
+                <element signature="e#47#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -200,7 +190,6 @@
         <option value="$PROJECT_DIR$/util/header.txt" />
         <option value="$PROJECT_DIR$/util/monkey.py" />
         <option value="$PROJECT_DIR$/util/action.py" />
-        <option value="$PROJECT_DIR$/util/e_mail.py" />
         <option value="$PROJECT_DIR$/util/runtime.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/util/spider.py" />
@@ -227,11 +216,15 @@
         <option value="$PROJECT_DIR$/util/db.py" />
         <option value="$PROJECT_DIR$/util/config.py" />
         <option value="$PROJECT_DIR$/conf/default.conf" />
-        <option value="$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py" />
         <option value="$PROJECT_DIR$/util/locate.py" />
         <option value="$PROJECT_DIR$/util/locator.py" />
         <option value="$PROJECT_DIR$/test_case/test_ccustomer.py" />
+        <option value="$PROJECT_DIR$/util/e_mail.py" />
+        <option value="$PROJECT_DIR$/tools/born.json" />
+        <option value="$PROJECT_DIR$/tools/page_obj.tpl" />
+        <option value="$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py" />
         <option value="$PROJECT_DIR$/page/base_page.py" />
+        <option value="$PROJECT_DIR$/tools/page_obj_generator.py" />
       </list>
     </option>
   </component>
@@ -291,6 +284,32 @@
             <path>
               <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="page_elm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="page_elm" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="page_elm" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="CCustomer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -335,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_locator">
+  <component name="RunManager" selected="Python.page_obj_generator">
     <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,20 +418,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="page_obj_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ui_checker" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/config.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/page_obj_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -420,17 +439,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" />
       <item index="1" class="java.lang.String" itemvalue="Python.base_page" />
-      <item index="2" class="java.lang.String" itemvalue="Python.config" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" />
+      <item index="4" class="java.lang.String" itemvalue="Python.page_obj_generator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.base_page" />
-        <item index="4" class="java.lang.String" itemvalue="Python.config" />
+        <item index="0" class="java.lang.String" itemvalue="Python.page_obj_generator" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.base_page" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510024564533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add locate methods in base_page.py,modify some file name">
+      <created>1510056634830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1510056634830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -492,28 +518,29 @@
     <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_locator - 2017.11.07 at 20h 09m 18s.xml">
       <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 19h 18m 43s.xml">
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 21h 36m 09s.xml">
       <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 19h 22m 59s.xml">
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 21h 36m 56s.xml">
       <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 19h 31m 56s.xml">
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 21h 41m 17s.xml">
       <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1336761" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5625841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71736205" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31628534" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23457584" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -526,7 +553,6 @@
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32037324" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
@@ -539,9 +565,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24629879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5625841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37146702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71736205" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32037324" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -607,7 +633,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change to python3" />
     <MESSAGE value="not ok for run chrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="not ok for run chrome" />
+    <MESSAGE value="add locate methods in base_page.py,modify some file name" />
+    <option name="LAST_COMMIT_MESSAGE" value="add locate methods in base_page.py,modify some file name" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -627,7 +654,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/file.py">
+    <entry file="file://$PROJECT_DIR$/util/data_file_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
@@ -652,21 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/e_mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/method.py" />
-    <entry file="file://$PROJECT_DIR$/util/report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/monkey.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -703,35 +716,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/page_obj/system1/page1.py" />
-    <entry file="file://$PROJECT_DIR$/tools/page_obj.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/page_elm/system1/page1.ini" />
     <entry file="file://$PROJECT_DIR$/page/page_elm/system1/page2.ini" />
     <entry file="file://$PROJECT_DIR$/page/page_elm/system1/page3.ini" />
     <entry file="file://$PROJECT_DIR$/page/page_obj/system1/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/tools/page_elm.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/snapshot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -786,31 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/born.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/born.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/log/2017-11-06.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1120">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/runtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -843,14 +814,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/file.py">
+    <entry file="file://$PROJECT_DIR$/util/data_file_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="730">
           <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding>
-            <element signature="e#523#810#0" expanded="false" />
-            <element signature="e#2468#2486#0" expanded="false" />
-            <element signature="e#3386#3467#0" expanded="false" />
+            <element signature="e#535#822#0" expanded="false" />
+            <element signature="e#2480#2498#0" expanded="false" />
+            <element signature="e#3398#3479#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -896,17 +867,7 @@
         <state relative-caret-position="645">
           <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
-            <element signature="e#47#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="e#47#69#0" expanded="true" />
+            <element signature="e#47#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -919,13 +880,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/base_page.py">
+    <entry file="file://$PROJECT_DIR$/conf/default.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/e_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#47#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/runtime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/page_elm.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#47#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/page_obj_generator.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,21 +956,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/default.conf">
+    <entry file="file://$PROJECT_DIR$/tools/page_obj.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/test_ccustomer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="30">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="60" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="e#47#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#47#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/page_obj_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="e#47#56#0" expanded="true" />
           </folding>
         </state>
       </provider>

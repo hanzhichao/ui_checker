@@ -6,18 +6,6 @@ from .base_case import BaseCase
 
 
 class TestCcustomer(BaseCase):
-    def test_locator(self):
-        
-        page = IndexPage(self.driver)
-        page.load()
-        page.search_phone('18010181267')
-        page.find_input_by_label('会员姓名：')
-        page.find_input_by_label('会员电话：')
-        page.find_checked_radio_by_label("性别：")
-        page.find_select_by_label("客户来源：")
-        page.find_selected_option_by_label('客户来源：')
-        page.find_input_by_hint_text("请输入会员电话")
-        
     
     def test_search_exist_customer(self):
         """
@@ -39,6 +27,10 @@ class TestCcustomer(BaseCase):
         page.logout()
         
     def test_search_not_exist_customer(self):
+        """
+            pre-condition: 18010181261 customer not exists
+            no cleaning need
+        """
         phone = '18010181261'
         page = IndexPage(self.driver)
         page.load()

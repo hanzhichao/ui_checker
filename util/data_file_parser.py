@@ -3,7 +3,7 @@
 
 """
 -------------------------------------------------------
-File Name:      file.py
+File Name:      data_file_parser.py
 Author:         Han Zhichao
 Date:           2017/11/05
 Description:

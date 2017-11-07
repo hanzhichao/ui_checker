@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
-from util.file import ConfFile
+from util.data_file_parser import ConfFile
 from util.root import CONFIG_FILE
 
 

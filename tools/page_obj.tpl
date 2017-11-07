@@ -1,15 +1,5 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
-"""
--------------------------------------------------------
-File Name:      %s.py
-Author:         Han Zhichao
-Date:           2017/11/5
-Description:
-
--------------------------------------------------------
-"""
-__author__ = 'Han Zhichao'
 
 from time import sleep
 from page.page import BasePage

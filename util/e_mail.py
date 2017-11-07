@@ -1,25 +1,9 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
-"""
--------------------------------------------------------
-File Name:      mark.py
-Author:         Han Zhichao
-Date:           2017/11/05
-Description:
-
--------------------------------------------------------
-"""
-__author__ = 'Han Zhichao'
-
-#!/bin/python
-#  -*- coding=utf-8  -*-
 from email.mime.text import MIMEText
 from email.header import Header
 import smtplib
-import os
-import sys
-sys.path.append('..')
 from util.config import Config
 
 
@@ -31,12 +15,12 @@ def send_email():
 
     # 读取配置文件
     conf = Config()
-    subject = conf.get('email', 'subject')
-    sender = conf.get('email', 'sender')
-    receiver = conf.get('email', 'receiver')
-    smtp_server = conf.get('email', 'smtp_server')
-    smtp_user = conf.get('email', 'smtp_user')
-    smtp_password = conf.get('email', 'smtp_password')
+    subject = conf.option('email', 'subject')
+    sender = conf.option('email', 'sender')
+    receiver = conf.option('email', 'receiver')
+    smtp_server = conf.option('email', 'smtp_server')
+    smtp_user = conf.option('email', 'smtp_user')
+    smtp_password = conf.option('email', 'smtp_password')
 
     # 组装邮件内容
     mail_body = '测试发送邮件功能'
