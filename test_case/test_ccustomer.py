@@ -1,56 +1,53 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
-from time import sleep
-from .base import Base
-from page.page_obj.customer.ccustomer import CCustomer
+from page.page_obj.customer.CCustomer.index import IndexPage
+from .base_case import BaseCase
 
 
-class TestCcustomer(Base):
+class TestCcustomer(BaseCase):
+    def test_locator(self):
+        
+        page = IndexPage(self.driver)
+        page.load()
+        page.search_phone('18010181267')
+        page.find_input_by_label('会员姓名：')
+        page.find_input_by_label('会员电话：')
+        page.find_checked_radio_by_label("性别：")
+        page.find_select_by_label("客户来源：")
+        page.find_selected_option_by_label('客户来源：')
+        page.find_input_by_hint_text("请输入会员电话")
+        
     
     def test_search_exist_customer(self):
+        """
+        pre-condition: 18010181267 customer exists
+        no cleaning need
+        """
         phone = '18010181267'
-        page = CCustomer(self.driver)
+        page = IndexPage(self.driver)
         page.load()
         page.search_phone(phone)
         
-        # page values
+        # assert page value and search value
         customer_phone = page.get_value('customer_phone')
-        customer_username = page.get_value('customer_username')
-        customer_id_card = page.get_value('customer_id_card')
-        customer_sex = page.get_text('customer_id_card')
-        customer_birthday = page.get_value('customer_birthday')
-        customer_nation = page.get_value('customer_id_card')
-        customer_source = page.get_text('customer_id_card')
-        customer_remark = page.get_text('customer_id_card')
-
-        # db values
-        where_condition = "phone='%s'" % phone
-        db_customer_username = page.get_db_value('customer_username', where_condition)
-        db_customer_phone = page.get_db_value('customer_phone', where_condition)
-        db_customer_id_card = page.get_db_value('customer_id_card', where_condition)
-        db_customer_sex = page.get_db_value('customer_sex', where_condition)
-        db_customer_birthday = page.get_db_value('customer_birthday', where_condition)
-        db_customer_nation = page.get_db_value('customer_nation', where_condition)
-        db_customer_source = page.get_db_value('customer_source', where_condition)
-        db_customer_remark = page.get_db_value('customer_remark', where_condition)
-        
-        # compare search result and expect
         self.assertEqual(customer_phone, phone)
+
+        # compare page values and db values
+        where_condition = "phone='%s'" % phone
+        self.assertTrue(page.compare_db_all(where_condition))
+        page.logout()
         
-        # compare search result and db_map
-        self.assertEqual(customer_username, db_customer_username)
-        self.assertEqual(customer_phone, db_customer_phone)
-        self.assertEqual(customer_id_card, db_customer_id_card)
+    def test_search_not_exist_customer(self):
+        phone = '18010181261'
+        page = IndexPage(self.driver)
+        page.load()
+        page.search_phone(phone)
+        customer_phone = page.get_value('customer_phone')
+        self.assertFalse(customer_phone)
+        page.logout()
         
-        print(page.find_element('customer_sex'))
-        sleep(10)
+
         
-        print("--------------")
-        print(customer_sex, db_customer_sex)
-        self.assertEqual(customer_sex, db_customer_sex)
-        self.assertEqual(customer_birthday, db_customer_birthday)
-        self.assertEqual(customer_nation, db_customer_nation)
-        self.assertEqual(customer_source, db_customer_source)
-        self.assertEqual(customer_remark, db_customer_remark)
+
 

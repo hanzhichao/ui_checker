@@ -12,11 +12,11 @@ Description:
 __author__ = 'Han Zhichao'
 
 from time import sleep
-from page.page import Page
+from page.page import BasePage
 from util.browser import Chrome
 
 
-class %s(Page):
+class %s(BasePage):
     page = '%s'
 
     def do_something(self):

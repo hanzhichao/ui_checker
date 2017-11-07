@@ -13,13 +13,13 @@ Description:
 __author__ = 'Han Zhichao'
 
 import pymysql
-from util.config import get_section
+from util.config import Config
 from util.decorator import exec_time
 
 
 class DB(object):
     def __init__(self, *args, **kwargs):
-        db_conf = get_section('db')
+        db_conf = Config.section('db')
         self.conn = pymysql.connect(host=db_conf['host'],
                                     port=int(db_conf['port']),
                                     user=db_conf['user'],
@@ -28,9 +28,9 @@ class DB(object):
                                     charset='utf8')
         self.cursor = self.conn.cursor()
     
-    # def __del__(self):
-    #     self.cursor.close()
-    #     self.conn.close()
+    def __del__(self):
+        self.cursor.close()
+        self.conn.close()
     
     @exec_time
     def exec_sql(self, sql):

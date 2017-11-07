@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a794d2-3f52-4373-9706-ee8adb5562ca" name="New changelist" comment="not ok for run chrome">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/page_elm/customer/CCustomer/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/page_obj/customer/CCustomer/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/page_obj/customer/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/page_obj/customer/ccustomer2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/action.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/locate.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/page.py" afterPath="$PROJECT_DIR$/page/base_page.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/page_elm/customer/ccustomer.ini" afterPath="$PROJECT_DIR$/page/page_elm/customer/CCustomer/index.property" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/page_obj/customer/ccustomer.py" afterPath="$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_case/base.py" afterPath="$PROJECT_DIR$/test_case/base_case.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/default.conf" afterPath="$PROJECT_DIR$/conf/default.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/page_obj/login/login.py" afterPath="$PROJECT_DIR$/page/page_obj/login/login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/page_obj/logistics/wdeliveryer.py" afterPath="$PROJECT_DIR$/page/page_obj/logistics/wdeliveryer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test_ccustomer.py" afterPath="$PROJECT_DIR$/test_case/test_ccustomer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/page_obj.tpl" afterPath="$PROJECT_DIR$/tools/page_obj.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/config.py" afterPath="$PROJECT_DIR$/util/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/db.py" afterPath="$PROJECT_DIR$/util/db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/log.py" afterPath="$PROJECT_DIR$/util/log.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/root.py" afterPath="$PROJECT_DIR$/util/root.py" />
     </list>
     <list id="c4051f0c-bcae-438d-9a4b-fba6b18599e4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,68 +36,118 @@
     <SUITE FILE_PATH="coverage/ui_checker$mark.coverage" NAME="mark Coverage Results" MODIFIED="1509894315979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$action.coverage" NAME="action Coverage Results" MODIFIED="1509449820717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$log.coverage" NAME="log Coverage Results" MODIFIED="1509973954745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer Coverage Results" MODIFIED="1509975730098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ui_checker$browser.coverage" NAME="browser Coverage Results" MODIFIED="1510024344581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/ui_checker$browser.coverage" NAME="browser Coverage Results" MODIFIED="1510025575674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer Coverage Results" MODIFIED="1510054405613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_checker$ccustomer2.coverage" NAME="ccustomer2 Coverage Results" MODIFIED="1509188986570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/page_obj/customer" />
+    <SUITE FILE_PATH="coverage/ui_checker$base_page.coverage" NAME="base_page Coverage Results" MODIFIED="1510044348816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/ui_checker$util.coverage" NAME="util Coverage Results" MODIFIED="1509188463579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$email.coverage" NAME="email Coverage Results" MODIFIED="1509151879786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_customer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_customer Coverage Results" MODIFIED="1509767006165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_checker$db.coverage" NAME="db Coverage Results" MODIFIED="1509790420871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer Coverage Results" MODIFIED="1510022948896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_locator.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator Coverage Results" MODIFIED="1510056546497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ui_checker$Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer.coverage" NAME="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer Coverage Results" MODIFIED="1510054303355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_checker$born.coverage" NAME="born Coverage Results" MODIFIED="1509889504419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$logging.coverage" NAME="logging Coverage Results" MODIFIED="1509151886086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$file.coverage" NAME="file Coverage Results" MODIFIED="1509968011983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ui_checker$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1509974098825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/ui_checker$index.coverage" NAME="index Coverage Results" MODIFIED="1510029205589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/page_obj/customer/CCustomer" />
     <SUITE FILE_PATH="coverage/ui_checker$Unittests_in_test_ccustomer_py.coverage" NAME="Unittests in test_ccustomer.py Coverage Results" MODIFIED="1509780067791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ui_checker$wdeliveryer.coverage" NAME="wdeliveryer Coverage Results" MODIFIED="1509888239180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/page_obj/logistics" />
-    <SUITE FILE_PATH="coverage/ui_checker$ccustomer.coverage" NAME="ccustomer Coverage Results" MODIFIED="1510023332783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/page_obj/customer" />
-    <SUITE FILE_PATH="coverage/ui_checker$config.coverage" NAME="config Coverage Results" MODIFIED="1509950737833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/ui_checker$ccustomer.coverage" NAME="ccustomer Coverage Results" MODIFIED="1510026280803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/page_obj/customer" />
     <SUITE FILE_PATH="coverage/ui_checker$page.coverage" NAME="page Coverage Results" MODIFIED="1510023433355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/ui_checker$config.coverage" NAME="config Coverage Results" MODIFIED="1510042196529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/page.py">
+      <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="137" column="23" lean-forward="false" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+            <state relative-caret-position="15">
+              <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding>
-                <element signature="e#313#327#0" expanded="true" />
+                <element signature="e#47#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browser.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/browser.py">
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="254">
+              <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
-                <element signature="e#46#55#0" expanded="true" />
+                <element signature="e#288#302#0" expanded="true" />
+                <marker date="1510044342066" expanded="true" signature="1172:1196" ph="SELECT missi... missing_value" />
+                <marker date="1510044342066" expanded="true" signature="1385:1438" ph="SELECT usern... u_user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ccustomer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/page_obj/customer/ccustomer.py">
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="e#47#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.property" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/page_elm/customer/CCustomer/index.property">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_ccustomer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_ccustomer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_case/test_ccustomer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="false" />
+                <element signature="e#47#107#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+              <folding>
+                <element signature="e#47#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/default.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_case.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/base_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,6 +182,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
@@ -124,7 +197,6 @@
         <option value="$PROJECT_DIR$/page/page_obj/login/login.py" />
         <option value="$PROJECT_DIR$/util/util.py" />
         <option value="$PROJECT_DIR$/page/page_obj/customer/ccustomer2.py" />
-        <option value="$PROJECT_DIR$/util/db.py" />
         <option value="$PROJECT_DIR$/util/header.txt" />
         <option value="$PROJECT_DIR$/util/monkey.py" />
         <option value="$PROJECT_DIR$/util/action.py" />
@@ -136,23 +208,30 @@
         <option value="$PROJECT_DIR$/page/page_obj/logistics/wdeliveryer.py" />
         <option value="$PROJECT_DIR$/util/page_elm.tpl" />
         <option value="$PROJECT_DIR$/util/page_obj.tpl" />
-        <option value="$PROJECT_DIR$/test_case/base.py" />
-        <option value="$PROJECT_DIR$/util/locate.py" />
         <option value="$PROJECT_DIR$/util/snapshot.py" />
         <option value="$PROJECT_DIR$/util/mark.py" />
         <option value="$PROJECT_DIR$/util/cli.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/util/file.py" />
         <option value="$PROJECT_DIR$/util/born.py" />
+        <option value="$PROJECT_DIR$/util/decorator.py" />
+        <option value="$PROJECT_DIR$/util/browser.py" />
+        <option value="$PROJECT_DIR$/page/page_obj/customer/ccustomer.py" />
+        <option value="$PROJECT_DIR$/page/page_elm/customer/ccustomer.ini" />
+        <option value="$PROJECT_DIR$/test_case/base.py" />
+        <option value="$PROJECT_DIR$/page/page.py" />
+        <option value="$PROJECT_DIR$/test_case/base_case.py" />
+        <option value="$PROJECT_DIR$/test_case/test.py" />
+        <option value="$PROJECT_DIR$/util/root.py" />
+        <option value="$PROJECT_DIR$/util/log.py" />
+        <option value="$PROJECT_DIR$/util/db.py" />
         <option value="$PROJECT_DIR$/util/config.py" />
         <option value="$PROJECT_DIR$/conf/default.conf" />
-        <option value="$PROJECT_DIR$/util/decorator.py" />
-        <option value="$PROJECT_DIR$/page/page_elm/customer/ccustomer.ini" />
-        <option value="$PROJECT_DIR$/page/page_obj/customer/ccustomer.py" />
+        <option value="$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py" />
+        <option value="$PROJECT_DIR$/util/locate.py" />
+        <option value="$PROJECT_DIR$/util/locator.py" />
         <option value="$PROJECT_DIR$/test_case/test_ccustomer.py" />
-        <option value="$PROJECT_DIR$/util/log.py" />
-        <option value="$PROJECT_DIR$/page/page.py" />
-        <option value="$PROJECT_DIR$/util/browser.py" />
+        <option value="$PROJECT_DIR$/page/base_page.py" />
       </list>
     </option>
   </component>
@@ -163,8 +242,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1497" />
-    <option name="y" value="-11" />
+    <option name="x" value="1602" />
+    <option name="y" value="-16" />
     <option name="width" value="1178" />
     <option name="height" value="595" />
   </component>
@@ -202,8 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,35 +291,14 @@
             <path>
               <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="page_elm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="page_elm" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui_checker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_checker" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,12 +306,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="develop" />
+    </force-push-targets>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/page/page_obj/customer" />
       <recent name="$PROJECT_DIR$/util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Projects\ui_checker\page\page_obj\customer\CCustomer" />
+      <recent name="C:\Users\Administrator\Projects\ui_checker\page\page_elm\customer\CCustomer" />
       <recent name="C:\Users\Administrator\Projects\ui_checker\tools" />
       <recent name="$PROJECT_DIR$/page" />
     </key>
@@ -272,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.browser">
+  <component name="RunManager" selected="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_locator">
     <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +349,21 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_case.test_ccustomer.TestCcustomer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ui_checker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_case.test_ccustomer.TestCcustomer.test_locator&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -303,43 +381,7 @@
       <option name="_new_target" value="&quot;test_case.test_ccustomer.TestCcustomer.test_search_exist_customer&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="browser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ui_checker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/browser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="ccustomer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page/page_obj/customer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ui_checker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/page_obj/customer/ccustomer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="base_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -352,25 +394,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ui_checker" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/base_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ui_checker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.page" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ccustomer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.browser" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.base_page" />
+      <item index="2" class="java.lang.String" itemvalue="Python.config" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.browser" />
-        <item index="1" class="java.lang.String" itemvalue="Python.page" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ccustomer" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.base_page" />
+        <item index="4" class="java.lang.String" itemvalue="Python.config" />
       </list>
     </recent_temporary>
   </component>
@@ -400,55 +460,62 @@
       <option name="project" value="LOCAL" />
       <updated>1510024470493</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="not ok for run chrome">
+      <created>1510024564533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1510024564533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.04 at 20h 08m 59s.xml">
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer - 2017.11.07 at 19h 32m 50s.xml">
+      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer - 2017.11.07 at 19h 33m 49s.xml">
+      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_locator - 2017.11.07 at 19h 41m 12s.xml">
+      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_locator - 2017.11.07 at 19h 50m 49s.xml">
+      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_locator - 2017.11.07 at 19h 54m 24s.xml">
+      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_locator - 2017.11.07 at 19h 58m 45s.xml">
+      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_locator - 2017.11.07 at 20h 09m 18s.xml">
+      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_locator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 19h 18m 43s.xml">
       <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.04 at 20h 10m 32s.xml">
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 19h 22m 59s.xml">
       <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.04 at 20h 11m 56s.xml">
-      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.04 at 20h 14m 55s.xml">
-      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.04 at 20h 49m 59s.xml">
-      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.04 at 20h 54m 35s.xml">
-      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.06 at 21h 43m 41s.xml">
-      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.06 at 21h 52m 44s.xml">
-      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 10h 48m 41s.xml">
-      <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 10h 51m 04s.xml">
+    <history-entry file="Unittests_for_test_case_test_ccustomer_TestCcustomer_test_search_exist_customer - 2017.11.07 at 19h 31m 56s.xml">
       <configuration name="Unittests for test_case.test_ccustomer.TestCcustomer.test_search_exist_customer" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18251929" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1336761" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.68909824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5625841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33243608" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71736205" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4636076" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -459,7 +526,7 @@
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32037324" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
@@ -472,20 +539,20 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68927443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.532567" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24629879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37146702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32037324" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.155527" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1336761" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
@@ -545,28 +612,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/util/file.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="10" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conf/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
@@ -585,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/header.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -607,13 +660,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/method.py" />
-    <entry file="file://$PROJECT_DIR$/util/root.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -668,20 +714,6 @@
     <entry file="file://$PROJECT_DIR$/page/page_elm/system1/page2.ini" />
     <entry file="file://$PROJECT_DIR$/page/page_elm/system1/page3.ini" />
     <entry file="file://$PROJECT_DIR$/page/page_obj/system1/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/util/locate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/page_elm.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -703,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/page_obj/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -724,13 +749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_obj/customer/ccustomer2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_obj/customer/ccustomer2.py" />
     <entry file="file://$PROJECT_DIR$/tools/mark.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -767,19 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="e#311#322#0" expanded="true" />
-            <element signature="e#523#810#0" expanded="false" />
-            <element signature="e#2468#2486#0" expanded="false" />
-            <element signature="e#3386#3467#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/born.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -791,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="806">
           <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding>
-            <element signature="e#288#297#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,39 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1120">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_elm/customer/ccustomer.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="102" lean-forward="false" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="843">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,45 +819,139 @@
         <state relative-caret-position="-75">
           <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding>
-            <element signature="e#47#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_ccustomer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_obj/customer/ccustomer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="137" column="23" lean-forward="false" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
-          <folding>
-            <element signature="e#313#327#0" expanded="true" />
+            <element signature="e#47#58#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/browser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="355">
+          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
           <folding>
-            <element signature="e#46#55#0" expanded="true" />
+            <element signature="e#46#55#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test.py" />
+    <entry file="file://$PROJECT_DIR$/util/root.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="e#523#810#0" expanded="false" />
+            <element signature="e#2468#2486#0" expanded="false" />
+            <element signature="e#3386#3467#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_elm/customer/CCustomer/index.property">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#288#302#0" expanded="true" />
+            <marker date="1510044342066" expanded="true" signature="1172:1196" ph="SELECT missi... missing_value" />
+            <marker date="1510044342066" expanded="true" signature="1385:1438" ph="SELECT usern... u_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding>
+            <element signature="e#47#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/page_obj/customer/CCustomer/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#47#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="56" column="12" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="56" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/base_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_ccustomer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#47#107#0" expanded="true" />
           </folding>
         </state>
       </provider>

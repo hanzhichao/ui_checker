@@ -8,8 +8,7 @@ from util.root import project_root
 
 
 # def log():
-conf = Config()
-log_dir = conf.get('runtime', 'log_dir')
+log_dir = Config.option('runtime', 'log_dir')
 date = time.strftime('%Y-%m-%d', time.localtime(time.time()))
 log_file = project_root() + log_dir + date + '.log'
 

@@ -17,10 +17,10 @@ from selenium import webdriver
 import sys
 sys.path.append('../..')
 from util.config import Config
-from page.page import Page
+from page.base_page import BasePage
 
 
-class Login(Page):
+class Login(BasePage):
 
     def login(self):
 

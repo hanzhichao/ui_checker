@@ -14,7 +14,7 @@ customer_sex=xpath,//*[text()='性别：']/following::input[position()<3][@type=
 customer_nation=id,nation
 customer_consume_sum=xpath,.//label[@text()='消费金额：']/following::input[1]
 customer_consume_time=xpath,.//label[@text()='消费次数：']/following::input[1]
-customer_source=xpath,.//label[@text()='客户来源：']/following::select/option[@select="selected"]
+customer_source=xpath,//*[text()='客户来源：']/following::select/option[@selected="selected"]
 customer_remark=id,remark
 customer_save_btn=id,member_save
 
