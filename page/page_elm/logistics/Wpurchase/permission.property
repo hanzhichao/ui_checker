@@ -1,0 +1,12 @@
+[page]
+menu=物流管理系统,商品申购,申购店面配置
+subject=申购店面配置
+[element]
+cur_purchaser=xpath,//*[text()="青年路"]/preceding::td[1]
+name = xpath,//*[text()="姓名："]/following::input[1]
+name_list_cur_purchaser=xpath,//*[@class="JS-nameList"]/a[text()="测试6"]
+station_checkbox=xpath,//*[text()="青年路"]/preceding::input[@type="checkbox"]
+add_btn=xpath, //*[text()="添加"]
+hanzhichao=xpath,//*[@class="JS-nameList"]/a[text()="韩志超"]
+
+[db_map]

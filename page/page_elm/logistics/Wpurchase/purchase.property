@@ -1,0 +1,10 @@
+[page]
+menu=物流管理系统,商品申购,新建商品申购
+subject=申购信息
+[element]
+create_new_purchase=xpath,//*[text()="青年路"]/following-sibling::td/a[text()="创建新申购"]
+need_select_time=id,need_select_time
+purchase_num=xpath,//input[@goods_code='MX']
+save_btn=xpath,//input[@value="保存"]
+confirm_btn=xpath,//a[text()="确定"]
+[db_map]
