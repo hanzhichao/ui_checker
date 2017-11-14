@@ -18,7 +18,7 @@ class TestCcustomer(BaseCase):
         page.search_phone(phone)
         
         # assert page value and search value
-        customer_phone = page.get_value('customer_phone')
+        customer_phone = page.get_value('会员电话：')
         self.assertEqual(customer_phone, phone)
 
         # compare page values and db values

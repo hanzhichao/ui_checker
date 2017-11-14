@@ -3,6 +3,8 @@
 
 import unittest
 from util.browser import Chrome
+from page.index.index.login import LoginPage
+from page.base_page import BasePage
 
 
 class BaseCase(unittest.TestCase):
@@ -24,8 +26,10 @@ class BaseCase(unittest.TestCase):
         self.driver = Chrome.headless()
         self.driver.implicitly_wait(10)
         self.driver.maximize_window()
-        # login()
+        page = LoginPage(self.driver)
+        page.login()
         
     def tearDown(self):
+        page = BasePage(self.driver)
+        page.logout()
         self.driver.quit()
-        # logout()
