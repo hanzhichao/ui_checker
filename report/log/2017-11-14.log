@@ -1,0 +1,38 @@
+2017-11-14 20:40:37,683 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.579s
+2017-11-14 20:41:10,393 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.606s
+2017-11-14 20:41:12,955 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 20:41:12,957 - decorator.py[line:30] - DEBUG: p.load()---load---1.076s
+2017-11-14 20:41:47,371 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.970s
+2017-11-14 20:41:49,797 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 20:41:49,797 - decorator.py[line:30] - DEBUG: p.load()---load---0.892s
+2017-11-14 20:46:46,190 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.466s
+2017-11-14 20:46:48,702 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 20:46:48,702 - decorator.py[line:30] - DEBUG: p.load()---load---1.009s
+2017-11-14 20:51:53,499 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.449s
+2017-11-14 20:51:55,903 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 20:51:55,903 - decorator.py[line:30] - DEBUG: p.load()---load---0.903s
+2017-11-14 20:53:12,262 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.687s
+2017-11-14 20:53:14,678 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 20:53:14,679 - decorator.py[line:30] - DEBUG: p.load()---load---0.916s
+2017-11-14 20:54:48,237 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.441s
+2017-11-14 20:54:50,735 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 20:54:50,735 - decorator.py[line:30] - DEBUG: p.load()---load---0.988s
+2017-11-14 20:59:38,862 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.433s
+2017-11-14 21:02:05,018 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.763s
+2017-11-14 21:03:10,103 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.729s
+2017-11-14 21:06:12,039 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.732s
+2017-11-14 21:07:14,073 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.766s
+2017-11-14 21:07:16,450 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 21:07:16,456 - decorator.py[line:30] - DEBUG: p.load()---load---0.885s
+2017-11-14 21:10:42,841 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.576s
+2017-11-14 21:10:45,472 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 21:10:45,473 - decorator.py[line:30] - DEBUG: p.load()---load---1.131s
+2017-11-14 21:13:27,315 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.563s
+2017-11-14 21:13:29,760 - base_page.py[line:36] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 21:13:29,761 - decorator.py[line:30] - DEBUG: p.load()---load---0.946s
+2017-11-14 21:17:10,404 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.772s
+2017-11-14 21:17:11,291 - selenium_easy.py[line:63] - DEBUG: 找不到按钮'登录',尝试寻找该文本链接...
+2017-11-14 21:17:11,327 - selenium_easy.py[line:75] - DEBUG: 找不到与文本'登录'完全一致的链接，尝试寻找包含该文本的链接...
+2017-11-14 21:17:11,351 - selenium_easy.py[line:78] - DEBUG: 找不到文本包含'登录'的链接，尝试去掉空格完全匹配...
+2017-11-14 21:17:12,846 - base_page.py[line:32] - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-14 21:17:12,846 - decorator.py[line:30] - DEBUG: p.load()---load---0.915s
