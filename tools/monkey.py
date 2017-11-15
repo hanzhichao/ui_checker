@@ -5,7 +5,7 @@
 File Name:      monkey.py   
 Author:         Han Zhichao
 Date:           2017/11/5
-Description:    random test for the page
+Description:    random test for the page_obj
 
 -------------------------------------------------------
 """

@@ -30,7 +30,7 @@ class Property(object):
     
     @staticmethod
     def load(_property):
-        _property['page']['menu'] = tuple(_property['page']['menu'].split(','))
+        _property['page_obj']['menu'] = tuple(_property['page_obj']['menu'].split(','))
     
         _elements = _property['element']
         for element in _elements:

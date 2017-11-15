@@ -2,9 +2,10 @@
 # -*- coding=utf-8 -*-
 
 import unittest
+
+from page_obj.base_page import BasePage
+from page_obj.index.index.login import LoginPage
 from util.browser import Chrome
-from page.index.index.login import LoginPage
-from page.base_page import BasePage
 
 
 class BaseCase(unittest.TestCase):

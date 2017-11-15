@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
 
-from page.page_obj.customer.CCustomer.index import IndexPage
+from page_obj.customer import IndexPage
 from .base_case import BaseCase
 
 
@@ -17,11 +17,11 @@ class TestCcustomer(BaseCase):
         page.load()
         page.search_phone(phone)
         
-        # assert page value and search value
+        # assert page_obj value and search value
         customer_phone = page.get_value('会员电话：')
         self.assertEqual(customer_phone, phone)
 
-        # compare page values and db values
+        # compare page_obj values and db values
         where_condition = "phone='%s'" % phone
         self.assertTrue(page.compare_db_all(where_condition))
         page.logout()

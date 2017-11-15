@@ -32,7 +32,6 @@ class WebPageTest(unittest.TestCase):
         # textarea_elm.send_keys("这是一段备注")
         p.click("显示更多内容", True, 1)
         p.type_area("备注", "这是一段备注", True, 2)
-        
         p.select("客户来源", 4)
         sleep(10)
         d.quit()

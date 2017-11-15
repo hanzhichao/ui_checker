@@ -2,7 +2,7 @@
 # -*- coding=utf-8 -*-
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.select import Select
-
+from util.log import logger
 
 class WebPage(object):
     
@@ -16,8 +16,8 @@ class WebPage(object):
         if not multi:
             return self.driver.find_element_by_xpath(xpath)
         elif index is not None:
-            print(index, type(index))
-            print(self.driver.find_elements_by_xpath(xpath))
+            logger.debug(index, type(index))
+            logger.debug(self.driver.find_elements_by_xpath(xpath))
             return self.driver.find_elements_by_xpath(xpath)[index-1]
         else:
             return self.driver.find_elements_by_xpath(xpath)
@@ -41,7 +41,7 @@ class WebPage(object):
             try:
                 return self.by_xpath("//*[contains(text(),%s]" % text, multi, index)
             except NoSuchElementException:
-                print("页面上找不到该文本")
+                logger.debug("页面上找不到该文本")
 
     def find_radio_by_group_label(self, label, n, multi=False, index=None):
         return self.by_xpath('//*[contains(text(),"%s")]/following::'
@@ -60,26 +60,25 @@ class WebPage(object):
         try:
             return self.by_xpath('//input[@type="button"][@value="%s"]' % value, multi, index)
         except NoSuchElementException:
-            print("找不到按钮'%s',尝试寻找该文本链接..." % value)
+            logger.debug("找不到按钮'%s',尝试寻找该文本链接..." % value)
             return self.find_link_by_text(value)
         except IndexError:
-            print("找不到按钮'%s',尝试寻找该文本链接..." % value)
+            logger.debug("找不到按钮'%s',尝试寻找该文本链接..." % value)
             return self.find_link_by_text(value)
         
     def find_link_by_text(self, text, multi=False, index=None):
         try:
             return self.driver.find_element_by_link_text(text)
-            # return self.by_xpath("//*[contains(text(),%s]" % text)
         except NoSuchElementException:
             try:
-                print("找不到与文本'%s'完全一致的链接，尝试寻找包含该文本的链接..." % text)
+                logger.debug("找不到与文本'%s'完全一致的链接，尝试寻找包含该文本的链接..." % text)
                 return self.driver.find_element_by_partial_link_text(text)
             except NoSuchElementException:
-                print("找不到文本包含'%s'的链接，尝试去掉空格完全匹配..." % text)
+                logger.debug("找不到文本包含'%s'的链接，尝试去掉空格完全匹配..." % text)
             try:
                 return self.by_xpath('//a[normalize-space(contains(text(),"%s"))]' % text, multi, index)
             except NoSuchElementException:
-                print("找不到文本为%s的链接或按钮")
+                logger.debug("找不到文本为%s的链接或按钮")
                 
     # --------------element action---------------------
     def type(self, label, text, multi=False, index=None):
@@ -93,7 +92,7 @@ class WebPage(object):
                 input_elm.clear()
                 input_elm.send_keys(text)
             except NoSuchElementException:
-                print("标签或提示文字为%s的输入框定位失败！" % label)
+                logger.debug("标签或提示文字为%s的输入框定位失败！" % label)
         # finally:
         #     self.click()
     
@@ -110,15 +109,19 @@ class WebPage(object):
                     textarea_elm = self.find_textarea_by_hint_text(label, multi, index)
                     textarea_elm.send_keys(text)
                 except NoSuchElementException:
-                    print("标签或提示文字为%s的文本框定位失败！" % label)
+                    logger.debug("标签或提示文字为%s的文本框定位失败！" % label)
                 
     def click(self, text, multi=False, index=None):
-        self.find_button_by_value(text, multi, index).click()
+        if isinstance(text, str):
+            self.find_button_by_value(text, multi, index).click()
+        elif isinstance(text, tuple or list):
+            self.clicks(text)
     
     def clicks(self, *args):
         if len(args) == 1:
-            self.find_button_by_value(*args).click()
-        elif len(args) > 1:
+            for text in args[0]:
+                self.find_link_by_text(text).click()
+        if len(args) > 1:
             for text in args:
                 self.find_link_by_text(text).click()
         elif not args:
@@ -142,22 +145,17 @@ class WebPage(object):
             select_elm.select_by_visible_text(option)
         elif isinstance(option, int):
             select_elm.select_by_index(option-1)
-    
-        
+       
     # -----------------------get value------------------------
-    def get_value(self, label):
-        self.find_input_by_label(label).get_attribute('value')
+    def get_input_value(self, label):
         return self.find_input_by_label(label).get_attribute('value')
     
-    def get_text(self, label):
-        return self.find_input_by_label(label).text
+    def get_textarea_text(self, label):
+        return self.find_textarea_by_label(label).text
     
-    def find_checked_radio_by_label(self, label):
-        return self.by_xpath('//*[contains(text(),"%s")]/following::input[@type="radio"][@checked="checked"][1]' % label)
+    def get_radio_value(self, label):
+        return self.by_xpath('//*[contains(text(),"%s")]/following::input[@type="radio"]'
+                             '[@checked="checked"][1]' % label).get_attribute("value")
     
-    def find_selected_option_by_label(self, label):
-        try:
-            return self.by_xpath('//*[contains(text(),"%s"]/following::select[1]/option[@selected="selected"]' % label)
-        except NoSuchElementException:
-            print("%s没有选中的项（默认显示第一项）" % label)
-            return self.by_xpath('//*[contains(text(),"%s")]/following::select[1]/option[1]' % label)
+    def get_select_value(self, label):
+        return Select(self.find_select_by_label(label)).first_selected_option.text

@@ -2,9 +2,10 @@
 # -*- coding=utf-8 -*-
 
 import os
-from util.root import PROJECT_ROOT
+
+from page_obj.customer import IndexPage
 from util.browser import Chrome
-from page.page_obj.customer.CCustomer.index import IndexPage
+from util.root import PROJECT_ROOT
 
 
 def fetch_links():
@@ -23,8 +24,8 @@ def fetch_links():
 
 
 def create_page_obj_elm(path_list):
-    page_obj_path = os.path.join(PROJECT_ROOT, 'page/page_obj/')
-    page_elm_path = os.path.join(PROJECT_ROOT, 'page/page_elm/')
+    page_obj_path = os.path.join(PROJECT_ROOT, 'page_obj/page_obj/')
+    page_elm_path = os.path.join(PROJECT_ROOT, 'page_obj/page_elm/')
     
     with open('page_obj.tpl') as f:
         obj_tpl = f.read()

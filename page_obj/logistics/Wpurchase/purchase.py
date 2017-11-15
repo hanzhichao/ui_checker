@@ -4,7 +4,7 @@ from time import sleep
 
 from selenium.webdriver.support.select import Select
 
-from page.base_page import BasePage
+from page_obj.base_page import BasePage
 from util.browser import Chrome
 
 
