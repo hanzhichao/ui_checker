@@ -20,9 +20,9 @@ class LoginPage(BasePage):
         login_url = self.base_url + self.uri
         self.open(login_url)
         self.sleep()
-        self.type("请输入用户名", username)
-        self.type("请输入密码", password)
-        self.click("登录")
+        self.type(self.input_username_loc, username)
+        self.type(self.input_password_loc, password)
+        self.click(self.btnLogin_loc)
         self.sleep()
     
     def login(self):

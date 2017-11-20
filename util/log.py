@@ -26,7 +26,8 @@ ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)   # 输出到console的log等级的开关
 
 # 第四步，定义handler的输出格式
-formatter = logging.Formatter("%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s")
+formatter = logging.Formatter("%(asctime)s - %(levelname)s: %(message)s")
+# formatter = logging.Formatter("%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s")
 fh.setFormatter(formatter)
 ch.setFormatter(formatter)
 

@@ -5,6 +5,7 @@ import time
 import inspect
 
 from util.log import logger
+from functools import wraps
 
 
 def show_duration(action):
@@ -15,14 +16,15 @@ def show_duration(action):
 
     end = time.clock()
     duration = end - start
-    parent_action = inspect.stack()[1][4][0].strip()
-    # inspect.getargspec(action)
-    # varnames = action.__code__.co_varnames
-    print('{0}---{1}---{2}s'.format(parent_action, action.__name__, duration))
+    parent_action = inspect.stack()[1][3]
+    inspect.getargspec(action)
+    varnames = action.__code__.co_varnames
+    print('{0}---{1}({2})---{3}s'.format(parent_action, action.__name__, varnames, duration))
     return wrapper
 
 
 def exec_time(func):
+    @wraps(func)
     def wrapper(*args, **kwargs):
         t0 = time.time()
         parent_action = inspect.stack()[1][4][0].strip()

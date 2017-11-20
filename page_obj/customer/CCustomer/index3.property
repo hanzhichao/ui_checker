@@ -1,0 +1,49 @@
+[page]
+menu=客服管理系统,综合管理,综合信息
+subject=会员信息
+
+[element]
+customer_search_phone=id,order_user_phone
+customer_search_btn=id,order_search_user
+
+customer_username=id,username
+customer_phone=id, phone
+customer_id_card=id,id_card
+customer_birthday=id,birthday
+customer_sex_male=xpath,//input[@type="radio" and @name="sex" and @value="1"]
+customer_sex_female=xpath,//input[@type="radio" and @name="sex" and @value="2"]
+customer_sex_checked=xpath,//input[@type="radio" and @name="sex" and @checked="checked"]
+customer_nation=id,nation
+customer_source=id,source
+customer_remark=id,remark
+customer_save_btn=id,member_save
+
+call_show_more=xpath,//*[text()="接线人员："]/following::a[text()="显示更多内容"]
+call_reason1=id,desk_type
+call_reason2=id,desk_reason
+call_remark=id,order_desc_remark
+call_save_btn=id,desk_save
+
+create_order_show_more=xpath,//*[text()="新建订单"]/following::a[text()="显示更多内容"][2]
+create_order_search=id,order_code_match
+create_order_station=id,customer_stations
+create_order_search_option=xpath,//li[@class="order_radio"]
+create_order_channel=id,order_source
+create_order_area=id,order_area
+create_order_start=id,order_delivery_start_time
+create_order_start_time_now=xpath,//button[text()="当前"]
+create_order_start_time_sure=xpath,//button[text()="确认"]
+create_order_pay_online=xpath,//input[@type="radio" and @name="pay_way" and @value="2"]
+create_order_pay_way=id,pay_channel
+create_order_remark=id,order_remark
+create_order_save_btn=id,save_order
+
+[db_map]
+customer_username=username,u_user
+customer_phone=phone,u_user
+customer_id_card=id_card,u_user
+customer_birthday=birthday,u_user
+customer_sex_checked=sex,u_user
+customer_nation=nation,u_user
+customer_source=source,u_user
+customer_remark=remark,u_user

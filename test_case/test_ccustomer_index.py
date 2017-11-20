@@ -1,11 +1,13 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
+import sys
+sys.path.append("..")
+from page_obj.customer.CCustomer.index import IndexPage
+from test_case.base_case import BaseCase
+import unittest
 
-from page_obj.customer import IndexPage
-from .base_case import BaseCase
 
-
-class TestCcustomer(BaseCase):
+class TestCcustomerIndex(BaseCase):
     
     def test_search_exist_customer(self):
         """
@@ -18,14 +20,9 @@ class TestCcustomer(BaseCase):
         page.search_phone(phone)
         
         # assert page_obj value and search value
-        customer_phone = page.get_value('会员电话：')
+        customer_phone = page.get_input_value('会员电话：')
         self.assertEqual(customer_phone, phone)
-
-        # compare page_obj values and db values
-        where_condition = "phone='%s'" % phone
-        self.assertTrue(page.compare_db_all(where_condition))
-        page.logout()
-        
+    
     def test_search_not_exist_customer(self):
         """
             pre-condition: 18010181261 customer not exists
@@ -35,11 +32,11 @@ class TestCcustomer(BaseCase):
         page = IndexPage(self.driver)
         page.load()
         page.search_phone(phone)
-        customer_phone = page.get_value('customer_phone')
+        customer_phone = page.get_input_value('会员电话：')
         self.assertFalse(customer_phone)
-        page.logout()
-        
 
+if __name__ == '__main__':
+    unittest.main()
         
 
 
