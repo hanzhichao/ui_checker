@@ -79,4 +79,12 @@ print driver.title
 7. 控制层： 用例执行控制，并发，多次，多种执行策略
 8. web层：  网站Dashboard
 
+
 其他： 批量生产page object 和 page elment   自动获取 元素 定位方式
+
+
+
+
+```
+cp driver/geckodriver /usr/local/bin/
+```

@@ -1,11 +1,17 @@
 # -*- coding: utf-8 -*-
 import unittest
 import time
-from util.HTMLTestRunnerCN import HTMLTestRunner
+from util.HTMLTestRunner import HTMLTestRunner
+# from util.HTMLTestRunnerCN import HTMLTestRunner
 from email.mime.text import MIMEText
 from email.header import Header
 import smtplib
 import os
+import platform
+if (platform.python_version()) < '3':
+    import sys
+    reload(sys)
+    sys.setdefaultencoding('utf8')
 
 
 # 发送测试报告，需要配置你的邮箱账号
@@ -28,7 +34,7 @@ def send_mail(file_new):
 # 查找测试报告目录，找到最新生成的测试报告文件
 def new_report(testreport):
     lists = os.listdir(testreport)
-    lists.sort(key=lambda fn: os.path.getmtime(testreport + '\\' + fn))
+    lists.sort(key=lambda fn: os.path.getmtime(testreport + '/' + fn))
     file_new = os.path.join(testreport, lists[-1])
     return file_new
 
@@ -40,7 +46,7 @@ discover = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')
 
 
 if __name__ == "__main__":                                                                        
-    now = time.strftime("%Y-%m-%d %H_%M_%S")
+    now = time.strftime("%Y-%m-%d_%H%M%S")
     filename = test_report + '/' + now + '_result.html'
     fp = open(filename, 'wb')
     # runner = unittest.TextTestRunner()

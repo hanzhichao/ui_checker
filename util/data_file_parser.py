@@ -1,20 +1,11 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
-
-"""
--------------------------------------------------------
-File Name:      data_file_parser.py
-Author:         Han Zhichao
-Date:           2017/11/05
-Description:
-
--------------------------------------------------------
-"""
-__author__ = 'Han Zhichao'
-
-# -*- coding=utf-8 -*-
 import json
-from configparser import ConfigParser, NoSectionError, NoOptionError, RawConfigParser
+import platform
+if (platform.python_version()) < '3':
+    import ConfigParser
+else:
+    from configparser import ConfigParser, NoSectionError, NoOptionError, RawConfigParser
 # try:
 #     import xlrd
 # except Exception:
@@ -44,18 +35,18 @@ class ConfFile:
 
     @classmethod
     def _open(cls, path):
-        cf = RawConfigParser()
         try:
-            # python 2
-            # with codecs.open(path, encoding='utf-8-sig') as f:
-            #     cf.readfp(f)
-            #     print(cf['runtime'])
-            #     return cf
-            
-            # python3
-            cf.read(path, encoding='utf8')
-            return cf
-            
+            if (platform.python_version()) < '3':
+                # python 2
+                cf = ConfigParser.ConfigParser()
+                with codecs.open(path, encoding='utf-8-sig') as f:
+                    cf.readfp(f)
+                return cf
+            else:
+                cf = RawConfigParser()
+                # python3
+                cf.read(path, encoding='utf8')
+                return cf
         except IOError:
             raise IOError
             # todo logging.error()
