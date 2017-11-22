@@ -6,6 +6,7 @@ import inspect
 
 from util.log import logger
 from functools import wraps
+import unittest
 
 
 def show_duration(action):
@@ -34,8 +35,10 @@ def exec_time(func):
     return wrapper
 
 
-def level(test_case):
-    pass
+def level(level):
+    if level==1:
+        return lambda func: func
+    return unittest.skip("skip this level cases")
 
 
 def case_type(test_case):

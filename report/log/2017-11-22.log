@@ -1,0 +1,832 @@
+2017-11-22 15:58:49,890 - DEBUG: self.open(login_url)---open---0.623s
+2017-11-22 15:58:50,938 - DEBUG: input_elm = self.find_element(*label)---find_element---0.038s
+2017-11-22 15:58:51,027 - DEBUG: self.type(self.input_username_loc, username)---type---0.134s
+2017-11-22 15:58:51,047 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 15:58:51,116 - DEBUG: self.type(self.input_password_loc, password)---type---0.089s
+2017-11-22 15:58:51,136 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 15:58:51,185 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 15:58:52,437 - DEBUG: self.clicks(menu)---clicks---0.252s
+2017-11-22 15:58:53,494 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.056s
+2017-11-22 15:58:53,517 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 15:58:53,518 - DEBUG: page.load()---load---1.333s
+2017-11-22 15:58:53,543 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 15:58:53,543 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.022s
+2017-11-22 15:58:53,620 - DEBUG: self.type('电话搜索：', phone)---type---0.100s
+2017-11-22 15:58:53,644 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.019s
+2017-11-22 15:58:53,644 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 15:58:53,694 - DEBUG: self.click_btn('搜索')---click_btn---0.073s
+2017-11-22 15:58:54,761 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.054s
+2017-11-22 15:58:54,762 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.063s
+2017-11-22 15:58:54,769 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.074s
+2017-11-22 15:58:54,789 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.020s
+2017-11-22 15:59:03,514 - DEBUG: self.open(login_url)---open---0.561s
+2017-11-22 15:59:04,555 - DEBUG: input_elm = self.find_element(*label)---find_element---0.023s
+2017-11-22 15:59:04,652 - DEBUG: self.type(self.input_username_loc, username)---type---0.128s
+2017-11-22 15:59:04,674 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 15:59:04,745 - DEBUG: self.type(self.input_password_loc, password)---type---0.092s
+2017-11-22 15:59:04,766 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 15:59:04,814 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 15:59:06,819 - DEBUG: self.clicks(menu)---clicks---0.994s
+2017-11-22 15:59:07,864 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.046s
+2017-11-22 15:59:07,882 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 15:59:07,882 - DEBUG: page.load()---load---2.058s
+2017-11-22 15:59:07,906 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.019s
+2017-11-22 15:59:07,906 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.020s
+2017-11-22 15:59:07,978 - DEBUG: self.type('电话搜索：', phone)---type---0.094s
+2017-11-22 15:59:08,000 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.019s
+2017-11-22 15:59:08,000 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 15:59:08,049 - DEBUG: self.click_btn('搜索')---click_btn---0.071s
+2017-11-22 15:59:09,097 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.036s
+2017-11-22 15:59:09,097 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.043s
+2017-11-22 15:59:09,104 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.055s
+2017-11-22 15:59:09,123 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.019s
+2017-11-22 16:25:39,497 - DEBUG: self.open(login_url)---open---0.596s
+2017-11-22 16:25:40,544 - DEBUG: input_elm = self.find_element(*label)---find_element---0.043s
+2017-11-22 16:25:40,633 - DEBUG: self.type(self.input_username_loc, username)---type---0.136s
+2017-11-22 16:25:40,654 - DEBUG: input_elm = self.find_element(*label)---find_element---0.020s
+2017-11-22 16:25:40,728 - DEBUG: self.type(self.input_password_loc, password)---type---0.095s
+2017-11-22 16:25:40,750 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 16:25:40,799 - DEBUG: self.click(self.btnLogin_loc)---click---0.071s
+2017-11-22 16:25:42,057 - DEBUG: self.clicks(menu)---clicks---0.251s
+2017-11-22 16:25:43,116 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.059s
+2017-11-22 16:25:43,139 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 16:25:43,139 - DEBUG: page.load()---load---1.340s
+2017-11-22 16:25:43,164 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.021s
+2017-11-22 16:25:43,165 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.024s
+2017-11-22 16:25:43,243 - DEBUG: self.type('电话搜索：', phone)---type---0.104s
+2017-11-22 16:25:43,267 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 16:25:43,267 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 16:25:43,317 - DEBUG: self.click_btn('搜索')---click_btn---0.073s
+2017-11-22 16:25:44,381 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.052s
+2017-11-22 16:25:44,381 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.058s
+2017-11-22 16:25:44,389 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.071s
+2017-11-22 16:25:44,410 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.021s
+2017-11-22 16:25:54,839 - DEBUG: self.open(login_url)---open---2.303s
+2017-11-22 16:25:55,897 - DEBUG: input_elm = self.find_element(*label)---find_element---0.051s
+2017-11-22 16:25:55,973 - DEBUG: self.type(self.input_username_loc, username)---type---0.133s
+2017-11-22 16:25:55,995 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 16:25:56,068 - DEBUG: self.type(self.input_password_loc, password)---type---0.093s
+2017-11-22 16:25:56,090 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 16:25:56,141 - DEBUG: self.click(self.btnLogin_loc)---click---0.073s
+2017-11-22 16:25:58,125 - DEBUG: self.clicks(menu)---clicks---0.978s
+2017-11-22 16:25:59,401 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.275s
+2017-11-22 16:25:59,425 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 16:25:59,425 - DEBUG: page.load()---load---2.283s
+2017-11-22 16:25:59,454 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.023s
+2017-11-22 16:25:59,454 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.026s
+2017-11-22 16:25:59,533 - DEBUG: self.type('电话搜索：', phone)---type---0.108s
+2017-11-22 16:25:59,558 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 16:25:59,559 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.024s
+2017-11-22 16:25:59,619 - DEBUG: self.click_btn('搜索')---click_btn---0.086s
+2017-11-22 16:26:00,676 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.041s
+2017-11-22 16:26:00,676 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.049s
+2017-11-22 16:26:00,684 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.065s
+2017-11-22 16:26:00,708 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.024s
+2017-11-22 16:28:38,112 - DEBUG: self.open(login_url)---open---0.746s
+2017-11-22 16:28:39,165 - DEBUG: input_elm = self.find_element(*label)---find_element---0.048s
+2017-11-22 16:28:39,255 - DEBUG: self.type(self.input_username_loc, username)---type---0.144s
+2017-11-22 16:28:39,275 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 16:28:39,346 - DEBUG: self.type(self.input_password_loc, password)---type---0.090s
+2017-11-22 16:28:39,366 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 16:28:39,415 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 16:28:40,703 - DEBUG: self.clicks(menu)---clicks---0.283s
+2017-11-22 16:28:41,758 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.055s
+2017-11-22 16:28:41,784 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 16:28:41,784 - DEBUG: page.load()---load---1.365s
+2017-11-22 16:28:41,809 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 16:28:41,810 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.023s
+2017-11-22 16:28:41,887 - DEBUG: self.type('电话搜索：', phone)---type---0.103s
+2017-11-22 16:28:41,911 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 16:28:41,911 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 16:28:41,960 - DEBUG: self.click_btn('搜索')---click_btn---0.073s
+2017-11-22 16:28:43,010 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.038s
+2017-11-22 16:28:43,010 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.044s
+2017-11-22 16:28:43,016 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.055s
+2017-11-22 16:28:43,036 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.020s
+2017-11-22 16:28:51,761 - DEBUG: self.open(login_url)---open---0.549s
+2017-11-22 16:28:52,831 - DEBUG: input_elm = self.find_element(*label)---find_element---0.053s
+2017-11-22 16:28:52,919 - DEBUG: self.type(self.input_username_loc, username)---type---0.149s
+2017-11-22 16:28:52,939 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 16:28:53,011 - DEBUG: self.type(self.input_password_loc, password)---type---0.091s
+2017-11-22 16:28:53,032 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 16:28:53,080 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 16:28:54,305 - DEBUG: self.clicks(menu)---clicks---0.223s
+2017-11-22 16:28:55,370 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.064s
+2017-11-22 16:28:55,397 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 16:28:55,397 - DEBUG: page.load()---load---1.316s
+2017-11-22 16:28:55,421 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 16:28:55,421 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.022s
+2017-11-22 16:28:55,498 - DEBUG: self.type('电话搜索：', phone)---type---0.101s
+2017-11-22 16:28:55,521 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.019s
+2017-11-22 16:28:55,521 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 16:28:55,575 - DEBUG: self.click_btn('搜索')---click_btn---0.077s
+2017-11-22 16:28:56,630 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.044s
+2017-11-22 16:28:56,630 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.050s
+2017-11-22 16:28:56,639 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.064s
+2017-11-22 16:28:56,665 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.025s
+2017-11-22 16:43:26,067 - DEBUG: self.open(login_url)---open---0.986s
+2017-11-22 16:43:27,145 - DEBUG: input_elm = self.find_element(*label)---find_element---0.063s
+2017-11-22 16:43:27,266 - DEBUG: self.type(self.input_username_loc, username)---type---0.194s
+2017-11-22 16:43:27,286 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 16:43:27,357 - DEBUG: self.type(self.input_password_loc, password)---type---0.091s
+2017-11-22 16:43:27,379 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-22 16:43:27,428 - DEBUG: self.click(self.btnLogin_loc)---click---0.071s
+2017-11-22 16:43:28,715 - DEBUG: self.clicks(menu)---clicks---0.275s
+2017-11-22 16:43:29,777 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.062s
+2017-11-22 16:43:29,801 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 16:43:29,802 - DEBUG: page.load()---load---1.363s
+2017-11-22 16:43:29,826 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 16:43:29,826 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.022s
+2017-11-22 16:43:29,903 - DEBUG: self.type('电话搜索：', phone)---type---0.101s
+2017-11-22 16:43:29,926 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.019s
+2017-11-22 16:43:29,927 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 16:43:29,974 - DEBUG: self.click_btn('搜索')---click_btn---0.071s
+2017-11-22 16:43:31,044 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.056s
+2017-11-22 16:43:31,044 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.064s
+2017-11-22 16:43:31,052 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.078s
+2017-11-22 16:43:31,077 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.025s
+2017-11-22 18:14:41,154 - DEBUG: self.open(login_url)---open---0.588s
+2017-11-22 18:14:42,216 - DEBUG: input_elm = self.find_element(*label)---find_element---0.043s
+2017-11-22 18:14:42,308 - DEBUG: self.type(self.input_username_loc, username)---type---0.143s
+2017-11-22 18:14:42,328 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:14:42,398 - DEBUG: self.type(self.input_password_loc, password)---type---0.090s
+2017-11-22 18:14:42,418 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 18:14:42,466 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 18:14:43,727 - DEBUG: self.clicks(menu)---clicks---0.260s
+2017-11-22 18:14:44,789 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.062s
+2017-11-22 18:14:44,815 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:14:44,815 - DEBUG: page.load()---load---1.348s
+2017-11-22 18:14:44,842 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-22 18:14:44,842 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.024s
+2017-11-22 18:14:44,920 - DEBUG: self.type('电话搜索：', phone)---type---0.103s
+2017-11-22 18:14:44,945 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 18:14:44,945 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.024s
+2017-11-22 18:14:44,997 - DEBUG: self.click_btn('搜索')---click_btn---0.077s
+2017-11-22 18:14:46,064 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.054s
+2017-11-22 18:14:46,064 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.061s
+2017-11-22 18:14:46,073 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.075s
+2017-11-22 18:14:46,092 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.019s
+2017-11-22 18:14:54,813 - DEBUG: self.open(login_url)---open---0.553s
+2017-11-22 18:14:55,880 - DEBUG: input_elm = self.find_element(*label)---find_element---0.055s
+2017-11-22 18:14:55,953 - DEBUG: self.type(self.input_username_loc, username)---type---0.135s
+2017-11-22 18:14:55,975 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:14:56,074 - DEBUG: self.type(self.input_password_loc, password)---type---0.121s
+2017-11-22 18:14:56,108 - DEBUG: self.find_element(*text).click()---find_element---0.031s
+2017-11-22 18:14:56,191 - DEBUG: self.click(self.btnLogin_loc)---click---0.117s
+2017-11-22 18:14:57,450 - DEBUG: self.clicks(menu)---clicks---0.255s
+2017-11-22 18:14:58,510 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.059s
+2017-11-22 18:14:58,536 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:14:58,536 - DEBUG: page.load()---load---1.341s
+2017-11-22 18:14:58,565 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-22 18:14:58,565 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.025s
+2017-11-22 18:14:58,661 - DEBUG: self.type('电话搜索：', phone)---type---0.125s
+2017-11-22 18:14:58,691 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.024s
+2017-11-22 18:14:58,691 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.027s
+2017-11-22 18:14:58,751 - DEBUG: self.click_btn('搜索')---click_btn---0.089s
+2017-11-22 18:14:59,811 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.046s
+2017-11-22 18:14:59,811 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.053s
+2017-11-22 18:14:59,817 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.066s
+2017-11-22 18:14:59,838 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.021s
+2017-11-22 18:18:22,459 - DEBUG: self.open(login_url)---open---0.555s
+2017-11-22 18:18:23,523 - DEBUG: input_elm = self.find_element(*label)---find_element---0.046s
+2017-11-22 18:18:23,611 - DEBUG: self.type(self.input_username_loc, username)---type---0.141s
+2017-11-22 18:18:23,632 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:18:23,701 - DEBUG: self.type(self.input_password_loc, password)---type---0.091s
+2017-11-22 18:18:23,723 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 18:18:23,771 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 18:18:25,019 - DEBUG: self.clicks(menu)---clicks---0.239s
+2017-11-22 18:18:26,073 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.054s
+2017-11-22 18:18:26,096 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:18:26,096 - DEBUG: page.load()---load---1.316s
+2017-11-22 18:18:26,120 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 18:18:26,120 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.021s
+2017-11-22 18:18:26,196 - DEBUG: self.type('电话搜索：', phone)---type---0.100s
+2017-11-22 18:18:26,221 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 18:18:26,221 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.023s
+2017-11-22 18:18:26,268 - DEBUG: self.click_btn('搜索')---click_btn---0.072s
+2017-11-22 18:18:27,335 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.053s
+2017-11-22 18:18:27,336 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.061s
+2017-11-22 18:18:27,344 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.074s
+2017-11-22 18:18:27,364 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.020s
+2017-11-22 18:30:56,105 - DEBUG: self.open(login_url)---open---0.569s
+2017-11-22 18:30:57,165 - DEBUG: input_elm = self.find_element(*label)---find_element---0.050s
+2017-11-22 18:30:57,246 - DEBUG: self.type(self.input_username_loc, username)---type---0.141s
+2017-11-22 18:30:57,268 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:30:57,338 - DEBUG: self.type(self.input_password_loc, password)---type---0.092s
+2017-11-22 18:30:57,359 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 18:30:57,408 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 18:30:58,468 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.053s
+2017-11-22 18:34:20,383 - DEBUG: self.open(login_url)---open---0.564s
+2017-11-22 18:34:21,431 - DEBUG: input_elm = self.find_element(*label)---find_element---0.031s
+2017-11-22 18:34:21,514 - DEBUG: self.type(self.input_username_loc, username)---type---0.122s
+2017-11-22 18:34:21,535 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:34:21,606 - DEBUG: self.type(self.input_password_loc, password)---type---0.092s
+2017-11-22 18:34:21,627 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:34:21,676 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 18:34:22,937 - DEBUG: self.clicks(menu)---clicks---0.247s
+2017-11-22 18:34:24,004 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.067s
+2017-11-22 18:34:24,039 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:34:24,040 - DEBUG: page.load()---load---1.349s
+2017-11-22 18:34:24,070 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.023s
+2017-11-22 18:34:24,070 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.027s
+2017-11-22 18:34:24,146 - DEBUG: self.type('电话搜索：', phone)---type---0.106s
+2017-11-22 18:34:24,171 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 18:34:24,171 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 18:34:24,220 - DEBUG: self.click_btn('搜索')---click_btn---0.073s
+2017-11-22 18:34:25,280 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.047s
+2017-11-22 18:34:25,281 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.054s
+2017-11-22 18:34:25,289 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.069s
+2017-11-22 18:34:31,196 - DEBUG: self.open(login_url)---open---0.718s
+2017-11-22 18:34:32,262 - DEBUG: input_elm = self.find_element(*label)---find_element---0.058s
+2017-11-22 18:34:32,347 - DEBUG: self.type(self.input_username_loc, username)---type---0.150s
+2017-11-22 18:34:32,370 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:34:32,439 - DEBUG: self.type(self.input_password_loc, password)---type---0.092s
+2017-11-22 18:34:32,460 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:34:32,508 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 18:34:33,773 - DEBUG: self.clicks(menu)---clicks---0.260s
+2017-11-22 18:34:34,834 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.060s
+2017-11-22 18:34:34,860 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:34:34,860 - DEBUG: page.load()---load---1.352s
+2017-11-22 18:34:34,884 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.019s
+2017-11-22 18:34:34,884 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.022s
+2017-11-22 18:34:34,959 - DEBUG: self.type('电话搜索：', phone)---type---0.099s
+2017-11-22 18:34:34,984 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 18:34:34,984 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.023s
+2017-11-22 18:34:35,034 - DEBUG: self.click_btn('搜索')---click_btn---0.074s
+2017-11-22 18:34:36,084 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.038s
+2017-11-22 18:34:36,085 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.045s
+2017-11-22 18:34:36,091 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.057s
+2017-11-22 18:35:56,524 - DEBUG: self.open(login_url)---open---0.581s
+2017-11-22 18:35:57,586 - DEBUG: input_elm = self.find_element(*label)---find_element---0.052s
+2017-11-22 18:35:57,665 - DEBUG: self.type(self.input_username_loc, username)---type---0.140s
+2017-11-22 18:35:57,687 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:35:57,760 - DEBUG: self.type(self.input_password_loc, password)---type---0.095s
+2017-11-22 18:35:57,781 - DEBUG: self.find_element(*text).click()---find_element---0.017s
+2017-11-22 18:35:57,833 - DEBUG: self.click(self.btnLogin_loc)---click---0.072s
+2017-11-22 18:35:59,074 - DEBUG: self.clicks(menu)---clicks---0.235s
+2017-11-22 18:36:00,135 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.061s
+2017-11-22 18:36:00,163 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:36:00,163 - DEBUG: page.load()---load---1.330s
+2017-11-22 18:36:00,190 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-22 18:36:00,191 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.024s
+2017-11-22 18:36:00,271 - DEBUG: self.type('电话搜索：', phone)---type---0.108s
+2017-11-22 18:36:00,296 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 18:36:00,296 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 18:36:00,346 - DEBUG: self.click_btn('搜索')---click_btn---0.074s
+2017-11-22 18:36:01,405 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.044s
+2017-11-22 18:36:01,405 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.051s
+2017-11-22 18:36:01,412 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.065s
+2017-11-22 18:36:07,595 - DEBUG: self.open(login_url)---open---1.020s
+2017-11-22 18:36:08,655 - DEBUG: input_elm = self.find_element(*label)---find_element---0.052s
+2017-11-22 18:36:08,736 - DEBUG: self.type(self.input_username_loc, username)---type---0.140s
+2017-11-22 18:36:08,757 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:36:08,827 - DEBUG: self.type(self.input_password_loc, password)---type---0.091s
+2017-11-22 18:36:08,848 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 18:36:08,898 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 18:36:10,164 - DEBUG: self.clicks(menu)---clicks---0.259s
+2017-11-22 18:36:11,225 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.061s
+2017-11-22 18:36:11,252 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:36:11,252 - DEBUG: page.load()---load---1.353s
+2017-11-22 18:36:11,275 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.019s
+2017-11-22 18:36:11,275 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.021s
+2017-11-22 18:36:11,352 - DEBUG: self.type('电话搜索：', phone)---type---0.100s
+2017-11-22 18:36:11,375 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.019s
+2017-11-22 18:36:11,375 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 18:36:11,430 - DEBUG: self.click_btn('搜索')---click_btn---0.077s
+2017-11-22 18:36:12,513 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.068s
+2017-11-22 18:36:12,513 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.077s
+2017-11-22 18:36:12,527 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.097s
+2017-11-22 18:36:52,193 - DEBUG: self.open(login_url)---open---0.567s
+2017-11-22 18:36:53,246 - DEBUG: input_elm = self.find_element(*label)---find_element---0.046s
+2017-11-22 18:36:53,319 - DEBUG: self.type(self.input_username_loc, username)---type---0.126s
+2017-11-22 18:36:53,339 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:36:53,409 - DEBUG: self.type(self.input_password_loc, password)---type---0.090s
+2017-11-22 18:36:53,431 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:36:53,480 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 18:36:54,752 - DEBUG: self.clicks(menu)---clicks---0.266s
+2017-11-22 18:36:55,811 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.058s
+2017-11-22 18:36:55,835 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:36:55,835 - DEBUG: page.load()---load---1.354s
+2017-11-22 18:36:55,861 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-22 18:36:55,862 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.025s
+2017-11-22 18:36:55,936 - DEBUG: self.type('电话搜索：', phone)---type---0.101s
+2017-11-22 18:36:55,961 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 18:36:55,961 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.023s
+2017-11-22 18:36:56,009 - DEBUG: self.click_btn('搜索')---click_btn---0.073s
+2017-11-22 18:36:57,077 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.054s
+2017-11-22 18:36:57,077 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.061s
+2017-11-22 18:36:57,086 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.077s
+2017-11-22 18:36:57,107 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.020s
+2017-11-22 18:37:06,079 - DEBUG: self.open(login_url)---open---0.567s
+2017-11-22 18:37:07,145 - DEBUG: input_elm = self.find_element(*label)---find_element---0.056s
+2017-11-22 18:37:07,226 - DEBUG: self.type(self.input_username_loc, username)---type---0.146s
+2017-11-22 18:37:07,247 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:37:07,320 - DEBUG: self.type(self.input_password_loc, password)---type---0.094s
+2017-11-22 18:37:07,341 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:37:07,389 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 18:37:08,641 - DEBUG: self.clicks(menu)---clicks---0.245s
+2017-11-22 18:37:09,701 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.059s
+2017-11-22 18:37:09,728 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:37:09,728 - DEBUG: page.load()---load---1.337s
+2017-11-22 18:37:09,754 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.021s
+2017-11-22 18:37:09,754 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.023s
+2017-11-22 18:37:09,832 - DEBUG: self.type('电话搜索：', phone)---type---0.105s
+2017-11-22 18:37:09,858 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.022s
+2017-11-22 18:37:09,858 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.023s
+2017-11-22 18:37:09,905 - DEBUG: self.click_btn('搜索')---click_btn---0.072s
+2017-11-22 18:37:10,970 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.053s
+2017-11-22 18:37:10,970 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.059s
+2017-11-22 18:37:10,982 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.077s
+2017-11-22 18:37:11,014 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.031s
+2017-11-22 18:40:55,869 - DEBUG: self.open(login_url)---open---0.712s
+2017-11-22 18:40:56,941 - DEBUG: input_elm = self.find_element(*label)---find_element---0.064s
+2017-11-22 18:40:57,022 - DEBUG: self.type(self.input_username_loc, username)---type---0.152s
+2017-11-22 18:40:57,044 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:40:57,116 - DEBUG: self.type(self.input_password_loc, password)---type---0.093s
+2017-11-22 18:40:57,137 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 18:40:57,189 - DEBUG: self.click(self.btnLogin_loc)---click---0.073s
+2017-11-22 18:40:58,441 - DEBUG: self.clicks(menu)---clicks---0.246s
+2017-11-22 18:40:59,487 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.045s
+2017-11-22 18:40:59,507 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:40:59,508 - DEBUG: page.load()---load---1.319s
+2017-11-22 18:40:59,534 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.021s
+2017-11-22 18:40:59,534 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.023s
+2017-11-22 18:40:59,611 - DEBUG: self.type('电话搜索：', phone)---type---0.103s
+2017-11-22 18:40:59,637 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 18:40:59,638 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.024s
+2017-11-22 18:40:59,691 - DEBUG: self.click_btn('搜索')---click_btn---0.079s
+2017-11-22 18:41:00,747 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.042s
+2017-11-22 18:41:00,747 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.049s
+2017-11-22 18:41:00,753 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.061s
+2017-11-22 18:41:00,773 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.020s
+2017-11-22 18:41:09,715 - DEBUG: self.open(login_url)---open---0.601s
+2017-11-22 18:41:10,766 - DEBUG: input_elm = self.find_element(*label)---find_element---0.044s
+2017-11-22 18:41:10,843 - DEBUG: self.type(self.input_username_loc, username)---type---0.128s
+2017-11-22 18:41:10,864 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:41:10,938 - DEBUG: self.type(self.input_password_loc, password)---type---0.095s
+2017-11-22 18:41:10,959 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:41:11,007 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 18:41:12,283 - DEBUG: self.clicks(menu)---clicks---0.270s
+2017-11-22 18:41:13,340 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.056s
+2017-11-22 18:41:13,368 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:41:13,368 - DEBUG: page.load()---load---1.361s
+2017-11-22 18:41:13,395 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 18:41:13,395 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.024s
+2017-11-22 18:41:13,475 - DEBUG: self.type('电话搜索：', phone)---type---0.107s
+2017-11-22 18:41:13,498 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.019s
+2017-11-22 18:41:13,498 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 18:41:13,551 - DEBUG: self.click_btn('搜索')---click_btn---0.076s
+2017-11-22 18:41:14,608 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.042s
+2017-11-22 18:41:14,608 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.049s
+2017-11-22 18:41:14,615 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.063s
+2017-11-22 18:41:14,636 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.021s
+2017-11-22 18:44:22,378 - DEBUG: self.open(login_url)---open---0.564s
+2017-11-22 18:44:23,448 - DEBUG: input_elm = self.find_element(*label)---find_element---0.062s
+2017-11-22 18:44:23,533 - DEBUG: self.type(self.input_username_loc, username)---type---0.154s
+2017-11-22 18:44:23,556 - DEBUG: input_elm = self.find_element(*label)---find_element---0.021s
+2017-11-22 18:44:23,632 - DEBUG: self.type(self.input_password_loc, password)---type---0.099s
+2017-11-22 18:44:23,655 - DEBUG: self.find_element(*text).click()---find_element---0.021s
+2017-11-22 18:44:23,703 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 18:44:24,962 - DEBUG: self.clicks(menu)---clicks---0.252s
+2017-11-22 18:44:26,023 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.061s
+2017-11-22 18:44:26,053 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:44:26,053 - DEBUG: page.load()---load---1.350s
+2017-11-22 18:44:26,080 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-22 18:44:26,080 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.024s
+2017-11-22 18:44:26,157 - DEBUG: self.type('电话搜索：', phone)---type---0.103s
+2017-11-22 18:44:26,182 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 18:44:26,182 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 18:44:26,230 - DEBUG: self.click_btn('搜索')---click_btn---0.074s
+2017-11-22 18:44:27,294 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.051s
+2017-11-22 18:44:27,294 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.057s
+2017-11-22 18:44:27,301 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.070s
+2017-11-22 18:44:33,236 - DEBUG: self.open(login_url)---open---0.736s
+2017-11-22 18:44:34,300 - DEBUG: input_elm = self.find_element(*label)---find_element---0.057s
+2017-11-22 18:44:34,388 - DEBUG: self.type(self.input_username_loc, username)---type---0.152s
+2017-11-22 18:44:34,410 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:44:34,484 - DEBUG: self.type(self.input_password_loc, password)---type---0.096s
+2017-11-22 18:44:34,505 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:44:34,557 - DEBUG: self.click(self.btnLogin_loc)---click---0.073s
+2017-11-22 18:44:35,799 - DEBUG: self.clicks(menu)---clicks---0.235s
+2017-11-22 18:44:36,857 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.056s
+2017-11-22 18:44:36,879 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:44:36,879 - DEBUG: page.load()---load---1.321s
+2017-11-22 18:44:36,905 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 18:44:36,905 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.023s
+2017-11-22 18:44:36,986 - DEBUG: self.type('电话搜索：', phone)---type---0.106s
+2017-11-22 18:44:37,011 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 18:44:37,011 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.023s
+2017-11-22 18:44:37,062 - DEBUG: self.click_btn('搜索')---click_btn---0.076s
+2017-11-22 18:44:38,125 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.051s
+2017-11-22 18:44:38,125 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.057s
+2017-11-22 18:44:38,132 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.070s
+2017-11-22 18:45:10,680 - DEBUG: self.open(login_url)---open---0.954s
+2017-11-22 18:45:11,758 - DEBUG: input_elm = self.find_element(*label)---find_element---0.068s
+2017-11-22 18:45:11,842 - DEBUG: self.type(self.input_username_loc, username)---type---0.161s
+2017-11-22 18:45:11,863 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:45:11,934 - DEBUG: self.type(self.input_password_loc, password)---type---0.092s
+2017-11-22 18:45:11,957 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-22 18:45:12,004 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 18:45:13,219 - DEBUG: self.clicks(menu)---clicks---0.213s
+2017-11-22 18:45:14,282 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.063s
+2017-11-22 18:45:14,311 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:45:14,311 - DEBUG: page.load()---load---1.305s
+2017-11-22 18:45:14,336 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.021s
+2017-11-22 18:45:14,337 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.024s
+2017-11-22 18:45:14,415 - DEBUG: self.type('电话搜索：', phone)---type---0.104s
+2017-11-22 18:45:14,440 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 18:45:14,440 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.023s
+2017-11-22 18:45:14,489 - DEBUG: self.click_btn('搜索')---click_btn---0.074s
+2017-11-22 18:45:15,571 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.067s
+2017-11-22 18:45:15,571 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.075s
+2017-11-22 18:45:15,580 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.090s
+2017-11-22 18:45:15,605 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.024s
+2017-11-22 18:45:24,965 - DEBUG: self.open(login_url)---open---1.001s
+2017-11-22 18:45:26,028 - DEBUG: input_elm = self.find_element(*label)---find_element---0.054s
+2017-11-22 18:45:26,103 - DEBUG: self.type(self.input_username_loc, username)---type---0.136s
+2017-11-22 18:45:26,125 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:45:26,217 - DEBUG: self.type(self.input_password_loc, password)---type---0.112s
+2017-11-22 18:45:26,240 - DEBUG: self.find_element(*text).click()---find_element---0.021s
+2017-11-22 18:45:26,293 - DEBUG: self.click(self.btnLogin_loc)---click---0.076s
+2017-11-22 18:45:27,606 - DEBUG: self.clicks(menu)---clicks---0.308s
+2017-11-22 18:45:28,627 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.021s
+2017-11-22 18:45:28,648 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:45:28,650 - DEBUG: page.load()---load---1.356s
+2017-11-22 18:45:28,678 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-22 18:45:28,678 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.026s
+2017-11-22 18:45:28,765 - DEBUG: self.type('电话搜索：', phone)---type---0.116s
+2017-11-22 18:45:28,795 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.025s
+2017-11-22 18:45:28,795 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.028s
+2017-11-22 18:45:28,854 - DEBUG: self.click_btn('搜索')---click_btn---0.088s
+2017-11-22 18:45:29,887 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.028s
+2017-11-22 18:45:29,888 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.031s
+2017-11-22 18:45:29,913 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.059s
+2017-11-22 18:45:29,943 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.030s
+2017-11-22 18:48:57,169 - DEBUG: self.open(login_url)---open---0.746s
+2017-11-22 18:48:58,224 - DEBUG: input_elm = self.find_element(*label)---find_element---0.048s
+2017-11-22 18:48:58,307 - DEBUG: self.type(self.input_username_loc, username)---type---0.138s
+2017-11-22 18:48:58,328 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:48:58,403 - DEBUG: self.type(self.input_password_loc, password)---type---0.096s
+2017-11-22 18:48:58,424 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:48:58,474 - DEBUG: self.click(self.btnLogin_loc)---click---0.071s
+2017-11-22 18:48:59,533 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.059s
+2017-11-22 18:49:08,613 - DEBUG: self.open(login_url)---open---0.717s
+2017-11-22 18:49:09,690 - DEBUG: input_elm = self.find_element(*label)---find_element---0.069s
+2017-11-22 18:49:09,782 - DEBUG: self.type(self.input_username_loc, username)---type---0.168s
+2017-11-22 18:49:09,802 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:49:09,873 - DEBUG: self.type(self.input_password_loc, password)---type---0.090s
+2017-11-22 18:49:09,894 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:49:09,944 - DEBUG: self.click(self.btnLogin_loc)---click---0.071s
+2017-11-22 18:49:10,998 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.054s
+2017-11-22 18:49:20,089 - DEBUG: self.open(login_url)---open---0.712s
+2017-11-22 18:49:21,146 - DEBUG: input_elm = self.find_element(*label)---find_element---0.048s
+2017-11-22 18:49:21,226 - DEBUG: self.type(self.input_username_loc, username)---type---0.135s
+2017-11-22 18:49:21,248 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:49:21,318 - DEBUG: self.type(self.input_password_loc, password)---type---0.090s
+2017-11-22 18:49:21,339 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:49:21,387 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 18:49:22,447 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.059s
+2017-11-22 18:52:03,068 - DEBUG: self.open(login_url)---open---0.746s
+2017-11-22 18:52:04,135 - DEBUG: input_elm = self.find_element(*label)---find_element---0.056s
+2017-11-22 18:52:04,215 - DEBUG: self.type(self.input_username_loc, username)---type---0.145s
+2017-11-22 18:52:04,236 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:52:04,307 - DEBUG: self.type(self.input_password_loc, password)---type---0.091s
+2017-11-22 18:52:04,328 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:52:04,378 - DEBUG: self.click(self.btnLogin_loc)---click---0.071s
+2017-11-22 18:52:05,445 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.066s
+2017-11-22 18:53:49,097 - DEBUG: self.open(login_url)---open---1.031s
+2017-11-22 18:53:50,149 - DEBUG: input_elm = self.find_element(*label)---find_element---0.045s
+2017-11-22 18:53:50,226 - DEBUG: self.type(self.input_username_loc, username)---type---0.128s
+2017-11-22 18:53:50,246 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:53:50,319 - DEBUG: self.type(self.input_password_loc, password)---type---0.093s
+2017-11-22 18:53:50,341 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:53:50,393 - DEBUG: self.click(self.btnLogin_loc)---click---0.073s
+2017-11-22 18:53:51,447 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.054s
+2017-11-22 18:54:15,242 - DEBUG: self.open(login_url)---open---1.083s
+2017-11-22 18:54:16,286 - DEBUG: input_elm = self.find_element(*label)---find_element---0.040s
+2017-11-22 18:54:16,428 - DEBUG: self.type(self.input_username_loc, username)---type---0.184s
+2017-11-22 18:54:16,457 - DEBUG: input_elm = self.find_element(*label)---find_element---0.025s
+2017-11-22 18:54:16,527 - DEBUG: self.type(self.input_password_loc, password)---type---0.098s
+2017-11-22 18:54:16,547 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 18:54:16,597 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 18:54:17,752 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.153s
+2017-11-22 18:54:40,766 - DEBUG: self.open(login_url)---open---0.880s
+2017-11-22 18:54:41,816 - DEBUG: input_elm = self.find_element(*label)---find_element---0.044s
+2017-11-22 18:54:41,894 - DEBUG: self.type(self.input_username_loc, username)---type---0.128s
+2017-11-22 18:54:41,916 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 18:54:41,988 - DEBUG: self.type(self.input_password_loc, password)---type---0.093s
+2017-11-22 18:54:42,009 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 18:54:42,058 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 18:54:43,081 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.021s
+2017-11-22 18:55:10,382 - DEBUG: self.open(login_url)---open---1.027s
+2017-11-22 18:55:11,441 - DEBUG: input_elm = self.find_element(*label)---find_element---0.051s
+2017-11-22 18:55:11,521 - DEBUG: self.type(self.input_username_loc, username)---type---0.137s
+2017-11-22 18:55:11,543 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:55:11,612 - DEBUG: self.type(self.input_password_loc, password)---type---0.090s
+2017-11-22 18:55:11,632 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 18:55:11,678 - DEBUG: self.click(self.btnLogin_loc)---click---0.067s
+2017-11-22 18:55:12,755 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.076s
+2017-11-22 18:56:29,103 - DEBUG: self.open(login_url)---open---1.595s
+2017-11-22 18:56:30,132 - DEBUG: input_elm = self.find_element(*label)---find_element---0.025s
+2017-11-22 18:56:30,210 - DEBUG: self.type(self.input_username_loc, username)---type---0.106s
+2017-11-22 18:56:30,236 - DEBUG: input_elm = self.find_element(*label)---find_element---0.023s
+2017-11-22 18:56:30,351 - DEBUG: self.type(self.input_password_loc, password)---type---0.140s
+2017-11-22 18:56:30,385 - DEBUG: self.find_element(*text).click()---find_element---0.031s
+2017-11-22 18:56:30,444 - DEBUG: self.click(self.btnLogin_loc)---click---0.093s
+2017-11-22 18:56:31,666 - DEBUG: self.clicks(menu)---clicks---0.219s
+2017-11-22 18:56:32,688 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.022s
+2017-11-22 18:56:32,710 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:56:32,710 - DEBUG: page.load()---load---1.265s
+2017-11-22 18:56:32,735 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.021s
+2017-11-22 18:56:32,735 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.023s
+2017-11-22 18:56:32,818 - DEBUG: self.type('电话搜索：', phone)---type---0.108s
+2017-11-22 18:56:32,843 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 18:56:32,843 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.023s
+2017-11-22 18:56:32,894 - DEBUG: self.click_btn('搜索')---click_btn---0.077s
+2017-11-22 18:56:33,951 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.045s
+2017-11-22 18:56:33,952 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.052s
+2017-11-22 18:56:33,962 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.068s
+2017-11-22 18:57:04,298 - DEBUG: 找不到文本为'综合信息'的链接
+2017-11-22 18:57:04,299 - DEBUG: self.clicks(menu)---clicks---30.333s
+2017-11-22 18:57:05,356 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.056s
+2017-11-22 18:57:05,378 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:57:05,378 - DEBUG: page.load()---load---31.415s
+2017-11-22 18:57:05,406 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-22 18:57:05,406 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.025s
+2017-11-22 18:57:05,485 - DEBUG: self.type('电话搜索：', phone)---type---0.107s
+2017-11-22 18:57:05,509 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.019s
+2017-11-22 18:57:05,509 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 18:57:05,559 - DEBUG: self.click_btn('搜索')---click_btn---0.073s
+2017-11-22 18:57:06,624 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.052s
+2017-11-22 18:57:06,624 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.059s
+2017-11-22 18:57:06,632 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.073s
+2017-11-22 18:57:06,651 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.018s
+2017-11-22 18:59:26,152 - DEBUG: self.open(login_url)---open---0.626s
+2017-11-22 18:59:27,217 - DEBUG: input_elm = self.find_element(*label)---find_element---0.057s
+2017-11-22 18:59:27,311 - DEBUG: self.type(self.input_username_loc, username)---type---0.158s
+2017-11-22 18:59:27,331 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 18:59:27,409 - DEBUG: self.type(self.input_password_loc, password)---type---0.098s
+2017-11-22 18:59:27,431 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 18:59:27,480 - DEBUG: self.click(self.btnLogin_loc)---click---0.071s
+2017-11-22 18:59:29,049 - DEBUG: self.clicks(menu)---clicks---0.212s
+2017-11-22 18:59:30,121 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.071s
+2017-11-22 18:59:30,150 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:59:30,150 - DEBUG: page.load()---load---1.670s
+2017-11-22 18:59:30,175 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 18:59:30,175 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.022s
+2017-11-22 18:59:30,251 - DEBUG: self.type('电话搜索：', phone)---type---0.101s
+2017-11-22 18:59:30,274 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.019s
+2017-11-22 18:59:30,275 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 18:59:30,326 - DEBUG: self.click_btn('搜索')---click_btn---0.075s
+2017-11-22 18:59:31,379 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.040s
+2017-11-22 18:59:31,380 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.048s
+2017-11-22 18:59:31,388 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.062s
+2017-11-22 18:59:31,731 - DEBUG: self.clicks(menu)---clicks---0.178s
+2017-11-22 18:59:32,768 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.036s
+2017-11-22 18:59:32,810 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 18:59:32,810 - DEBUG: page.load()---load---1.421s
+2017-11-22 18:59:32,828 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.012s
+2017-11-22 18:59:32,828 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.014s
+2017-11-22 18:59:32,906 - DEBUG: self.type('电话搜索：', phone)---type---0.096s
+2017-11-22 18:59:32,921 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.010s
+2017-11-22 18:59:32,921 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.012s
+2017-11-22 18:59:32,973 - DEBUG: self.click_btn('搜索')---click_btn---0.067s
+2017-11-22 18:59:34,019 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.031s
+2017-11-22 18:59:34,019 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.038s
+2017-11-22 18:59:34,031 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.056s
+2017-11-22 18:59:34,071 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.040s
+2017-11-22 19:07:53,641 - DEBUG: self.open(login_url)---open---1.015s
+2017-11-22 19:07:54,704 - DEBUG: input_elm = self.find_element(*label)---find_element---0.056s
+2017-11-22 19:07:54,788 - DEBUG: self.type(self.input_username_loc, username)---type---0.147s
+2017-11-22 19:07:54,809 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 19:07:54,881 - DEBUG: self.type(self.input_password_loc, password)---type---0.093s
+2017-11-22 19:07:54,903 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-22 19:07:54,953 - DEBUG: self.click(self.btnLogin_loc)---click---0.073s
+2017-11-22 19:07:56,700 - DEBUG: self.clicks(menu)---clicks---0.238s
+2017-11-22 19:07:57,757 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.057s
+2017-11-22 19:07:57,783 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:07:57,783 - DEBUG: cls.page.load()---load---1.828s
+2017-11-22 19:07:57,806 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.020s
+2017-11-22 19:09:56,234 - DEBUG: self.open(login_url)---open---0.583s
+2017-11-22 19:09:57,254 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 19:09:57,329 - DEBUG: self.type(self.input_username_loc, username)---type---0.094s
+2017-11-22 19:09:57,351 - DEBUG: input_elm = self.find_element(*label)---find_element---0.020s
+2017-11-22 19:09:57,422 - DEBUG: self.type(self.input_password_loc, password)---type---0.094s
+2017-11-22 19:09:57,444 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-22 19:09:57,491 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 19:09:58,945 - DEBUG: self.clicks(menu)---clicks---0.209s
+2017-11-22 19:10:00,014 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.068s
+2017-11-22 19:10:00,046 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:10:00,046 - DEBUG: cls.page.load()---load---1.554s
+2017-11-22 19:10:00,069 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.022s
+2017-11-22 19:12:46,165 - DEBUG: self.open(login_url)---open---0.578s
+2017-11-22 19:12:47,219 - DEBUG: input_elm = self.find_element(*label)---find_element---0.046s
+2017-11-22 19:12:47,293 - DEBUG: self.type(self.input_username_loc, username)---type---0.127s
+2017-11-22 19:12:47,316 - DEBUG: input_elm = self.find_element(*label)---find_element---0.020s
+2017-11-22 19:12:47,386 - DEBUG: self.type(self.input_password_loc, password)---type---0.093s
+2017-11-22 19:12:47,408 - DEBUG: self.find_element(*text).click()---find_element---0.018s
+2017-11-22 19:12:47,456 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 19:12:48,972 - DEBUG: self.clicks(menu)---clicks---0.221s
+2017-11-22 19:12:50,028 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.056s
+2017-11-22 19:12:50,067 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:12:50,067 - DEBUG: cls.page.load()---load---1.610s
+2017-11-22 19:12:50,086 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.018s
+2017-11-22 19:13:28,963 - DEBUG: self.open(login_url)---open---0.590s
+2017-11-22 19:13:30,021 - DEBUG: input_elm = self.find_element(*label)---find_element---0.050s
+2017-11-22 19:13:30,103 - DEBUG: self.type(self.input_username_loc, username)---type---0.139s
+2017-11-22 19:13:30,125 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 19:13:30,198 - DEBUG: self.type(self.input_password_loc, password)---type---0.095s
+2017-11-22 19:13:30,220 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-22 19:13:30,271 - DEBUG: self.click(self.btnLogin_loc)---click---0.073s
+2017-11-22 19:13:31,822 - DEBUG: self.clicks(menu)---clicks---0.203s
+2017-11-22 19:13:32,883 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.061s
+2017-11-22 19:13:32,909 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:13:32,909 - DEBUG: cls.page.load()---load---1.638s
+2017-11-22 19:13:32,928 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.018s
+2017-11-22 19:14:21,955 - DEBUG: self.open(login_url)---open---0.596s
+2017-11-22 19:14:23,019 - DEBUG: input_elm = self.find_element(*label)---find_element---0.057s
+2017-11-22 19:14:23,104 - DEBUG: self.type(self.input_username_loc, username)---type---0.148s
+2017-11-22 19:14:23,126 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 19:14:23,199 - DEBUG: self.type(self.input_password_loc, password)---type---0.094s
+2017-11-22 19:14:23,221 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-22 19:14:23,271 - DEBUG: self.click(self.btnLogin_loc)---click---0.072s
+2017-11-22 19:14:24,754 - DEBUG: self.clicks(menu)---clicks---0.207s
+2017-11-22 19:14:25,809 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.055s
+2017-11-22 19:14:25,834 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:14:25,834 - DEBUG: cls.page.load()---load---1.563s
+2017-11-22 19:14:25,862 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 19:14:25,862 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.023s
+2017-11-22 19:14:25,943 - DEBUG: self.type('电话搜索：', phone)---type---0.107s
+2017-11-22 19:14:25,968 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 19:14:25,968 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 19:14:26,022 - DEBUG: self.click_btn('搜索')---click_btn---0.078s
+2017-11-22 19:14:27,065 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.027s
+2017-11-22 19:14:27,065 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.035s
+2017-11-22 19:14:27,152 - DEBUG: self.type('电话搜索：', phone)---type---0.129s
+2017-11-22 19:14:27,167 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.011s
+2017-11-22 19:14:27,167 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.013s
+2017-11-22 19:14:27,216 - DEBUG: self.click_btn('搜索')---click_btn---0.064s
+2017-11-22 19:14:28,266 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.050s
+2017-11-22 19:15:00,237 - DEBUG: self.open(login_url)---open---0.562s
+2017-11-22 19:15:01,303 - DEBUG: input_elm = self.find_element(*label)---find_element---0.059s
+2017-11-22 19:15:01,393 - DEBUG: self.type(self.input_username_loc, username)---type---0.156s
+2017-11-22 19:15:01,414 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 19:15:01,489 - DEBUG: self.type(self.input_password_loc, password)---type---0.096s
+2017-11-22 19:15:01,510 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 19:15:01,558 - DEBUG: self.click(self.btnLogin_loc)---click---0.069s
+2017-11-22 19:15:03,033 - DEBUG: self.clicks(menu)---clicks---0.204s
+2017-11-22 19:15:04,106 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.072s
+2017-11-22 19:15:04,137 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:15:04,137 - DEBUG: cls.page.load()---load---1.579s
+2017-11-22 19:15:04,162 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 19:15:04,162 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.022s
+2017-11-22 19:15:04,240 - DEBUG: self.type('电话搜索：', phone)---type---0.101s
+2017-11-22 19:15:04,264 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 19:15:04,264 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 19:15:04,315 - DEBUG: self.click_btn('搜索')---click_btn---0.075s
+2017-11-22 19:15:05,385 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.058s
+2017-11-22 19:15:05,385 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.064s
+2017-11-22 19:15:05,396 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.081s
+2017-11-22 19:15:05,413 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.012s
+2017-11-22 19:15:05,414 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.016s
+2017-11-22 19:15:05,496 - DEBUG: self.type('电话搜索：', phone)---type---0.100s
+2017-11-22 19:15:05,511 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.010s
+2017-11-22 19:15:05,511 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.012s
+2017-11-22 19:15:05,560 - DEBUG: self.click_btn('搜索')---click_btn---0.064s
+2017-11-22 19:15:06,601 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.028s
+2017-11-22 19:15:06,601 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.034s
+2017-11-22 19:15:06,610 - DEBUG: self.customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.049s
+2017-11-22 19:15:06,636 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.025s
+2017-11-22 19:15:30,388 - DEBUG: self.open(login_url)---open---0.576s
+2017-11-22 19:15:31,437 - DEBUG: input_elm = self.find_element(*label)---find_element---0.042s
+2017-11-22 19:15:31,513 - DEBUG: self.type(self.input_username_loc, username)---type---0.125s
+2017-11-22 19:15:31,534 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 19:15:31,606 - DEBUG: self.type(self.input_password_loc, password)---type---0.093s
+2017-11-22 19:15:31,628 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-22 19:15:31,678 - DEBUG: self.click(self.btnLogin_loc)---click---0.071s
+2017-11-22 19:15:33,158 - DEBUG: self.clicks(menu)---clicks---0.204s
+2017-11-22 19:15:34,214 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.056s
+2017-11-22 19:15:34,237 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:15:34,238 - DEBUG: cls.page.load()---load---1.560s
+2017-11-22 19:15:34,265 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 19:15:34,265 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.023s
+2017-11-22 19:15:34,343 - DEBUG: self.type('电话搜索：', phone)---type---0.105s
+2017-11-22 19:15:34,368 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 19:15:34,369 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.023s
+2017-11-22 19:15:34,419 - DEBUG: self.click_btn('搜索')---click_btn---0.076s
+2017-11-22 19:15:35,477 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.045s
+2017-11-22 19:15:35,477 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.051s
+2017-11-22 19:15:35,486 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.066s
+2017-11-22 19:15:35,502 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.012s
+2017-11-22 19:15:35,502 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.014s
+2017-11-22 19:15:35,579 - DEBUG: self.type('电话搜索：', phone)---type---0.093s
+2017-11-22 19:15:35,593 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.010s
+2017-11-22 19:15:35,594 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.013s
+2017-11-22 19:15:35,640 - DEBUG: self.click_btn('搜索')---click_btn---0.061s
+2017-11-22 19:15:36,686 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.032s
+2017-11-22 19:15:36,687 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.040s
+2017-11-22 19:15:36,698 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.057s
+2017-11-22 19:15:36,730 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.031s
+2017-11-22 19:17:09,310 - DEBUG: self.open(login_url)---open---0.603s
+2017-11-22 19:17:10,384 - DEBUG: input_elm = self.find_element(*label)---find_element---0.065s
+2017-11-22 19:17:10,486 - DEBUG: self.type(self.input_username_loc, username)---type---0.175s
+2017-11-22 19:17:10,507 - DEBUG: input_elm = self.find_element(*label)---find_element---0.019s
+2017-11-22 19:17:10,576 - DEBUG: self.type(self.input_password_loc, password)---type---0.090s
+2017-11-22 19:17:10,599 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-22 19:17:10,652 - DEBUG: self.click(self.btnLogin_loc)---click---0.074s
+2017-11-22 19:17:12,122 - DEBUG: self.clicks(menu)---clicks---0.206s
+2017-11-22 19:17:13,145 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.022s
+2017-11-22 19:17:13,168 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:17:13,169 - DEBUG: cls.page.load()---load---1.517s
+2017-11-22 19:17:13,200 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.024s
+2017-11-22 19:17:13,200 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.026s
+2017-11-22 19:17:13,290 - DEBUG: self.type('电话搜索：', phone)---type---0.121s
+2017-11-22 19:17:13,317 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.021s
+2017-11-22 19:17:13,317 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.024s
+2017-11-22 19:17:13,367 - DEBUG: self.click_btn('搜索')---click_btn---0.077s
+2017-11-22 19:17:14,426 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.046s
+2017-11-22 19:17:14,426 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.052s
+2017-11-22 19:17:14,432 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.064s
+2017-11-22 19:17:14,448 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.011s
+2017-11-22 19:17:14,448 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.013s
+2017-11-22 19:17:14,527 - DEBUG: self.type('电话搜索：', phone)---type---0.094s
+2017-11-22 19:17:14,541 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.010s
+2017-11-22 19:17:14,541 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.012s
+2017-11-22 19:17:14,589 - DEBUG: self.click_btn('搜索')---click_btn---0.063s
+2017-11-22 19:17:15,631 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.029s
+2017-11-22 19:17:15,632 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.036s
+2017-11-22 19:17:15,643 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.053s
+2017-11-22 19:17:15,672 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.028s
+2017-11-22 19:19:06,159 - DEBUG: self.open(login_url)---open---0.586s
+2017-11-22 19:19:07,230 - DEBUG: input_elm = self.find_element(*label)---find_element---0.063s
+2017-11-22 19:19:07,309 - DEBUG: self.type(self.input_username_loc, username)---type---0.150s
+2017-11-22 19:19:07,330 - DEBUG: input_elm = self.find_element(*label)---find_element---0.018s
+2017-11-22 19:19:07,401 - DEBUG: self.type(self.input_password_loc, password)---type---0.091s
+2017-11-22 19:19:07,422 - DEBUG: self.find_element(*text).click()---find_element---0.019s
+2017-11-22 19:19:07,471 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 19:19:08,973 - DEBUG: self.clicks(menu)---clicks---0.205s
+2017-11-22 19:19:10,031 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.057s
+2017-11-22 19:19:10,064 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:19:10,064 - DEBUG: cls.page.load()---load---1.593s
+2017-11-22 19:19:10,095 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.021s
+2017-11-22 19:19:10,095 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.024s
+2017-11-22 19:19:10,181 - DEBUG: self.type('电话搜索：', phone)---type---0.116s
+2017-11-22 19:19:10,205 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 19:19:10,205 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 19:19:10,257 - DEBUG: self.click_btn('搜索')---click_btn---0.076s
+2017-11-22 19:19:11,338 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.068s
+2017-11-22 19:19:11,338 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.074s
+2017-11-22 19:19:11,347 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.089s
+2017-11-22 19:19:11,377 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.029s
+2017-11-22 19:23:00,736 - DEBUG: self.open(login_url)---open---0.665s
+2017-11-22 19:23:01,869 - DEBUG: self.type(self.input_username_loc, username)---type---0.132s
+2017-11-22 19:23:01,957 - DEBUG: self.type(self.input_password_loc, password)---type---0.088s
+2017-11-22 19:23:02,024 - DEBUG: self.click(self.btnLogin_loc)---click---0.066s
+2017-11-22 19:23:03,507 - DEBUG: self.clicks(menu)---clicks---0.221s
+2017-11-22 19:23:04,588 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:23:04,588 - DEBUG: cls.page.load()---load---1.563s
+2017-11-22 19:23:04,614 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.020s
+2017-11-22 19:23:04,614 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.023s
+2017-11-22 19:23:04,693 - DEBUG: self.type('电话搜索：', phone)---type---0.105s
+2017-11-22 19:23:04,720 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.022s
+2017-11-22 19:23:04,720 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.024s
+2017-11-22 19:23:04,773 - DEBUG: self.click_btn('搜索')---click_btn---0.080s
+2017-11-22 19:23:05,840 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.054s
+2017-11-22 19:23:05,840 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.060s
+2017-11-22 19:23:05,849 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.075s
+2017-11-22 19:25:43,634 - DEBUG: setUp...
+2017-11-22 19:25:49,409 - DEBUG: self.open(login_url)---open---0.572s
+2017-11-22 19:25:50,561 - DEBUG: self.type(self.input_username_loc, username)---type---0.151s
+2017-11-22 19:25:50,648 - DEBUG: self.type(self.input_password_loc, password)---type---0.087s
+2017-11-22 19:25:50,716 - DEBUG: self.click(self.btnLogin_loc)---click---0.067s
+2017-11-22 19:25:52,106 - DEBUG: self.clicks(menu)---clicks---0.205s
+2017-11-22 19:25:53,188 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:25:53,189 - DEBUG: cls.page.load()---load---1.473s
+2017-11-22 19:25:53,213 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.019s
+2017-11-22 19:25:53,213 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.021s
+2017-11-22 19:25:53,288 - DEBUG: self.type('电话搜索：', phone)---type---0.099s
+2017-11-22 19:25:53,312 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 19:25:53,312 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.021s
+2017-11-22 19:25:53,363 - DEBUG: self.click_btn('搜索')---click_btn---0.074s
+2017-11-22 19:25:54,415 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.040s
+2017-11-22 19:25:54,415 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.046s
+2017-11-22 19:25:54,423 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.060s
+2017-11-22 19:25:54,423 - DEBUG: tearDown...
+2017-11-22 19:26:47,739 - DEBUG: setUp...
+2017-11-22 19:26:53,530 - DEBUG: self.open(login_url)---open---0.590s
+2017-11-22 19:26:54,696 - DEBUG: self.type(self.input_username_loc, username)---type---0.165s
+2017-11-22 19:26:54,801 - DEBUG: self.type(self.input_password_loc, password)---type---0.106s
+2017-11-22 19:26:54,872 - DEBUG: self.click(self.btnLogin_loc)---click---0.070s
+2017-11-22 19:26:56,320 - DEBUG: self.clicks(menu)---clicks---0.209s
+2017-11-22 19:26:57,399 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-22 19:26:57,399 - DEBUG: cls.page.load()---load---1.527s
+2017-11-22 19:26:57,430 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-22 19:26:57,430 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.026s
+2017-11-22 19:26:57,508 - DEBUG: self.type('电话搜索：', phone)---type---0.109s
+2017-11-22 19:26:57,532 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.020s
+2017-11-22 19:26:57,532 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.022s
+2017-11-22 19:26:57,583 - DEBUG: self.click_btn('搜索')---click_btn---0.075s
+2017-11-22 19:26:58,645 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.048s
+2017-11-22 19:26:58,645 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.055s
+2017-11-22 19:26:58,651 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.067s
+2017-11-22 19:26:58,651 - DEBUG: tearDown...

@@ -2,9 +2,7 @@
 # -*- coding=utf-8 -*-
 
 from time import sleep as _sleep
-
 import os
-
 from util.data_file_parser import ConfFile
 from util.log import logger
 from util.config import Config
@@ -55,6 +53,7 @@ class BasePage(WebPage):
         return subject in actual_subject
 
     def _load(self, menu, subject):
+        self.driver.refresh()
         self.clicks(menu)
         self.sleep()
         assert self.on_page(subject), "Not on page_obj!"

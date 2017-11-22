@@ -12,7 +12,7 @@ class WebPage(object):
     def __init__(self, driver):
         self.driver = driver
 
-    @exec_time
+    # @exec_time
     def find_element(self, *loc):
         return self.driver.find_element(*loc)
     

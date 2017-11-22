@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 import unittest
 import time
-from util.HTMLTestRunner import HTMLTestRunner
-# from util.HTMLTestRunnerCN import HTMLTestRunner
 from email.mime.text import MIMEText
 from email.header import Header
 import smtplib
 import os
 import platform
 if (platform.python_version()) < '3':
+    from util.HTMLTestRunner import HTMLTestRunner
     import sys
     reload(sys)
     sys.setdefaultencoding('utf8')
+else:
+    from util.HTMLTestRunnerCN import HTMLTestRunner
 
 
 # 发送测试报告，需要配置你的邮箱账号
@@ -49,11 +50,11 @@ if __name__ == "__main__":
     now = time.strftime("%Y-%m-%d_%H%M%S")
     filename = test_report + '/' + now + '_result.html'
     fp = open(filename, 'wb')
-    # runner = unittest.TextTestRunner()
-    runner = HTMLTestRunner(stream=fp, title='测试报告', description="运行环境：windows 10, Chrome")
+    runner = unittest.TextTestRunner()
+    # runner = HTMLTestRunner(stream=fp, title='测试报告', description="运行环境：windows 10, Chrome")
     runner.run(discover)
     fp.close()                                                                                       
-    new_report = new_report(test_report)
-    send_mail(new_report)
+    # new_report = new_report(test_report)
+    # send_mail(new_report)
 
 

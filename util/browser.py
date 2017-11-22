@@ -5,7 +5,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import platform
-from pyvirtualdisplay import Display
 import sys
 sys.path.append('..')
 from util.root import project_root
@@ -41,8 +40,6 @@ class Chrome(object):
 
 
 if __name__ == '__main__':
-    #display = Display(visible=0, size=(800,600))
-    #display.start()
     # d = webdriver.Firefox()
     #d = Chrome.remote()
     d = Chrome.headless()
@@ -50,4 +47,3 @@ if __name__ == '__main__':
     print(d.title)
     # print(d.page_source)
     d.quit()
-    #display.stop()

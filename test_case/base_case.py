@@ -2,10 +2,12 @@
 # -*- coding=utf-8 -*-
 
 import unittest
-
+import sys
+sys.path.append('..')
 from page_obj.base_page import BasePage
 from page_obj.index.index.login import LoginPage
 from util.browser import Chrome
+from util.log import logger
 
 
 class BaseCase(unittest.TestCase):
@@ -22,15 +24,22 @@ class BaseCase(unittest.TestCase):
     def clean(self):
         pass
     
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
+        logger.debug("setUp...")
         # self.driver = Chrome.normal()
-        self.driver = Chrome.headless()
-        self.driver.implicitly_wait(10)
-        self.driver.maximize_window()
-        page = LoginPage(self.driver)
+        cls.driver = Chrome.headless()
+        cls.driver.implicitly_wait(10)
+        cls.driver.maximize_window()
+        page = LoginPage(cls.driver)
         page.login()
-        
-    def tearDown(self):
-        page = BasePage(self.driver)
+    
+    @classmethod
+    def tearDownClass(cls):
+        logger.debug("tearDown...")
+        page = BasePage(cls.driver)
         page.logout()
-        self.driver.quit()
+        cls.driver.quit()
+
+if __name__ == '__main__':  
+    unittest.main(verbosity=3)
