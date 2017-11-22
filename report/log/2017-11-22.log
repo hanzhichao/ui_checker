@@ -82,3 +82,16 @@
 2017-11-22 11:43:58,842 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.062s
 2017-11-22 11:43:58,853 - DEBUG: customer_phone = page.get_input_value('会员电话：')---get_input_value---0.075s
 2017-11-22 11:43:58,903 - DEBUG: self.find_element(By.CLASS_NAME, 'btn-bg1').click()---find_element---0.050s
+2017-11-22 14:50:58,664 - DEBUG: self.open(login_url)---open---0.270s
+2017-11-22 14:50:59,730 - DEBUG: input_elm = self.find_element(*label)---find_element---0.062s
+2017-11-22 14:50:59,940 - DEBUG: self.type(self.input_username_loc, username)---type---0.275s
+2017-11-22 14:50:59,987 - DEBUG: input_elm = self.find_element(*label)---find_element---0.045s
+2017-11-22 14:51:00,134 - DEBUG: self.type(self.input_password_loc, password)---type---0.193s
+2017-11-22 14:51:00,171 - DEBUG: self.find_element(*text).click()---find_element---0.036s
+2017-11-22 14:51:00,271 - DEBUG: self.click(self.btnLogin_loc)---click---0.137s
+2017-11-22 15:02:09,653 - DEBUG: self.open(login_url)---open---0.370s
+2017-11-22 15:02:10,719 - DEBUG: input_elm = self.find_element(*label)---find_element---0.062s
+2017-11-22 15:07:06,362 - DEBUG: self.open(login_url)---open---0.316s
+2017-11-22 15:07:07,426 - DEBUG: input_elm = self.find_element(*label)---find_element---0.061s
+2017-11-22 15:07:07,623 - DEBUG: self.type(self.input_username_loc, username)---type---0.260s
+2017-11-22 15:07:07,660 - DEBUG: input_elm = self.find_element(*label)---find_element---0.036s
