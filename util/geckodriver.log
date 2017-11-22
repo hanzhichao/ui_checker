@@ -27,3 +27,9 @@ A coding exception was thrown and uncaught in a Task.
 Full message: TypeError: NetworkError when attempting to fetch resource.
 Full stack: 
 *************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************

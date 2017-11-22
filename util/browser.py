@@ -18,7 +18,7 @@ class Chrome(object):
         chrome_driver = project_root() + '/driver/chromedriver.exe'
     else:
         chrome_driver = project_root() + '/driver/chromedriver'
-        os.chmod(chrome_driver, 777)
+        #os.chmod(chrome_driver, 777)
 
     @classmethod
     def normal(cls):
@@ -44,9 +44,10 @@ if __name__ == '__main__':
     #display = Display(visible=0, size=(800,600))
     #display.start()
     # d = webdriver.Firefox()
-    d = Chrome.remote()
+    #d = Chrome.remote()
+    d = Chrome.headless()
     d.get('http://www.baidu.com')
     print(d.title)
-    print(d.page_source)
+    # print(d.page_source)
     d.quit()
     #display.stop()
