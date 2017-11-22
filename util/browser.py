@@ -6,15 +6,18 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import platform
 from pyvirtualdisplay import Display
-import root
+import sys
+sys.path.append('..')
+from util.root import project_root
+
 
 class Chrome(object):
     def __init__(self):
         pass
     if platform.system() == 'Windows':
-        chrome_driver = root.project_root() + '/driver/chromedriver.exe'
+        chrome_driver = project_root() + '/driver/chromedriver.exe'
     else:
-        chrome_driver = root.project_root() + '/driver/chromedriver'
+        chrome_driver = project_root() + '/driver/chromedriver'
         #os.chmod(chrome_driver, 777)
 
     @classmethod
