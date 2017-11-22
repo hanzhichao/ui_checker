@@ -3,8 +3,10 @@
 import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from util.root import project_root
 import platform
+import sys
+sys.path.append("..")
+from util.root import project_root
 
 
 class Chrome(object):
