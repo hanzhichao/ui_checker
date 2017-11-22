@@ -1,0 +1,49 @@
+2017-11-10 02:07:46,822 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---1.659s
+2017-11-10 10:08:45,958 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.570s
+2017-11-10 10:09:28,110 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.595s
+2017-11-10 10:11:31,088 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.702s
+2017-11-10 10:13:20,477 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---9.743s
+2017-11-10 10:19:48,866 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---1.493s
+2017-11-10 10:20:45,964 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.567s
+2017-11-10 10:21:04,569 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.626s
+2017-11-10 10:21:07,222 - base_page.py[line:42] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 10:21:07,223 - decorator.py[line:30] - DEBUG: p.load()---load---1.222s
+2017-11-10 10:26:00,486 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.267s
+2017-11-10 10:26:03,171 - base_page.py[line:42] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 10:26:03,171 - decorator.py[line:30] - DEBUG: p.load()---load---1.245s
+2017-11-10 10:39:33,034 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.309s
+2017-11-10 10:40:26,024 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 10:40:26,024 - decorator.py[line:30] - DEBUG: page.load()---load---1.386s
+2017-11-10 11:11:20,275 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.289s
+2017-11-10 11:13:33,619 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.278s
+2017-11-10 11:14:26,314 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 11:14:26,315 - decorator.py[line:30] - DEBUG: page.load()---load---1.053s
+2017-11-10 11:14:27,016 - decorator.py[line:30] - DEBUG: customer_phone = page.get_value('customer_phone')---get_value---0.018s
+2017-11-10 11:19:35,300 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.361s
+2017-11-10 11:20:27,903 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 11:20:27,903 - decorator.py[line:30] - DEBUG: page.load()---load---0.908s
+2017-11-10 11:20:28,600 - decorator.py[line:30] - DEBUG: customer_phone = page.get_value('customer_phone')---get_value---0.010s
+2017-11-10 11:25:57,229 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.293s
+2017-11-10 11:26:49,663 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 11:26:49,663 - decorator.py[line:30] - DEBUG: page.load()---load---0.859s
+2017-11-10 11:26:50,379 - decorator.py[line:30] - DEBUG: customer_phone = page.get_value('customer_phone')---get_value---0.014s
+2017-11-10 11:27:43,226 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.241s
+2017-11-10 11:28:35,783 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 11:28:35,784 - decorator.py[line:30] - DEBUG: page.load()---load---0.878s
+2017-11-10 11:28:36,498 - decorator.py[line:30] - DEBUG: customer_phone = page.get_value('会员电话：')---get_value---0.014s
+2017-11-10 11:30:34,308 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.276s
+2017-11-10 11:31:26,749 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 11:31:26,749 - decorator.py[line:30] - DEBUG: page.load()---load---0.882s
+2017-11-10 11:31:27,503 - decorator.py[line:30] - DEBUG: customer_phone = page.get_value('会员电话：')---get_value---0.072s
+2017-11-10 11:32:49,671 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.290s
+2017-11-10 11:33:42,131 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 11:33:42,131 - decorator.py[line:30] - DEBUG: page.load()---load---0.900s
+2017-11-10 11:33:42,908 - decorator.py[line:30] - DEBUG: customer_phone = page.get_value('会员电话：')---get_value---0.089s
+2017-11-10 11:46:50,269 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.348s
+2017-11-10 11:46:52,582 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 11:46:52,583 - decorator.py[line:30] - DEBUG: p.load()---load---0.882s
+2017-11-10 11:46:53,366 - decorator.py[line:30] - DEBUG: page_phone = self.get_value('会员电话：')---get_value---0.070s
+2017-11-10 11:49:05,288 - decorator.py[line:30] - DEBUG: self.open(login_url)---open---0.644s
+2017-11-10 11:49:07,900 - base_page.py[line:39] - DEBUG: page subject：会员信息---config subject：会员信息
+2017-11-10 11:49:07,901 - decorator.py[line:30] - DEBUG: p.load()---load---1.091s
+2017-11-10 11:49:08,173 - decorator.py[line:30] - DEBUG: page_phone = self.get_value('会员电话：')---get_value---0.051s

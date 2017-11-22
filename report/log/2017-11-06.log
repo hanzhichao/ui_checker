@@ -1,0 +1,172 @@
+2017-11-06 19:20:36,706 - log.py[line:50] - INFO: this is a logger info message
+2017-11-06 19:20:36,706 - log.py[line:51] - WARNING: this is a logger warning message
+2017-11-06 19:20:36,706 - log.py[line:52] - ERROR: this is a logger error message
+2017-11-06 19:20:36,707 - log.py[line:53] - CRITICAL: this is a logger critical message
+2017-11-06 19:21:37,427 - log.py[line:50] - INFO: this is a logger info message
+2017-11-06 19:21:37,427 - log.py[line:51] - WARNING: this is a logger warning message
+2017-11-06 19:21:37,427 - log.py[line:52] - ERROR: this is a logger error message
+2017-11-06 19:21:37,428 - log.py[line:53] - CRITICAL: this is a logger critical message
+2017-11-06 19:22:56,063 - log.py[line:50] - INFO: this is a logger info message
+2017-11-06 19:22:56,064 - log.py[line:51] - WARNING: this is a logger warning message
+2017-11-06 19:22:56,064 - log.py[line:52] - ERROR: this is a logger error message
+2017-11-06 19:22:56,064 - log.py[line:53] - CRITICAL: this is a logger critical message
+2017-11-06 19:26:43,799 - log.py[line:50] - INFO: this is a logger info message
+2017-11-06 19:26:43,799 - log.py[line:51] - WARNING: this is a logger warning message
+2017-11-06 19:26:43,799 - log.py[line:52] - ERROR: this is a logger error message
+2017-11-06 19:26:43,799 - log.py[line:53] - CRITICAL: this is a logger critical message
+2017-11-06 19:29:53,405 - log.py[line:50] - INFO: this is a logger info message
+2017-11-06 19:29:53,406 - log.py[line:51] - WARNING: this is a logger warning message
+2017-11-06 19:29:53,406 - log.py[line:52] - ERROR: this is a logger error message
+2017-11-06 19:29:53,406 - log.py[line:53] - CRITICAL: this is a logger critical message
+2017-11-06 19:30:11,591 - log.py[line:50] - INFO: this is a logger info message
+2017-11-06 19:30:11,591 - log.py[line:51] - WARNING: this is a logger warning message
+2017-11-06 19:30:11,591 - log.py[line:52] - ERROR: this is a logger error message
+2017-11-06 19:30:11,591 - log.py[line:53] - CRITICAL: this is a logger critical message
+2017-11-06 19:33:51,944 - log.py[line:50] - INFO: this is a logger info message
+2017-11-06 19:33:51,944 - log.py[line:51] - WARNING: this is a logger warning message
+2017-11-06 19:33:51,945 - log.py[line:52] - ERROR: this is a logger error message
+2017-11-06 19:33:51,945 - log.py[line:53] - CRITICAL: this is a logger critical message
+2017-11-06 20:32:28,459 - decorator.py[line:44] - ERROR: -----------
+2017-11-06 20:39:58,651 - decorator.py[line:44] - ERROR: -----------
+2017-11-06 20:40:47,126 - decorator.py[line:44] - ERROR: -----------
+2017-11-06 20:40:47,131 - decorator.py[line:45] - DEBUG: **********
+2017-11-06 20:40:47,131 - decorator.py[line:45] - DEBUG: **********
+2017-11-06 20:40:47,132 - remote_connection.py[line:474] - DEBUG: GET http://127.0.0.1:50841/session/1b00702de7af0bd049494d79f5a7a143/title {"sessionId": "1b00702de7af0bd049494d79f5a7a143"}
+2017-11-06 20:40:47,132 - remote_connection.py[line:474] - DEBUG: GET http://127.0.0.1:50841/session/1b00702de7af0bd049494d79f5a7a143/title {"sessionId": "1b00702de7af0bd049494d79f5a7a143"}
+2017-11-06 20:40:47,150 - remote_connection.py[line:561] - DEBUG: Finished Request
+2017-11-06 20:40:47,150 - remote_connection.py[line:561] - DEBUG: Finished Request
+2017-11-06 20:40:47,151 - remote_connection.py[line:474] - DEBUG: DELETE http://127.0.0.1:50841/session/1b00702de7af0bd049494d79f5a7a143 {"sessionId": "1b00702de7af0bd049494d79f5a7a143"}
+2017-11-06 20:40:47,151 - remote_connection.py[line:474] - DEBUG: DELETE http://127.0.0.1:50841/session/1b00702de7af0bd049494d79f5a7a143 {"sessionId": "1b00702de7af0bd049494d79f5a7a143"}
+2017-11-06 20:40:47,198 - remote_connection.py[line:561] - DEBUG: Finished Request
+2017-11-06 20:40:47,198 - remote_connection.py[line:561] - DEBUG: Finished Request
+2017-11-06 20:41:37,942 - log.py[line:50] - DEBUG: hello
+2017-11-06 20:43:35,749 - decorator.py[line:44] - ERROR: -----------
+2017-11-06 20:43:35,749 - decorator.py[line:44] - ERROR: -----------
+2017-11-06 20:45:57,955 - decorator.py[line:54] - ERROR: -----------
+2017-11-06 20:46:54,227 - decorator.py[line:50] - ERROR: -----------
+2017-11-06 20:48:43,583 - log.py[line:48] - INFO: this is a logger info message
+2017-11-06 20:48:43,583 - log.py[line:49] - WARNING: this is a logger warning message
+2017-11-06 20:48:43,584 - log.py[line:50] - ERROR: this is a logger error message
+2017-11-06 20:48:43,584 - log.py[line:51] - CRITICAL: this is a logger critical message
+2017-11-06 20:50:45,704 - log.py[line:48] - INFO: this is a logger info message
+2017-11-06 20:50:45,705 - log.py[line:49] - WARNING: this is a logger warning message
+2017-11-06 20:50:45,705 - log.py[line:50] - ERROR: this is a logger error message
+2017-11-06 20:50:45,705 - log.py[line:51] - CRITICAL: this is a logger critical message
+2017-11-06 20:50:58,065 - log.py[line:48] - INFO: this is a logger info message
+2017-11-06 20:50:58,065 - log.py[line:49] - WARNING: this is a logger warning message
+2017-11-06 20:50:58,065 - log.py[line:50] - ERROR: this is a logger error message
+2017-11-06 20:50:58,066 - log.py[line:51] - CRITICAL: this is a logger critical message
+2017-11-06 20:51:35,438 - log.py[line:48] - INFO: this is a logger info message
+2017-11-06 20:51:35,438 - log.py[line:49] - WARNING: this is a logger warning message
+2017-11-06 20:51:35,438 - log.py[line:50] - ERROR: this is a logger error message
+2017-11-06 20:51:35,438 - log.py[line:51] - CRITICAL: this is a logger critical message
+2017-11-06 20:51:35,438 - log.py[line:57] - ERROR: hello
+2017-11-06 20:54:52,199 - log.py[line:48] - INFO: this is a logger info message
+2017-11-06 20:54:52,199 - log.py[line:49] - WARNING: this is a logger warning message
+2017-11-06 20:54:52,199 - log.py[line:50] - ERROR: this is a logger error message
+2017-11-06 20:54:52,199 - log.py[line:51] - CRITICAL: this is a logger critical message
+2017-11-06 20:54:52,199 - log.py[line:58] - ERROR: hello
+2017-11-06 20:55:37,076 - log.py[line:48] - INFO: this is a logger info message
+2017-11-06 20:55:37,076 - log.py[line:49] - WARNING: this is a logger warning message
+2017-11-06 20:55:37,076 - log.py[line:50] - ERROR: this is a logger error message
+2017-11-06 20:55:37,076 - log.py[line:51] - CRITICAL: this is a logger critical message
+2017-11-06 20:55:37,076 - log.py[line:58] - INFO: this is a logger info message
+2017-11-06 20:55:37,076 - log.py[line:59] - WARNING: this is a logger warning message
+2017-11-06 20:55:37,077 - log.py[line:60] - ERROR: this is a logger error message
+2017-11-06 20:55:37,077 - log.py[line:61] - CRITICAL: this is a logger critical message
+2017-11-06 21:00:03,821 - log.py[line:48] - INFO: this is a logger info message
+2017-11-06 21:00:03,823 - log.py[line:49] - WARNING: this is a logger warning message
+2017-11-06 21:00:03,824 - log.py[line:50] - ERROR: this is a logger error message
+2017-11-06 21:00:03,824 - log.py[line:51] - CRITICAL: this is a logger critical message
+2017-11-06 21:00:03,824 - log.py[line:57] - INFO: helllllllllllllllll
+2017-11-06 21:03:05,356 - decorator.py[line:44] - ERROR: -----------
+2017-11-06 21:04:57,009 - decorator.py[line:71] - INFO: hello
+2017-11-06 21:05:46,470 - decorator.py[line:71] - INFO: hello
+2017-11-06 21:06:07,728 - decorator.py[line:45] - INFO: **********
+2017-11-06 21:07:06,419 - decorator.py[line:71] - WARNING: hello
+2017-11-06 21:07:30,199 - decorator.py[line:71] - WARNING: hello
+2017-11-06 21:11:16,431 - log.py[line:49] - INFO: this is a logger info message
+2017-11-06 21:11:16,448 - log.py[line:50] - WARNING: this is a logger warning message
+2017-11-06 21:11:16,449 - log.py[line:51] - ERROR: this is a logger error message
+2017-11-06 21:11:16,449 - log.py[line:52] - CRITICAL: this is a logger critical message
+2017-11-06 21:11:32,880 - log.py[line:49] - INFO: this is a logger info message
+2017-11-06 21:11:32,880 - log.py[line:50] - WARNING: this is a logger warning message
+2017-11-06 21:11:32,881 - log.py[line:51] - ERROR: this is a logger error message
+2017-11-06 21:11:32,881 - log.py[line:52] - CRITICAL: this is a logger critical message
+2017-11-06 21:11:42,934 - log.py[line:49] - INFO: this is a logger info message
+2017-11-06 21:11:42,934 - log.py[line:50] - WARNING: this is a logger warning message
+2017-11-06 21:11:42,935 - log.py[line:51] - ERROR: this is a logger error message
+2017-11-06 21:11:42,935 - log.py[line:52] - CRITICAL: this is a logger critical message
+2017-11-06 21:11:50,424 - log.py[line:49] - INFO: this is a logger info message
+2017-11-06 21:11:50,424 - log.py[line:50] - WARNING: this is a logger warning message
+2017-11-06 21:11:50,425 - log.py[line:51] - ERROR: this is a logger error message
+2017-11-06 21:11:50,425 - log.py[line:52] - CRITICAL: this is a logger critical message
+2017-11-06 21:12:03,259 - log.py[line:47] - DEBUG: this is a logger debug message
+2017-11-06 21:12:03,259 - log.py[line:48] - DEBUG: this is a logger debug message
+2017-11-06 21:12:03,259 - log.py[line:49] - INFO: this is a logger info message
+2017-11-06 21:12:03,259 - log.py[line:50] - WARNING: this is a logger warning message
+2017-11-06 21:12:03,259 - log.py[line:51] - ERROR: this is a logger error message
+2017-11-06 21:12:03,259 - log.py[line:52] - CRITICAL: this is a logger critical message
+2017-11-06 21:12:03,259 - log.py[line:58] - DEBUG: hello
+2017-11-06 21:12:03,259 - log.py[line:60] - DEBUG: this is a logger debug message
+2017-11-06 21:12:34,873 - log.py[line:53] - DEBUG: hello
+2017-11-06 21:12:34,873 - log.py[line:55] - DEBUG: this is a logger debug message
+2017-11-06 21:12:43,572 - decorator.py[line:71] - DEBUG: hello
+2017-11-06 21:14:58,954 - decorator.py[line:69] - DEBUG: hello
+2017-11-06 21:17:50,876 - decorator.py[line:44] - DEBUG: p.login()---login---3.4324519634246826s
+2017-11-06 21:21:20,604 - decorator.py[line:44] - DEBUG: p.login()---login---2.926153.3fs
+2017-11-06 21:21:41,811 - decorator.py[line:44] - DEBUG: p.login()---login---2.925s
+2017-11-06 21:47:18,745 - decorator.py[line:41] - DEBUG: p.login()---login---2.592s
+2017-11-06 21:50:06,557 - decorator.py[line:41] - DEBUG: self.login()---login---2.497s
+2017-11-06 21:50:07,867 - decorator.py[line:41] - DEBUG: p.load()---load---3.839s
+2017-11-06 21:50:07,883 - decorator.py[line:41] - DEBUG: self.find_element('customer_search_phone').send_keys(phone)---find_element---0.016s
+2017-11-06 21:50:07,954 - decorator.py[line:41] - DEBUG: self.find_element('customer_search_btn').click()---find_element---0.017s
+2017-11-06 21:51:36,624 - decorator.py[line:41] - DEBUG: self.login()---login---2.472s
+2017-11-06 21:51:37,948 - decorator.py[line:41] - DEBUG: p.load()---load---3.827s
+2017-11-06 21:51:37,964 - decorator.py[line:41] - DEBUG: self.find_element('customer_search_phone').send_keys(phone)---find_element---0.015s
+2017-11-06 21:51:38,032 - decorator.py[line:41] - DEBUG: self.find_element('customer_search_btn').click()---find_element---0.016s
+2017-11-06 21:52:28,697 - decorator.py[line:41] - DEBUG: self.login()---login---2.836s
+2017-11-06 21:52:30,004 - decorator.py[line:41] - DEBUG: page.load()---load---4.191s
+2017-11-06 21:52:30,026 - decorator.py[line:41] - DEBUG: self.find_element('customer_search_phone').send_keys(phone)---find_element---0.022s
+2017-11-06 21:52:30,157 - decorator.py[line:41] - DEBUG: self.find_element('customer_search_btn').click()---find_element---0.019s
+2017-11-06 21:52:31,257 - decorator.py[line:41] - DEBUG: return self.find_element(element_name).get_attribute('value')---find_element---0.043s
+2017-11-06 21:52:31,263 - decorator.py[line:41] - DEBUG: customer_phone = page.get_value('customer_phone')---get_value---0.057s
+2017-11-06 21:52:31,285 - decorator.py[line:41] - DEBUG: return self.find_element(element_name).get_attribute('value')---find_element---0.019s
+2017-11-06 21:52:31,291 - decorator.py[line:41] - DEBUG: customer_username = page.get_value('customer_username')---get_value---0.028s
+2017-11-06 21:52:31,310 - decorator.py[line:41] - DEBUG: return self.find_element(element_name).get_attribute('value')---find_element---0.017s
+2017-11-06 21:52:31,316 - decorator.py[line:41] - DEBUG: customer_id_card = page.get_value('customer_id_card')---get_value---0.025s
+2017-11-06 21:52:31,327 - decorator.py[line:41] - DEBUG: return self.find_element(element_name).text---find_element---0.009s
+2017-11-06 21:52:31,345 - decorator.py[line:41] - DEBUG: customer_sex = page.get_text('customer_id_card')---get_text---0.029s
+2017-11-06 21:52:31,365 - decorator.py[line:41] - DEBUG: return self.find_element(element_name).get_attribute('value')---find_element---0.018s
+2017-11-06 21:52:31,371 - decorator.py[line:41] - DEBUG: customer_birthday = page.get_value('customer_birthday')---get_value---0.026s
+2017-11-06 21:52:31,381 - decorator.py[line:41] - DEBUG: return self.find_element(element_name).get_attribute('value')---find_element---0.008s
+2017-11-06 21:52:31,386 - decorator.py[line:41] - DEBUG: customer_nation = page.get_value('customer_id_card')---get_value---0.015s
+2017-11-06 21:52:31,396 - decorator.py[line:41] - DEBUG: return self.find_element(element_name).text---find_element---0.008s
+2017-11-06 21:52:31,403 - decorator.py[line:41] - DEBUG: customer_source = page.get_text('customer_id_card')---get_text---0.017s
+2017-11-06 21:52:31,414 - decorator.py[line:41] - DEBUG: return self.find_element(element_name).text---find_element---0.008s
+2017-11-06 21:52:31,421 - decorator.py[line:41] - DEBUG: customer_remark = page.get_text('customer_id_card')---get_text---0.018s
+2017-11-06 21:52:31,462 - decorator.py[line:41] - DEBUG: db_map = self.get_db_map(element_name)---get_db_map---0.002s
+2017-11-06 21:52:31,483 - decorator.py[line:41] - DEBUG: return db.get(key=db_map[0], table=db_map[1], where_condition=where_condition)[0]---get---0.021s
+2017-11-06 21:52:31,483 - decorator.py[line:41] - DEBUG: db_customer_username = page.get_db_value('customer_username', where_condition)---get_db_value---0.062s
+2017-11-06 21:52:31,500 - decorator.py[line:41] - DEBUG: db_map = self.get_db_map(element_name)---get_db_map---0.003s
+2017-11-06 21:52:31,503 - decorator.py[line:41] - DEBUG: return db.get(key=db_map[0], table=db_map[1], where_condition=where_condition)[0]---get---0.003s
+2017-11-06 21:52:31,503 - decorator.py[line:41] - DEBUG: db_customer_phone = page.get_db_value('customer_phone', where_condition)---get_db_value---0.020s
+2017-11-06 21:52:31,519 - decorator.py[line:41] - DEBUG: db_map = self.get_db_map(element_name)---get_db_map---0.002s
+2017-11-06 21:52:31,522 - decorator.py[line:41] - DEBUG: return db.get(key=db_map[0], table=db_map[1], where_condition=where_condition)[0]---get---0.002s
+2017-11-06 21:52:31,523 - decorator.py[line:41] - DEBUG: db_customer_id_card = page.get_db_value('customer_id_card', where_condition)---get_db_value---0.020s
+2017-11-06 21:52:31,539 - decorator.py[line:41] - DEBUG: db_map = self.get_db_map(element_name)---get_db_map---0.002s
+2017-11-06 21:52:31,542 - decorator.py[line:41] - DEBUG: return db.get(key=db_map[0], table=db_map[1], where_condition=where_condition)[0]---get---0.003s
+2017-11-06 21:52:31,542 - decorator.py[line:41] - DEBUG: db_customer_sex = page.get_db_value('customer_sex', where_condition)---get_db_value---0.019s
+2017-11-06 21:52:31,559 - decorator.py[line:41] - DEBUG: db_map = self.get_db_map(element_name)---get_db_map---0.002s
+2017-11-06 21:52:31,562 - decorator.py[line:41] - DEBUG: return db.get(key=db_map[0], table=db_map[1], where_condition=where_condition)[0]---get---0.003s
+2017-11-06 21:52:31,562 - decorator.py[line:41] - DEBUG: db_customer_birthday = page.get_db_value('customer_birthday', where_condition)---get_db_value---0.019s
+2017-11-06 21:52:31,578 - decorator.py[line:41] - DEBUG: db_map = self.get_db_map(element_name)---get_db_map---0.002s
+2017-11-06 21:52:31,581 - decorator.py[line:41] - DEBUG: return db.get(key=db_map[0], table=db_map[1], where_condition=where_condition)[0]---get---0.003s
+2017-11-06 21:52:31,581 - decorator.py[line:41] - DEBUG: db_customer_nation = page.get_db_value('customer_nation', where_condition)---get_db_value---0.019s
+2017-11-06 21:52:31,597 - decorator.py[line:41] - DEBUG: db_map = self.get_db_map(element_name)---get_db_map---0.002s
+2017-11-06 21:52:31,600 - decorator.py[line:41] - DEBUG: return db.get(key=db_map[0], table=db_map[1], where_condition=where_condition)[0]---get---0.003s
+2017-11-06 21:52:31,600 - decorator.py[line:41] - DEBUG: db_customer_source = page.get_db_value('customer_source', where_condition)---get_db_value---0.020s
+2017-11-06 21:52:31,608 - decorator.py[line:41] - DEBUG: db_map = self.get_db_map(element_name)---get_db_map---0.002s
+2017-11-06 21:52:31,611 - decorator.py[line:41] - DEBUG: return db.get(key=db_map[0], table=db_map[1], where_condition=where_condition)[0]---get---0.003s
+2017-11-06 21:52:31,611 - decorator.py[line:41] - DEBUG: db_customer_remark = page.get_db_value('customer_remark', where_condition)---get_db_value---0.010s
+2017-11-06 21:52:31,633 - decorator.py[line:41] - DEBUG: print(page.find_element('customer_sex'))---find_element---0.022s

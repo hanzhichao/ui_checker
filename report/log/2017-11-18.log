@@ -1,0 +1,889 @@
+2017-11-18 10:54:05,230 - DEBUG: self.open(login_url)---open---6.623s
+2017-11-18 10:54:06,323 - DEBUG: input_elm = self.find_element(*label)---find_element---0.087s
+2017-11-18 10:54:06,485 - DEBUG: self.type(self.input_username_loc, username)---type---0.253s
+2017-11-18 10:54:06,517 - DEBUG: input_elm = self.find_element(*label)---find_element---0.028s
+2017-11-18 10:54:06,642 - DEBUG: self.type(self.input_password_loc, password)---type---0.157s
+2017-11-18 10:54:06,674 - DEBUG: self.find_element(*text).click()---find_element---0.028s
+2017-11-18 10:54:06,734 - DEBUG: self.click(self.btnLogin_loc)---click---0.092s
+2017-11-18 10:54:08,803 - DEBUG: self.clicks(menu)---clicks---1.064s
+2017-11-18 10:54:10,183 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.377s
+2017-11-18 10:54:10,219 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 10:54:10,227 - DEBUG: p.load()---load---2.492s
+2017-11-18 10:54:10,258 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.031s
+2017-11-18 10:54:10,258 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.031s
+2017-11-18 10:54:10,497 - DEBUG: self.type('电话搜索：', phone)---type---0.270s
+2017-11-18 10:54:10,533 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.032s
+2017-11-18 10:54:10,533 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 10:54:10,609 - DEBUG: self.click_btn('搜索')---click_btn---0.112s
+2017-11-18 10:54:11,690 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.076s
+2017-11-18 10:54:11,690 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.080s
+2017-11-18 10:54:11,766 - DEBUG: self.click("显示更多内容")---click---0.156s
+2017-11-18 10:54:11,814 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 10:54:11,814 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.044s
+2017-11-18 10:54:11,930 - DEBUG: self.select("来电原由", "订单")---select---0.160s
+2017-11-18 10:54:11,978 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.040s
+2017-11-18 10:54:11,978 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.044s
+2017-11-18 10:54:12,082 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.152s
+2017-11-18 10:54:12,166 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.080s
+2017-11-18 10:54:12,166 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.080s
+2017-11-18 10:54:12,278 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.196s
+2017-11-18 10:54:12,314 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 10:54:12,346 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.028s
+2017-11-18 10:54:12,346 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.032s
+2017-11-18 10:54:12,346 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.064s
+2017-11-18 10:54:12,418 - DEBUG: self.click_btn("保存", 2)---click_btn---0.136s
+2017-11-18 10:54:12,466 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="fbf32e073def7df935bfc454b49a5d1a", element="0.7325448120174527-14")>, <selenium.webdriver.remote.webelement.WebElement (session="fbf32e073def7df935bfc454b49a5d1a", element="0.7325448120174527-15")>, <selenium.webdriver.remote.webelement.WebElement (session="fbf32e073def7df935bfc454b49a5d1a", element="0.7325448120174527-16")>, <selenium.webdriver.remote.webelement.WebElement (session="fbf32e073def7df935bfc454b49a5d1a", element="0.7325448120174527-17")>]
+2017-11-18 10:54:12,478 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.052s
+2017-11-18 10:54:12,478 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.056s
+2017-11-18 10:54:12,550 - DEBUG: self.click("显示更多内容", 4)---click---0.132s
+2017-11-18 10:54:13,615 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.060s
+2017-11-18 10:54:13,615 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.064s
+2017-11-18 10:54:13,783 - DEBUG: self.select("配送站点", station)---select---0.232s
+2017-11-18 10:54:13,867 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.032s
+2017-11-18 10:54:13,867 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.040s
+2017-11-18 10:54:13,987 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.204s
+2017-11-18 10:54:15,069 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.080s
+2017-11-18 10:54:56,299 - DEBUG: self.open(login_url)---open---1.148s
+2017-11-18 10:54:57,365 - DEBUG: input_elm = self.find_element(*label)---find_element---0.055s
+2017-11-18 10:54:57,609 - DEBUG: self.type(self.input_username_loc, username)---type---0.307s
+2017-11-18 10:54:57,650 - DEBUG: input_elm = self.find_element(*label)---find_element---0.037s
+2017-11-18 10:54:57,794 - DEBUG: self.type(self.input_password_loc, password)---type---0.181s
+2017-11-18 10:54:57,838 - DEBUG: self.find_element(*text).click()---find_element---0.040s
+2017-11-18 10:54:57,909 - DEBUG: self.click(self.btnLogin_loc)---click---0.115s
+2017-11-18 10:54:59,877 - DEBUG: self.clicks(menu)---clicks---0.965s
+2017-11-18 10:55:01,105 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.228s
+2017-11-18 10:55:01,132 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 10:55:01,132 - DEBUG: p.load()---load---2.220s
+2017-11-18 10:55:01,172 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.041s
+2017-11-18 10:55:01,172 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.041s
+2017-11-18 10:55:01,372 - DEBUG: self.type('电话搜索：', phone)---type---0.241s
+2017-11-18 10:55:01,405 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 10:55:01,405 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.028s
+2017-11-18 10:55:01,473 - DEBUG: self.click_btn('搜索')---click_btn---0.100s
+2017-11-18 10:55:02,553 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.064s
+2017-11-18 10:55:02,553 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.076s
+2017-11-18 10:55:02,653 - DEBUG: self.click("显示更多内容")---click---0.180s
+2017-11-18 10:55:02,705 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.040s
+2017-11-18 10:55:02,705 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.044s
+2017-11-18 10:55:02,837 - DEBUG: self.select("来电原由", "订单")---select---0.184s
+2017-11-18 10:55:02,877 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 10:55:02,877 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.036s
+2017-11-18 10:55:02,973 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.132s
+2017-11-18 10:55:03,065 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.088s
+2017-11-18 10:55:03,065 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.092s
+2017-11-18 10:55:03,177 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.204s
+2017-11-18 10:55:03,213 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 10:55:03,245 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.028s
+2017-11-18 10:55:03,245 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.032s
+2017-11-18 10:55:03,245 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.068s
+2017-11-18 10:55:03,325 - DEBUG: self.click_btn("保存", 2)---click_btn---0.148s
+2017-11-18 10:55:03,369 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="690f67d7e92d0bfbf7532e03e4d1e49c", element="0.11462823034019332-14")>, <selenium.webdriver.remote.webelement.WebElement (session="690f67d7e92d0bfbf7532e03e4d1e49c", element="0.11462823034019332-15")>, <selenium.webdriver.remote.webelement.WebElement (session="690f67d7e92d0bfbf7532e03e4d1e49c", element="0.11462823034019332-16")>, <selenium.webdriver.remote.webelement.WebElement (session="690f67d7e92d0bfbf7532e03e4d1e49c", element="0.11462823034019332-17")>]
+2017-11-18 10:55:03,381 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.052s
+2017-11-18 10:55:03,381 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.052s
+2017-11-18 10:55:03,453 - DEBUG: self.click("显示更多内容", 4)---click---0.128s
+2017-11-18 10:55:04,526 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.064s
+2017-11-18 10:55:04,526 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.068s
+2017-11-18 10:55:04,634 - DEBUG: self.select("配送站点", station)---select---0.180s
+2017-11-18 10:55:04,702 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.024s
+2017-11-18 10:55:04,702 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.028s
+2017-11-18 10:55:04,798 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.164s
+2017-11-18 10:55:05,854 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.052s
+2017-11-18 10:55:11,008 - DEBUG: self.by_xpath("//*[contains(text(),'订单渠道')]/following::select[1]").click()---by_xpath---0.032s
+2017-11-18 11:06:34,041 - DEBUG: self.open(login_url)---open---1.556s
+2017-11-18 11:06:35,125 - DEBUG: input_elm = self.find_element(*label)---find_element---0.078s
+2017-11-18 11:06:35,310 - DEBUG: self.type(self.input_username_loc, username)---type---0.267s
+2017-11-18 11:06:35,342 - DEBUG: input_elm = self.find_element(*label)---find_element---0.028s
+2017-11-18 11:06:35,459 - DEBUG: self.type(self.input_password_loc, password)---type---0.149s
+2017-11-18 11:06:35,487 - DEBUG: self.find_element(*text).click()---find_element---0.028s
+2017-11-18 11:06:35,544 - DEBUG: self.click(self.btnLogin_loc)---click---0.085s
+2017-11-18 11:06:37,758 - DEBUG: self.clicks(menu)---clicks---1.211s
+2017-11-18 11:06:39,041 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.280s
+2017-11-18 11:06:39,065 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:06:39,065 - DEBUG: p.load()---load---2.518s
+2017-11-18 11:06:39,085 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.016s
+2017-11-18 11:06:39,085 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.016s
+2017-11-18 11:06:39,282 - DEBUG: self.type('电话搜索：', phone)---type---0.217s
+2017-11-18 11:06:39,314 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 11:06:39,314 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.028s
+2017-11-18 11:06:39,378 - DEBUG: self.click_btn('搜索')---click_btn---0.096s
+2017-11-18 11:06:40,467 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.072s
+2017-11-18 11:06:40,467 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.080s
+2017-11-18 11:06:40,607 - DEBUG: self.click("显示更多内容")---click---0.228s
+2017-11-18 11:06:40,671 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.048s
+2017-11-18 11:06:40,671 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.052s
+2017-11-18 11:06:40,815 - DEBUG: self.select("来电原由", "订单")---select---0.208s
+2017-11-18 11:06:40,863 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.040s
+2017-11-18 11:06:40,863 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.044s
+2017-11-18 11:06:41,047 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.232s
+2017-11-18 11:06:41,151 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.096s
+2017-11-18 11:06:41,151 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.100s
+2017-11-18 11:06:41,235 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.188s
+2017-11-18 11:06:41,275 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:06:41,303 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:06:41,303 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.028s
+2017-11-18 11:06:41,303 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.068s
+2017-11-18 11:06:41,371 - DEBUG: self.click_btn("保存", 2)---click_btn---0.136s
+2017-11-18 11:06:41,407 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="80d47d3da6a539783bdaa4aeae200c35", element="0.48424053178410076-14")>, <selenium.webdriver.remote.webelement.WebElement (session="80d47d3da6a539783bdaa4aeae200c35", element="0.48424053178410076-15")>, <selenium.webdriver.remote.webelement.WebElement (session="80d47d3da6a539783bdaa4aeae200c35", element="0.48424053178410076-16")>, <selenium.webdriver.remote.webelement.WebElement (session="80d47d3da6a539783bdaa4aeae200c35", element="0.48424053178410076-17")>]
+2017-11-18 11:06:41,419 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.040s
+2017-11-18 11:06:41,419 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.044s
+2017-11-18 11:06:41,495 - DEBUG: self.click("显示更多内容", 4)---click---0.120s
+2017-11-18 11:06:42,616 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.108s
+2017-11-18 11:06:42,616 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.116s
+2017-11-18 11:06:42,844 - DEBUG: self.select("配送站点", station)---select---0.348s
+2017-11-18 11:06:42,916 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.028s
+2017-11-18 11:06:42,916 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.032s
+2017-11-18 11:06:43,008 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.164s
+2017-11-18 11:06:44,094 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.084s
+2017-11-18 11:06:49,311 - DEBUG: self.by_xpath("//*[contains(text(),'订单渠道')]/following::select[1]").click()---by_xpath---0.076s
+2017-11-18 11:09:38,955 - DEBUG: self.open(login_url)---open---1.360s
+2017-11-18 11:09:40,041 - DEBUG: input_elm = self.find_element(*label)---find_element---0.072s
+2017-11-18 11:09:40,196 - DEBUG: self.type(self.input_username_loc, username)---type---0.227s
+2017-11-18 11:09:40,224 - DEBUG: input_elm = self.find_element(*label)---find_element---0.024s
+2017-11-18 11:09:40,337 - DEBUG: self.type(self.input_password_loc, password)---type---0.141s
+2017-11-18 11:09:40,361 - DEBUG: self.find_element(*text).click()---find_element---0.024s
+2017-11-18 11:09:40,425 - DEBUG: self.click(self.btnLogin_loc)---click---0.088s
+2017-11-18 11:09:42,416 - DEBUG: self.clicks(menu)---clicks---0.984s
+2017-11-18 11:09:43,718 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.297s
+2017-11-18 11:09:43,750 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:09:43,750 - DEBUG: p.load()---load---2.322s
+2017-11-18 11:09:43,781 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.031s
+2017-11-18 11:09:43,781 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.031s
+2017-11-18 11:09:43,986 - DEBUG: self.type('电话搜索：', phone)---type---0.236s
+2017-11-18 11:09:44,018 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.024s
+2017-11-18 11:09:44,018 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.028s
+2017-11-18 11:09:44,078 - DEBUG: self.click_btn('搜索')---click_btn---0.092s
+2017-11-18 11:09:45,193 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.092s
+2017-11-18 11:09:45,193 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.108s
+2017-11-18 11:09:45,273 - DEBUG: self.click("显示更多内容")---click---0.192s
+2017-11-18 11:09:45,321 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.040s
+2017-11-18 11:09:45,321 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.044s
+2017-11-18 11:09:45,417 - DEBUG: self.select("来电原由", "订单")---select---0.144s
+2017-11-18 11:09:45,449 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.024s
+2017-11-18 11:09:45,449 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.028s
+2017-11-18 11:09:45,541 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.120s
+2017-11-18 11:09:45,625 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.076s
+2017-11-18 11:09:45,625 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.080s
+2017-11-18 11:09:45,713 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.168s
+2017-11-18 11:09:45,749 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:09:45,777 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:09:45,777 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.028s
+2017-11-18 11:09:45,777 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.060s
+2017-11-18 11:09:45,857 - DEBUG: self.click_btn("保存", 2)---click_btn---0.144s
+2017-11-18 11:09:45,889 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="f1fc00c7a0bd85dba88be1b62d0badf9", element="0.5730419084497143-14")>, <selenium.webdriver.remote.webelement.WebElement (session="f1fc00c7a0bd85dba88be1b62d0badf9", element="0.5730419084497143-15")>, <selenium.webdriver.remote.webelement.WebElement (session="f1fc00c7a0bd85dba88be1b62d0badf9", element="0.5730419084497143-16")>, <selenium.webdriver.remote.webelement.WebElement (session="f1fc00c7a0bd85dba88be1b62d0badf9", element="0.5730419084497143-17")>]
+2017-11-18 11:09:45,905 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.044s
+2017-11-18 11:09:45,905 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.044s
+2017-11-18 11:09:45,977 - DEBUG: self.click("显示更多内容", 4)---click---0.120s
+2017-11-18 11:09:47,064 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.072s
+2017-11-18 11:09:47,068 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.084s
+2017-11-18 11:09:47,268 - DEBUG: self.select("配送站点", station)---select---0.288s
+2017-11-18 11:09:47,328 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.020s
+2017-11-18 11:09:47,328 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.024s
+2017-11-18 11:09:47,420 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.152s
+2017-11-18 11:09:48,515 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.092s
+2017-11-18 11:09:53,826 - DEBUG: self.by_xpath("//*[contains(text(),'订单渠道')]/following::select[1]").click()---by_xpath---0.068s
+2017-11-18 11:11:35,549 - DEBUG: self.open(login_url)---open---1.521s
+2017-11-18 11:11:36,644 - DEBUG: input_elm = self.find_element(*label)---find_element---0.094s
+2017-11-18 11:11:36,912 - DEBUG: self.type(self.input_username_loc, username)---type---0.362s
+2017-11-18 11:11:36,970 - DEBUG: input_elm = self.find_element(*label)---find_element---0.050s
+2017-11-18 11:11:37,185 - DEBUG: self.type(self.input_password_loc, password)---type---0.272s
+2017-11-18 11:11:37,213 - DEBUG: self.find_element(*text).click()---find_element---0.024s
+2017-11-18 11:11:37,269 - DEBUG: self.click(self.btnLogin_loc)---click---0.084s
+2017-11-18 11:11:42,663 - DEBUG: self.clicks(menu)---clicks---4.389s
+2017-11-18 11:11:47,717 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---4.051s
+2017-11-18 11:11:47,742 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:11:47,742 - DEBUG: p.load()---load---9.472s
+2017-11-18 11:11:47,778 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 11:11:47,778 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.036s
+2017-11-18 11:11:47,950 - DEBUG: self.type('电话搜索：', phone)---type---0.209s
+2017-11-18 11:11:47,982 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.024s
+2017-11-18 11:11:47,982 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.028s
+2017-11-18 11:11:48,047 - DEBUG: self.click_btn('搜索')---click_btn---0.097s
+2017-11-18 11:11:49,145 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.080s
+2017-11-18 11:11:49,145 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.092s
+2017-11-18 11:11:49,289 - DEBUG: self.click("显示更多内容")---click---0.240s
+2017-11-18 11:11:49,373 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.068s
+2017-11-18 11:11:49,377 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.080s
+2017-11-18 11:11:49,561 - DEBUG: self.select("来电原由", "订单")---select---0.272s
+2017-11-18 11:11:49,597 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 11:11:49,597 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.032s
+2017-11-18 11:11:49,701 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.140s
+2017-11-18 11:11:49,773 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.064s
+2017-11-18 11:11:49,773 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.068s
+2017-11-18 11:11:49,865 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.164s
+2017-11-18 11:11:49,901 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:11:49,929 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:11:49,929 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.028s
+2017-11-18 11:11:49,929 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.064s
+2017-11-18 11:11:49,989 - DEBUG: self.click_btn("保存", 2)---click_btn---0.124s
+2017-11-18 11:11:50,021 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="94e590adabe17ae387597e7558de20d1", element="0.9286911418390529-14")>, <selenium.webdriver.remote.webelement.WebElement (session="94e590adabe17ae387597e7558de20d1", element="0.9286911418390529-15")>, <selenium.webdriver.remote.webelement.WebElement (session="94e590adabe17ae387597e7558de20d1", element="0.9286911418390529-16")>]
+2017-11-18 11:12:28,251 - DEBUG: self.open(login_url)---open---2.101s
+2017-11-18 11:12:29,335 - DEBUG: input_elm = self.find_element(*label)---find_element---0.079s
+2017-11-18 11:12:29,491 - DEBUG: self.type(self.input_username_loc, username)---type---0.235s
+2017-11-18 11:12:29,523 - DEBUG: input_elm = self.find_element(*label)---find_element---0.032s
+2017-11-18 11:12:29,676 - DEBUG: self.type(self.input_password_loc, password)---type---0.185s
+2017-11-18 11:12:29,708 - DEBUG: self.find_element(*text).click()---find_element---0.028s
+2017-11-18 11:12:29,776 - DEBUG: self.click(self.btnLogin_loc)---click---0.100s
+2017-11-18 11:13:08,623 - DEBUG: self.open(login_url)---open---12.306s
+2017-11-18 11:13:09,713 - DEBUG: input_elm = self.find_element(*label)---find_element---0.078s
+2017-11-18 11:13:09,879 - DEBUG: self.type(self.input_username_loc, username)---type---0.244s
+2017-11-18 11:13:09,903 - DEBUG: input_elm = self.find_element(*label)---find_element---0.020s
+2017-11-18 11:13:10,015 - DEBUG: self.type(self.input_password_loc, password)---type---0.136s
+2017-11-18 11:13:10,043 - DEBUG: self.find_element(*text).click()---find_element---0.024s
+2017-11-18 11:13:10,102 - DEBUG: self.click(self.btnLogin_loc)---click---0.087s
+2017-11-18 11:13:18,603 - DEBUG: self.clicks(menu)---clicks---7.499s
+2017-11-18 11:13:20,399 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.794s
+2017-11-18 11:13:20,423 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:13:20,423 - DEBUG: p.load()---load---9.319s
+2017-11-18 11:13:20,455 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 11:13:20,455 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.032s
+2017-11-18 11:13:20,648 - DEBUG: self.type('电话搜索：', phone)---type---0.225s
+2017-11-18 11:13:20,680 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 11:13:20,680 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 11:13:20,740 - DEBUG: self.click_btn('搜索')---click_btn---0.092s
+2017-11-18 11:13:21,856 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.100s
+2017-11-18 11:13:21,856 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.112s
+2017-11-18 11:13:22,004 - DEBUG: self.click("显示更多内容")---click---0.264s
+2017-11-18 11:13:22,076 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.060s
+2017-11-18 11:13:22,076 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.064s
+2017-11-18 11:13:22,264 - DEBUG: self.select("来电原由", "订单")---select---0.260s
+2017-11-18 11:13:22,312 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 11:13:22,312 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.040s
+2017-11-18 11:13:22,496 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.232s
+2017-11-18 11:13:22,712 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.196s
+2017-11-18 11:13:22,712 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.208s
+2017-11-18 11:13:22,840 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.344s
+2017-11-18 11:13:22,880 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:13:22,908 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:13:22,908 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.028s
+2017-11-18 11:13:22,908 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.064s
+2017-11-18 11:13:22,984 - DEBUG: self.click_btn("保存", 2)---click_btn---0.144s
+2017-11-18 11:13:23,028 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="9eff27bb5686d4982c6df3206066d990", element="0.9556659696270116-14")>, <selenium.webdriver.remote.webelement.WebElement (session="9eff27bb5686d4982c6df3206066d990", element="0.9556659696270116-15")>, <selenium.webdriver.remote.webelement.WebElement (session="9eff27bb5686d4982c6df3206066d990", element="0.9556659696270116-16")>, <selenium.webdriver.remote.webelement.WebElement (session="9eff27bb5686d4982c6df3206066d990", element="0.9556659696270116-17")>]
+2017-11-18 11:13:23,040 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.052s
+2017-11-18 11:13:23,040 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.056s
+2017-11-18 11:13:23,104 - DEBUG: self.click("显示更多内容", 4)---click---0.120s
+2017-11-18 11:13:24,188 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.072s
+2017-11-18 11:13:24,192 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.084s
+2017-11-18 11:13:24,528 - DEBUG: self.select("配送站点", station)---select---0.424s
+2017-11-18 11:13:24,600 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.028s
+2017-11-18 11:13:24,600 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.032s
+2017-11-18 11:13:24,712 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.180s
+2017-11-18 11:13:25,805 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.092s
+2017-11-18 11:13:31,101 - DEBUG: print(self.by_xpath("//*[contains(text(),'订单渠道')]/following::select[1]").get_attribute("id"))---by_xpath---0.088s
+2017-11-18 11:23:29,573 - DEBUG: self.open(login_url)---open---2.981s
+2017-11-18 11:23:30,634 - DEBUG: input_elm = self.find_element(*label)---find_element---0.047s
+2017-11-18 11:23:30,814 - DEBUG: self.type(self.input_username_loc, username)---type---0.226s
+2017-11-18 11:23:30,854 - DEBUG: input_elm = self.find_element(*label)---find_element---0.036s
+2017-11-18 11:23:31,008 - DEBUG: self.type(self.input_password_loc, password)---type---0.195s
+2017-11-18 11:23:31,041 - DEBUG: self.find_element(*text).click()---find_element---0.028s
+2017-11-18 11:23:31,138 - DEBUG: self.click(self.btnLogin_loc)---click---0.125s
+2017-11-18 11:23:34,693 - DEBUG: self.clicks(menu)---clicks---2.551s
+2017-11-18 11:23:35,800 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.104s
+2017-11-18 11:23:35,836 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:23:35,836 - DEBUG: p.load()---load---3.693s
+2017-11-18 11:23:35,872 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 11:23:35,872 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.032s
+2017-11-18 11:23:36,080 - DEBUG: self.type('电话搜索：', phone)---type---0.240s
+2017-11-18 11:23:36,116 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 11:23:36,116 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 11:23:36,176 - DEBUG: self.click_btn('搜索')---click_btn---0.096s
+2017-11-18 11:23:37,204 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:23:37,204 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.028s
+2017-11-18 11:23:37,272 - DEBUG: self.click("显示更多内容")---click---0.096s
+2017-11-18 11:23:37,316 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 11:23:37,316 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.040s
+2017-11-18 11:23:37,408 - DEBUG: self.select("来电原由", "订单")---select---0.136s
+2017-11-18 11:23:37,444 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 11:23:37,444 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.032s
+2017-11-18 11:23:37,532 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.124s
+2017-11-18 11:23:37,624 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.088s
+2017-11-18 11:23:37,624 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.088s
+2017-11-18 11:23:37,716 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.184s
+2017-11-18 11:23:37,768 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:23:37,800 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:23:37,800 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.032s
+2017-11-18 11:23:37,800 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.080s
+2017-11-18 11:23:37,892 - DEBUG: self.click_btn("保存", 2)---click_btn---0.176s
+2017-11-18 11:23:37,924 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="d3939034a4d1f6093d2c00473fdb6a60", element="0.5637340186305739-14")>, <selenium.webdriver.remote.webelement.WebElement (session="d3939034a4d1f6093d2c00473fdb6a60", element="0.5637340186305739-15")>, <selenium.webdriver.remote.webelement.WebElement (session="d3939034a4d1f6093d2c00473fdb6a60", element="0.5637340186305739-16")>, <selenium.webdriver.remote.webelement.WebElement (session="d3939034a4d1f6093d2c00473fdb6a60", element="0.5637340186305739-17")>]
+2017-11-18 11:23:37,936 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.040s
+2017-11-18 11:23:37,936 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.044s
+2017-11-18 11:23:38,016 - DEBUG: self.click("显示更多内容", 4)---click---0.124s
+2017-11-18 11:23:39,044 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.024s
+2017-11-18 11:23:39,044 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.028s
+2017-11-18 11:23:39,148 - DEBUG: self.select("配送站点", station)---select---0.132s
+2017-11-18 11:23:39,204 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.024s
+2017-11-18 11:23:39,204 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.024s
+2017-11-18 11:23:39,316 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.168s
+2017-11-18 11:23:40,340 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.024s
+2017-11-18 11:23:45,461 - DEBUG: print(self.by_xpath("//*[contains(text(),'订单渠道：')]/following::select[1]").get_attribute("id"))---by_xpath---0.040s
+2017-11-18 11:24:25,585 - DEBUG: self.open(login_url)---open---2.312s
+2017-11-18 11:24:26,685 - DEBUG: input_elm = self.find_element(*label)---find_element---0.092s
+2017-11-18 11:24:27,041 - DEBUG: self.type(self.input_username_loc, username)---type---0.456s
+2017-11-18 11:24:27,113 - DEBUG: input_elm = self.find_element(*label)---find_element---0.060s
+2017-11-18 11:24:27,285 - DEBUG: self.type(self.input_password_loc, password)---type---0.240s
+2017-11-18 11:24:27,321 - DEBUG: self.find_element(*text).click()---find_element---0.032s
+2017-11-18 11:24:27,405 - DEBUG: self.click(self.btnLogin_loc)---click---0.120s
+2017-11-18 11:24:34,471 - DEBUG: self.clicks(menu)---clicks---6.062s
+2017-11-18 11:24:36,183 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.712s
+2017-11-18 11:24:36,211 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:24:36,211 - DEBUG: p.load()---load---7.806s
+2017-11-18 11:24:36,243 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 11:24:36,243 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.032s
+2017-11-18 11:24:36,459 - DEBUG: self.type('电话搜索：', phone)---type---0.248s
+2017-11-18 11:24:36,503 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.036s
+2017-11-18 11:24:36,503 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.040s
+2017-11-18 11:24:36,567 - DEBUG: self.click_btn('搜索')---click_btn---0.108s
+2017-11-18 11:24:37,680 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.096s
+2017-11-18 11:24:37,680 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.108s
+2017-11-18 11:24:37,888 - DEBUG: self.click("显示更多内容")---click---0.320s
+2017-11-18 11:24:37,972 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.064s
+2017-11-18 11:24:37,972 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.072s
+2017-11-18 11:24:38,124 - DEBUG: self.select("来电原由", "订单")---select---0.236s
+2017-11-18 11:24:38,168 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 11:24:38,168 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.040s
+2017-11-18 11:24:38,292 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.168s
+2017-11-18 11:24:38,376 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.076s
+2017-11-18 11:24:38,376 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.080s
+2017-11-18 11:24:38,464 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.172s
+2017-11-18 11:24:38,504 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:24:38,532 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:24:38,532 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.028s
+2017-11-18 11:24:38,532 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.064s
+2017-11-18 11:24:38,616 - DEBUG: self.click_btn("保存", 2)---click_btn---0.148s
+2017-11-18 11:24:38,664 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="059b1b63816e28859722e5acc1ad4f68", element="0.29380406591359276-14")>, <selenium.webdriver.remote.webelement.WebElement (session="059b1b63816e28859722e5acc1ad4f68", element="0.29380406591359276-15")>, <selenium.webdriver.remote.webelement.WebElement (session="059b1b63816e28859722e5acc1ad4f68", element="0.29380406591359276-16")>, <selenium.webdriver.remote.webelement.WebElement (session="059b1b63816e28859722e5acc1ad4f68", element="0.29380406591359276-17")>]
+2017-11-18 11:24:38,676 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.056s
+2017-11-18 11:24:38,676 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.060s
+2017-11-18 11:24:38,752 - DEBUG: self.click("显示更多内容", 4)---click---0.136s
+2017-11-18 11:24:39,837 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.072s
+2017-11-18 11:24:39,837 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.080s
+2017-11-18 11:24:40,045 - DEBUG: self.select("配送站点", station)---select---0.292s
+2017-11-18 11:24:40,149 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.040s
+2017-11-18 11:24:40,149 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.044s
+2017-11-18 11:24:40,265 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.220s
+2017-11-18 11:24:41,365 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.100s
+2017-11-18 11:24:46,717 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.100s
+2017-11-18 11:24:46,717 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.108s
+2017-11-18 11:24:46,937 - DEBUG: self.select("订单渠道：", 1)---select---0.332s
+2017-11-18 11:24:47,009 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.056s
+2017-11-18 11:24:47,009 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.064s
+2017-11-18 11:24:47,201 - DEBUG: self.select("订单区域", "北京")---select---0.264s
+2017-11-18 11:25:32,098 - DEBUG: self.open(login_url)---open---3.181s
+2017-11-18 11:25:33,188 - DEBUG: input_elm = self.find_element(*label)---find_element---0.078s
+2017-11-18 11:25:33,331 - DEBUG: self.type(self.input_username_loc, username)---type---0.221s
+2017-11-18 11:25:33,367 - DEBUG: input_elm = self.find_element(*label)---find_element---0.032s
+2017-11-18 11:25:33,484 - DEBUG: self.type(self.input_password_loc, password)---type---0.153s
+2017-11-18 11:25:33,508 - DEBUG: self.find_element(*text).click()---find_element---0.020s
+2017-11-18 11:25:33,567 - DEBUG: self.click(self.btnLogin_loc)---click---0.083s
+2017-11-18 11:25:40,207 - DEBUG: self.clicks(menu)---clicks---5.626s
+2017-11-18 11:25:41,984 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.774s
+2017-11-18 11:25:42,012 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:25:42,012 - DEBUG: p.load()---load---7.439s
+2017-11-18 11:25:42,032 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.016s
+2017-11-18 11:25:42,032 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.020s
+2017-11-18 11:25:42,240 - DEBUG: self.type('电话搜索：', phone)---type---0.228s
+2017-11-18 11:25:42,272 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 11:25:42,272 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 11:25:42,340 - DEBUG: self.click_btn('搜索')---click_btn---0.100s
+2017-11-18 11:25:43,416 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.060s
+2017-11-18 11:25:43,420 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.076s
+2017-11-18 11:25:43,588 - DEBUG: self.click("显示更多内容")---click---0.248s
+2017-11-18 11:25:43,648 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.052s
+2017-11-18 11:25:43,648 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.056s
+2017-11-18 11:25:43,736 - DEBUG: self.select("来电原由", "订单")---select---0.148s
+2017-11-18 11:25:43,768 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.024s
+2017-11-18 11:25:43,768 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.028s
+2017-11-18 11:25:43,864 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.128s
+2017-11-18 11:25:44,020 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.152s
+2017-11-18 11:25:44,020 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.152s
+2017-11-18 11:25:44,200 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.336s
+2017-11-18 11:25:44,252 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:25:44,296 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.040s
+2017-11-18 11:25:44,296 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.044s
+2017-11-18 11:25:44,296 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.092s
+2017-11-18 11:25:44,408 - DEBUG: self.click_btn("保存", 2)---click_btn---0.208s
+2017-11-18 11:25:44,460 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="b0118a40f5a2dd6328838f55abd2674a", element="0.41140656714318213-14")>, <selenium.webdriver.remote.webelement.WebElement (session="b0118a40f5a2dd6328838f55abd2674a", element="0.41140656714318213-15")>, <selenium.webdriver.remote.webelement.WebElement (session="b0118a40f5a2dd6328838f55abd2674a", element="0.41140656714318213-16")>, <selenium.webdriver.remote.webelement.WebElement (session="b0118a40f5a2dd6328838f55abd2674a", element="0.41140656714318213-17")>]
+2017-11-18 11:25:44,476 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.056s
+2017-11-18 11:25:44,476 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.064s
+2017-11-18 11:25:44,604 - DEBUG: self.click("显示更多内容", 4)---click---0.196s
+2017-11-18 11:25:45,701 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.084s
+2017-11-18 11:25:45,701 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.092s
+2017-11-18 11:25:45,865 - DEBUG: self.select("配送站点", station)---select---0.260s
+2017-11-18 11:25:45,949 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.032s
+2017-11-18 11:25:45,949 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.036s
+2017-11-18 11:25:46,073 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.204s
+2017-11-18 11:25:47,165 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.092s
+2017-11-18 11:25:52,448 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.084s
+2017-11-18 11:25:52,448 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.092s
+2017-11-18 11:25:52,628 - DEBUG: self.select("订单渠道：", "电话")---select---0.276s
+2017-11-18 11:25:52,680 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.044s
+2017-11-18 11:25:52,680 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.048s
+2017-11-18 11:25:52,784 - DEBUG: self.select("订单区域", "北京")---select---0.152s
+2017-11-18 11:25:52,820 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 11:25:52,820 - DEBUG: self.find_input_by_label(label, index).click()---find_input_by_label---0.032s
+2017-11-18 11:25:53,048 - DEBUG: self.click_input("是否预定送餐时间", 4)---click_input---0.264s
+2017-11-18 11:25:53,156 - DEBUG: 找不到文本包含'当前'的链接，尝试去掉空格完全匹配...
+2017-11-18 11:25:53,208 - DEBUG: return self.by_xpath('//a[normalize-space(contains(text(),"%s"))]' % text, index)---by_xpath---0.052s
+2017-11-18 11:25:53,208 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.156s
+2017-11-18 11:25:53,356 - DEBUG: self.click("当前")---click---0.304s
+2017-11-18 11:25:53,440 - DEBUG: return self.by_xpath("//a[contains(text(),'%s')]" % text)---by_xpath---0.028s
+2017-11-18 11:25:53,440 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.080s
+2017-11-18 11:29:50,190 - DEBUG: self.open(login_url)---open---2.201s
+2017-11-18 11:29:51,291 - DEBUG: input_elm = self.find_element(*label)---find_element---0.094s
+2017-11-18 11:29:51,450 - DEBUG: self.type(self.input_username_loc, username)---type---0.253s
+2017-11-18 11:29:51,478 - DEBUG: input_elm = self.find_element(*label)---find_element---0.024s
+2017-11-18 11:29:51,599 - DEBUG: self.type(self.input_password_loc, password)---type---0.149s
+2017-11-18 11:29:51,627 - DEBUG: self.find_element(*text).click()---find_element---0.024s
+2017-11-18 11:29:51,694 - DEBUG: self.click(self.btnLogin_loc)---click---0.095s
+2017-11-18 11:29:56,058 - DEBUG: self.clicks(menu)---clicks---3.357s
+2017-11-18 11:29:58,004 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.943s
+2017-11-18 11:29:58,032 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:29:58,032 - DEBUG: p.load()---load---5.336s
+2017-11-18 11:29:58,064 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.031s
+2017-11-18 11:29:58,064 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.031s
+2017-11-18 11:29:58,251 - DEBUG: self.type('电话搜索：', phone)---type---0.219s
+2017-11-18 11:29:58,287 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 11:29:58,287 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 11:29:58,343 - DEBUG: self.click_btn('搜索')---click_btn---0.092s
+2017-11-18 11:29:59,467 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.108s
+2017-11-18 11:29:59,467 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.116s
+2017-11-18 11:29:59,631 - DEBUG: self.click("显示更多内容")---click---0.288s
+2017-11-18 11:29:59,707 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.052s
+2017-11-18 11:29:59,707 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.064s
+2017-11-18 11:29:59,831 - DEBUG: self.select("来电原由", "订单")---select---0.200s
+2017-11-18 11:29:59,871 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 11:29:59,871 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.036s
+2017-11-18 11:29:59,987 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.156s
+2017-11-18 11:30:00,099 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.104s
+2017-11-18 11:30:00,099 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.108s
+2017-11-18 11:30:00,179 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.192s
+2017-11-18 11:30:00,219 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:30:00,247 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:30:00,247 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.028s
+2017-11-18 11:30:00,247 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.064s
+2017-11-18 11:30:00,311 - DEBUG: self.click_btn("保存", 2)---click_btn---0.132s
+2017-11-18 11:30:00,343 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="5618bff6c21e99be0a2a95330b44ccdd", element="0.23824598107488737-14")>, <selenium.webdriver.remote.webelement.WebElement (session="5618bff6c21e99be0a2a95330b44ccdd", element="0.23824598107488737-15")>, <selenium.webdriver.remote.webelement.WebElement (session="5618bff6c21e99be0a2a95330b44ccdd", element="0.23824598107488737-16")>, <selenium.webdriver.remote.webelement.WebElement (session="5618bff6c21e99be0a2a95330b44ccdd", element="0.23824598107488737-17")>]
+2017-11-18 11:30:00,359 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.044s
+2017-11-18 11:30:00,359 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.048s
+2017-11-18 11:30:00,427 - DEBUG: self.click("显示更多内容", 4)---click---0.116s
+2017-11-18 11:30:01,543 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.104s
+2017-11-18 11:30:01,543 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.112s
+2017-11-18 11:30:01,795 - DEBUG: self.select("配送站点", station)---select---0.368s
+2017-11-18 11:30:01,863 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.024s
+2017-11-18 11:30:01,863 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.028s
+2017-11-18 11:30:01,951 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.156s
+2017-11-18 11:30:03,047 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.096s
+2017-11-18 11:30:14,265 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.100s
+2017-11-18 11:30:14,265 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.108s
+2017-11-18 11:30:14,617 - DEBUG: self.select("订单渠道：", "电话")---select---0.464s
+2017-11-18 11:30:14,697 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.064s
+2017-11-18 11:30:14,697 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.072s
+2017-11-18 11:30:14,797 - DEBUG: self.select("订单区域", "北京")---select---0.180s
+2017-11-18 11:30:14,833 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 11:30:14,833 - DEBUG: self.find_input_by_label(label, index).click()---find_input_by_label---0.036s
+2017-11-18 11:30:14,977 - DEBUG: self.click_input("是否预定送餐时间", 4)---click_input---0.180s
+2017-11-18 11:30:15,109 - DEBUG: 找不到文本包含'当前'的链接，尝试去掉空格完全匹配...
+2017-11-18 11:30:15,169 - DEBUG: return self.by_xpath('//a[normalize-space(contains(text(),"%s"))]' % text, index)---by_xpath---0.060s
+2017-11-18 11:30:15,169 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.188s
+2017-11-18 11:30:15,345 - DEBUG: self.click("当前")---click---0.368s
+2017-11-18 11:30:15,421 - DEBUG: return self.by_xpath("//a[contains(text(),'%s')]" % text)---by_xpath---0.024s
+2017-11-18 11:30:15,421 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.072s
+2017-11-18 11:31:55,303 - DEBUG: self.open(login_url)---open---9.277s
+2017-11-18 11:31:56,419 - DEBUG: input_elm = self.find_element(*label)---find_element---0.108s
+2017-11-18 11:31:56,623 - DEBUG: self.type(self.input_username_loc, username)---type---0.320s
+2017-11-18 11:31:56,663 - DEBUG: input_elm = self.find_element(*label)---find_element---0.036s
+2017-11-18 11:31:56,803 - DEBUG: self.type(self.input_password_loc, password)---type---0.180s
+2017-11-18 11:31:56,843 - DEBUG: self.find_element(*text).click()---find_element---0.040s
+2017-11-18 11:31:56,919 - DEBUG: self.click(self.btnLogin_loc)---click---0.116s
+2017-11-18 11:32:00,355 - DEBUG: self.clicks(menu)---clicks---2.432s
+2017-11-18 11:32:01,979 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.624s
+2017-11-18 11:32:02,015 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:32:02,015 - DEBUG: p.load()---load---4.096s
+2017-11-18 11:32:02,043 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.024s
+2017-11-18 11:32:02,043 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.024s
+2017-11-18 11:32:02,235 - DEBUG: self.type('电话搜索：', phone)---type---0.220s
+2017-11-18 11:32:02,267 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 11:32:02,267 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 11:32:02,335 - DEBUG: self.click_btn('搜索')---click_btn---0.100s
+2017-11-18 11:32:03,479 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.120s
+2017-11-18 11:32:03,479 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.132s
+2017-11-18 11:32:03,655 - DEBUG: self.click("显示更多内容")---click---0.320s
+2017-11-18 11:32:03,731 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.064s
+2017-11-18 11:32:03,731 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.072s
+2017-11-18 11:32:03,859 - DEBUG: self.select("来电原由", "订单")---select---0.204s
+2017-11-18 11:32:03,891 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 11:32:03,891 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.028s
+2017-11-18 11:32:03,987 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.128s
+2017-11-18 11:32:04,067 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.076s
+2017-11-18 11:32:04,067 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.080s
+2017-11-18 11:32:04,163 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.176s
+2017-11-18 11:32:04,203 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:32:04,235 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:32:04,235 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.032s
+2017-11-18 11:32:04,235 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.068s
+2017-11-18 11:32:04,299 - DEBUG: self.click_btn("保存", 2)---click_btn---0.132s
+2017-11-18 11:32:04,339 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="b1f299ee0d20ae8837c75c5e9e9d7df7", element="0.8386101785094555-14")>, <selenium.webdriver.remote.webelement.WebElement (session="b1f299ee0d20ae8837c75c5e9e9d7df7", element="0.8386101785094555-15")>, <selenium.webdriver.remote.webelement.WebElement (session="b1f299ee0d20ae8837c75c5e9e9d7df7", element="0.8386101785094555-16")>, <selenium.webdriver.remote.webelement.WebElement (session="b1f299ee0d20ae8837c75c5e9e9d7df7", element="0.8386101785094555-17")>]
+2017-11-18 11:32:04,355 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.052s
+2017-11-18 11:32:04,355 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.052s
+2017-11-18 11:32:04,419 - DEBUG: self.click("显示更多内容", 4)---click---0.120s
+2017-11-18 11:32:05,483 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.052s
+2017-11-18 11:32:05,483 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.060s
+2017-11-18 11:32:05,595 - DEBUG: self.select("配送站点", station)---select---0.176s
+2017-11-18 11:32:05,659 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.028s
+2017-11-18 11:32:05,659 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.028s
+2017-11-18 11:32:05,759 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.164s
+2017-11-18 11:32:06,859 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.100s
+2017-11-18 11:32:08,123 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 11:32:08,123 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.032s
+2017-11-18 11:32:08,299 - DEBUG: self.select("订单渠道：", "电话")---select---0.208s
+2017-11-18 11:32:08,335 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 11:32:08,335 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.032s
+2017-11-18 11:32:08,447 - DEBUG: self.select("订单区域", "北京")---select---0.148s
+2017-11-18 11:32:08,487 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 11:32:08,487 - DEBUG: self.find_input_by_label(label, index).click()---find_input_by_label---0.036s
+2017-11-18 11:32:08,655 - DEBUG: self.click_input("是否预定送餐时间", 4)---click_input---0.208s
+2017-11-18 11:33:08,767 - DEBUG: self.open(login_url)---open---2.308s
+2017-11-18 11:33:09,867 - DEBUG: input_elm = self.find_element(*label)---find_element---0.084s
+2017-11-18 11:33:10,031 - DEBUG: self.type(self.input_username_loc, username)---type---0.256s
+2017-11-18 11:33:10,063 - DEBUG: input_elm = self.find_element(*label)---find_element---0.032s
+2017-11-18 11:33:10,199 - DEBUG: self.type(self.input_password_loc, password)---type---0.168s
+2017-11-18 11:33:10,231 - DEBUG: self.find_element(*text).click()---find_element---0.032s
+2017-11-18 11:33:10,299 - DEBUG: self.click(self.btnLogin_loc)---click---0.100s
+2017-11-18 11:33:15,946 - DEBUG: self.clicks(menu)---clicks---4.647s
+2017-11-18 11:33:17,636 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.688s
+2017-11-18 11:33:17,668 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:33:17,668 - DEBUG: p.load()---load---6.369s
+2017-11-18 11:33:17,700 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 11:33:17,700 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.032s
+2017-11-18 11:33:17,912 - DEBUG: self.type('电话搜索：', phone)---type---0.244s
+2017-11-18 11:33:17,948 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 11:33:17,948 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 11:33:18,020 - DEBUG: self.click_btn('搜索')---click_btn---0.108s
+2017-11-18 11:33:19,056 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.032s
+2017-11-18 11:33:19,056 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.036s
+2017-11-18 11:33:19,140 - DEBUG: self.click("显示更多内容")---click---0.120s
+2017-11-18 11:33:19,196 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.048s
+2017-11-18 11:33:19,196 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.052s
+2017-11-18 11:33:19,328 - DEBUG: self.select("来电原由", "订单")---select---0.188s
+2017-11-18 11:33:19,372 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 11:33:19,372 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.040s
+2017-11-18 11:33:19,488 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.160s
+2017-11-18 11:33:19,592 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.096s
+2017-11-18 11:33:19,592 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.100s
+2017-11-18 11:33:19,680 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.192s
+2017-11-18 11:33:19,712 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:33:19,744 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.028s
+2017-11-18 11:33:19,744 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.032s
+2017-11-18 11:33:19,744 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.060s
+2017-11-18 11:33:19,816 - DEBUG: self.click_btn("保存", 2)---click_btn---0.136s
+2017-11-18 11:33:19,852 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="91bb44d4cadb0152395a1398e2b78ab0", element="0.061392379137428676-14")>, <selenium.webdriver.remote.webelement.WebElement (session="91bb44d4cadb0152395a1398e2b78ab0", element="0.061392379137428676-15")>, <selenium.webdriver.remote.webelement.WebElement (session="91bb44d4cadb0152395a1398e2b78ab0", element="0.061392379137428676-16")>, <selenium.webdriver.remote.webelement.WebElement (session="91bb44d4cadb0152395a1398e2b78ab0", element="0.061392379137428676-17")>]
+2017-11-18 11:33:19,864 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.044s
+2017-11-18 11:33:19,864 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.044s
+2017-11-18 11:33:19,936 - DEBUG: self.click("显示更多内容", 4)---click---0.120s
+2017-11-18 11:33:21,032 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.084s
+2017-11-18 11:33:21,032 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.092s
+2017-11-18 11:33:21,208 - DEBUG: self.select("配送站点", station)---select---0.272s
+2017-11-18 11:33:21,276 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.028s
+2017-11-18 11:33:21,276 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.028s
+2017-11-18 11:33:21,372 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.160s
+2017-11-18 11:33:22,453 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.080s
+2017-11-18 11:33:23,717 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.092s
+2017-11-18 11:33:23,717 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.100s
+2017-11-18 11:33:23,913 - DEBUG: self.select("订单渠道：", "电话")---select---0.300s
+2017-11-18 11:33:23,989 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.060s
+2017-11-18 11:33:23,989 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.068s
+2017-11-18 11:33:24,201 - DEBUG: self.select("订单区域", "北京")---select---0.288s
+2017-11-18 11:33:24,281 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.064s
+2017-11-18 11:33:24,281 - DEBUG: self.find_input_by_label(label, index).click()---find_input_by_label---0.072s
+2017-11-18 11:33:24,529 - DEBUG: self.click_input("是否预定送餐时间", 4)---click_input---0.328s
+2017-11-18 11:33:26,637 - DEBUG: 找不到按钮'当前',尝试寻找该文本链接...
+2017-11-18 11:33:26,825 - DEBUG: 找不到文本包含'当前'的链接，尝试去掉空格完全匹配...
+2017-11-18 11:33:26,901 - DEBUG: return self.by_xpath('//a[normalize-space(contains(text(),"%s"))]' % text, index)---by_xpath---0.076s
+2017-11-18 11:33:26,901 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.264s
+2017-11-18 11:33:26,901 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.368s
+2017-11-18 11:33:27,101 - DEBUG: self.click_btn("当前")---click_btn---0.572s
+2017-11-18 11:33:27,181 - DEBUG: 找不到按钮'确认',尝试寻找该文本链接...
+2017-11-18 11:33:27,441 - DEBUG: return self.by_xpath("//a[contains(text(),'%s')]" % text)---by_xpath---0.200s
+2017-11-18 11:33:27,441 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.260s
+2017-11-18 11:33:27,441 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.336s
+2017-11-18 11:36:20,234 - DEBUG: self.open(login_url)---open---1.500s
+2017-11-18 11:36:21,328 - DEBUG: input_elm = self.find_element(*label)---find_element---0.094s
+2017-11-18 11:36:21,508 - DEBUG: self.type(self.input_username_loc, username)---type---0.273s
+2017-11-18 11:36:21,536 - DEBUG: input_elm = self.find_element(*label)---find_element---0.024s
+2017-11-18 11:36:21,654 - DEBUG: self.type(self.input_password_loc, password)---type---0.147s
+2017-11-18 11:36:21,682 - DEBUG: self.find_element(*text).click()---find_element---0.024s
+2017-11-18 11:36:21,745 - DEBUG: self.click(self.btnLogin_loc)---click---0.087s
+2017-11-18 11:36:28,591 - DEBUG: self.clicks(menu)---clicks---5.839s
+2017-11-18 11:36:30,385 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.792s
+2017-11-18 11:36:30,413 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:36:30,413 - DEBUG: p.load()---load---7.665s
+2017-11-18 11:36:30,429 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.012s
+2017-11-18 11:36:30,429 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.012s
+2017-11-18 11:36:30,645 - DEBUG: self.type('电话搜索：', phone)---type---0.232s
+2017-11-18 11:36:30,677 - DEBUG: return self.by_xpath('//*[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 11:36:30,677 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.028s
+2017-11-18 11:36:30,737 - DEBUG: self.click_btn('搜索')---click_btn---0.092s
+2017-11-18 11:36:31,841 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.084s
+2017-11-18 11:36:31,841 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.100s
+2017-11-18 11:36:31,985 - DEBUG: self.click("显示更多内容")---click---0.248s
+2017-11-18 11:36:32,033 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.040s
+2017-11-18 11:36:32,033 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.048s
+2017-11-18 11:36:32,153 - DEBUG: self.select("来电原由", "订单")---select---0.168s
+2017-11-18 11:36:32,181 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.024s
+2017-11-18 11:36:32,185 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.028s
+2017-11-18 11:36:32,269 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.116s
+2017-11-18 11:36:32,349 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.072s
+2017-11-18 11:36:32,349 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.076s
+2017-11-18 11:36:32,449 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.180s
+2017-11-18 11:36:32,485 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:36:32,517 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.028s
+2017-11-18 11:36:32,517 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.032s
+2017-11-18 11:36:32,517 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.068s
+2017-11-18 11:36:32,581 - DEBUG: self.click_btn("保存", 2)---click_btn---0.132s
+2017-11-18 11:36:32,613 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="b54dccc2b0c9f7782d95a91e23988523", element="0.15979382581843438-14")>, <selenium.webdriver.remote.webelement.WebElement (session="b54dccc2b0c9f7782d95a91e23988523", element="0.15979382581843438-15")>, <selenium.webdriver.remote.webelement.WebElement (session="b54dccc2b0c9f7782d95a91e23988523", element="0.15979382581843438-16")>, <selenium.webdriver.remote.webelement.WebElement (session="b54dccc2b0c9f7782d95a91e23988523", element="0.15979382581843438-17")>]
+2017-11-18 11:36:32,625 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.040s
+2017-11-18 11:36:32,625 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.044s
+2017-11-18 11:36:32,701 - DEBUG: self.click("显示更多内容", 4)---click---0.120s
+2017-11-18 11:36:33,809 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.092s
+2017-11-18 11:36:33,809 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.104s
+2017-11-18 11:36:34,029 - DEBUG: self.select("配送站点", station)---select---0.328s
+2017-11-18 11:36:34,121 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.036s
+2017-11-18 11:36:34,121 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.040s
+2017-11-18 11:36:34,253 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.224s
+2017-11-18 11:36:35,341 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.088s
+2017-11-18 11:36:36,629 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.092s
+2017-11-18 11:36:36,629 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.100s
+2017-11-18 11:36:36,809 - DEBUG: self.select("订单渠道：", "电话")---select---0.284s
+2017-11-18 11:36:36,857 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.040s
+2017-11-18 11:36:36,857 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.044s
+2017-11-18 11:36:36,969 - DEBUG: self.select("订单区域", "北京")---select---0.160s
+2017-11-18 11:36:37,005 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 11:36:37,005 - DEBUG: self.find_input_by_label(label, index).click()---find_input_by_label---0.032s
+2017-11-18 11:36:37,145 - DEBUG: self.click_input("是否预定送餐时间", 4)---click_input---0.176s
+2017-11-18 11:36:39,217 - DEBUG: 找不到按钮'当前',尝试寻找该文本链接...
+2017-11-18 11:36:39,345 - DEBUG: 找不到文本包含'当前'的链接，尝试去掉空格完全匹配...
+2017-11-18 11:36:39,373 - DEBUG: return self.by_xpath('//a[normalize-space(contains(text(),"%s"))]' % text, index)---by_xpath---0.028s
+2017-11-18 11:36:39,373 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.156s
+2017-11-18 11:36:39,373 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.224s
+2017-11-18 11:36:39,605 - DEBUG: self.click_btn("当前")---click_btn---0.460s
+2017-11-18 11:36:39,649 - DEBUG: 找不到按钮'确认',尝试寻找该文本链接...
+2017-11-18 11:36:39,733 - DEBUG: return self.by_xpath("//a[contains(text(),'%s')]" % text)---by_xpath---0.028s
+2017-11-18 11:36:39,733 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.084s
+2017-11-18 11:36:39,733 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.120s
+2017-11-18 11:40:02,189 - DEBUG: self.open(login_url)---open---1.136s
+2017-11-18 11:40:03,263 - DEBUG: input_elm = self.find_element(*label)---find_element---0.068s
+2017-11-18 11:40:03,419 - DEBUG: self.type(self.input_username_loc, username)---type---0.228s
+2017-11-18 11:40:03,443 - DEBUG: input_elm = self.find_element(*label)---find_element---0.020s
+2017-11-18 11:40:03,563 - DEBUG: self.type(self.input_password_loc, password)---type---0.144s
+2017-11-18 11:40:03,591 - DEBUG: self.find_element(*text).click()---find_element---0.024s
+2017-11-18 11:40:03,651 - DEBUG: self.click(self.btnLogin_loc)---click---0.088s
+2017-11-18 11:40:05,797 - DEBUG: self.clicks(menu)---clicks---1.132s
+2017-11-18 11:40:06,962 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.164s
+2017-11-18 11:40:06,990 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 11:40:06,990 - DEBUG: p.load()---load---2.329s
+2017-11-18 11:40:07,022 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 11:40:07,022 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.028s
+2017-11-18 11:40:07,222 - DEBUG: self.type('电话搜索：', phone)---type---0.232s
+2017-11-18 11:40:07,258 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.032s
+2017-11-18 11:40:07,258 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 11:40:07,318 - DEBUG: self.click_btn('搜索')---click_btn---0.096s
+2017-11-18 11:40:08,451 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.116s
+2017-11-18 11:40:08,454 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.128s
+2017-11-18 11:40:08,683 - DEBUG: self.click("显示更多内容")---click---0.364s
+2017-11-18 11:40:08,738 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.048s
+2017-11-18 11:40:08,738 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.056s
+2017-11-18 11:40:08,862 - DEBUG: self.select("来电原由", "订单")---select---0.180s
+2017-11-18 11:40:08,895 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 11:40:08,895 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.028s
+2017-11-18 11:40:08,991 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.128s
+2017-11-18 11:40:09,067 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.072s
+2017-11-18 11:40:09,067 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.076s
+2017-11-18 11:40:09,159 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.168s
+2017-11-18 11:40:09,223 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 11:40:09,251 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 11:40:09,251 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.028s
+2017-11-18 11:40:09,251 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.088s
+2017-11-18 11:40:09,319 - DEBUG: self.click_btn("保存", 2)---click_btn---0.160s
+2017-11-18 11:40:09,355 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="accccae5fbf563a35a83b0409641d0c1", element="0.4970110886903596-14")>, <selenium.webdriver.remote.webelement.WebElement (session="accccae5fbf563a35a83b0409641d0c1", element="0.4970110886903596-15")>, <selenium.webdriver.remote.webelement.WebElement (session="accccae5fbf563a35a83b0409641d0c1", element="0.4970110886903596-16")>, <selenium.webdriver.remote.webelement.WebElement (session="accccae5fbf563a35a83b0409641d0c1", element="0.4970110886903596-17")>]
+2017-11-18 11:40:09,363 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.036s
+2017-11-18 11:40:09,363 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.040s
+2017-11-18 11:40:09,439 - DEBUG: self.click("显示更多内容", 4)---click---0.120s
+2017-11-18 11:40:10,547 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.096s
+2017-11-18 11:40:10,547 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.104s
+2017-11-18 11:40:10,759 - DEBUG: self.select("配送站点", station)---select---0.320s
+2017-11-18 11:40:10,851 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.028s
+2017-11-18 11:40:10,851 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.032s
+2017-11-18 11:40:10,939 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.180s
+2017-11-18 11:40:12,039 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.096s
+2017-11-18 11:40:13,327 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.096s
+2017-11-18 11:40:13,327 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.104s
+2017-11-18 11:40:13,595 - DEBUG: self.select("订单渠道：", "电话")---select---0.376s
+2017-11-18 11:40:13,639 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 11:40:13,643 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.040s
+2017-11-18 11:40:13,775 - DEBUG: self.select("订单区域", "北京")---select---0.180s
+2017-11-18 11:40:13,819 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 11:40:13,819 - DEBUG: self.find_input_by_label(label, index).click()---find_input_by_label---0.040s
+2017-11-18 11:40:13,983 - DEBUG: self.click_input("是否预定送餐时间", 4)---click_input---0.208s
+2017-11-18 11:40:16,119 - DEBUG: return self.by_xpath('//button[@type="button"][text()="%s"][%d]' % (value, index))---by_xpath---0.032s
+2017-11-18 11:40:16,119 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.132s
+2017-11-18 11:40:16,267 - DEBUG: self.click_btn("当前")---click_btn---0.284s
+2017-11-18 11:40:16,355 - DEBUG: return self.by_xpath('//button[@type="button"][text()="%s"][%d]' % (value, index))---by_xpath---0.040s
+2017-11-18 11:40:16,355 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.084s
+2017-11-18 11:40:16,487 - DEBUG: self.click_btn("确认")---click_btn---0.212s
+2017-11-18 12:03:59,711 - DEBUG: self.open(login_url)---open---1.538s
+2017-11-18 12:04:00,794 - DEBUG: input_elm = self.find_element(*label)---find_element---0.079s
+2017-11-18 12:04:01,003 - DEBUG: self.type(self.input_username_loc, username)---type---0.292s
+2017-11-18 12:04:01,035 - DEBUG: input_elm = self.find_element(*label)---find_element---0.032s
+2017-11-18 12:04:01,145 - DEBUG: self.type(self.input_password_loc, password)---type---0.142s
+2017-11-18 12:04:01,173 - DEBUG: self.find_element(*text).click()---find_element---0.024s
+2017-11-18 12:04:01,232 - DEBUG: self.click(self.btnLogin_loc)---click---0.087s
+2017-11-18 12:04:06,140 - DEBUG: self.clicks(menu)---clicks---3.896s
+2017-11-18 12:04:08,467 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---1.325s
+2017-11-18 12:04:08,499 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 12:04:08,499 - DEBUG: p.load()---load---6.259s
+2017-11-18 12:04:08,525 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-18 12:04:08,525 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.026s
+2017-11-18 12:04:08,722 - DEBUG: self.type('电话搜索：', phone)---type---0.223s
+2017-11-18 12:04:08,754 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 12:04:08,754 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 12:04:08,818 - DEBUG: self.click_btn('搜索')---click_btn---0.096s
+2017-11-18 12:04:09,934 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.100s
+2017-11-18 12:04:09,938 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.116s
+2017-11-18 12:04:10,074 - DEBUG: self.click("显示更多内容")---click---0.256s
+2017-11-18 12:04:10,150 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.068s
+2017-11-18 12:04:10,154 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.076s
+2017-11-18 12:04:10,354 - DEBUG: self.select("来电原由", "订单")---select---0.280s
+2017-11-18 12:04:10,430 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.060s
+2017-11-18 12:04:10,434 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.072s
+2017-11-18 12:04:10,626 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.272s
+2017-11-18 12:04:10,782 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.144s
+2017-11-18 12:04:10,782 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.148s
+2017-11-18 12:04:10,890 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.260s
+2017-11-18 12:04:10,966 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 12:04:11,002 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.032s
+2017-11-18 12:04:11,002 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.036s
+2017-11-18 12:04:11,002 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.108s
+2017-11-18 12:04:11,074 - DEBUG: self.click_btn("保存", 2)---click_btn---0.184s
+2017-11-18 12:04:11,110 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="061ea9764c73fe3391ab47091622ecc5", element="0.35101830962490266-14")>, <selenium.webdriver.remote.webelement.WebElement (session="061ea9764c73fe3391ab47091622ecc5", element="0.35101830962490266-15")>, <selenium.webdriver.remote.webelement.WebElement (session="061ea9764c73fe3391ab47091622ecc5", element="0.35101830962490266-16")>, <selenium.webdriver.remote.webelement.WebElement (session="061ea9764c73fe3391ab47091622ecc5", element="0.35101830962490266-17")>]
+2017-11-18 12:04:11,122 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.040s
+2017-11-18 12:04:11,122 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.044s
+2017-11-18 12:04:11,234 - DEBUG: self.click("显示更多内容", 4)---click---0.156s
+2017-11-18 12:04:12,334 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.088s
+2017-11-18 12:04:12,334 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.096s
+2017-11-18 12:04:12,502 - DEBUG: self.select("配送站点", station)---select---0.268s
+2017-11-18 12:04:12,582 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.032s
+2017-11-18 12:04:12,582 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.036s
+2017-11-18 12:04:12,702 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.200s
+2017-11-18 12:04:13,783 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.080s
+2017-11-18 12:04:15,031 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.092s
+2017-11-18 12:04:15,031 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.100s
+2017-11-18 12:04:15,179 - DEBUG: self.select("订单渠道：", "电话")---select---0.252s
+2017-11-18 12:04:15,211 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.024s
+2017-11-18 12:04:15,211 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.024s
+2017-11-18 12:04:15,303 - DEBUG: self.select("订单区域", "北京")---select---0.124s
+2017-11-18 12:04:15,335 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.024s
+2017-11-18 12:04:15,335 - DEBUG: self.find_input_by_label(label, index).click()---find_input_by_label---0.028s
+2017-11-18 12:04:15,451 - DEBUG: self.click_input("是否预定送餐时间", 4)---click_input---0.148s
+2017-11-18 12:04:17,662 - DEBUG: return self.by_xpath('//button[@type="button"][text()="%s"][%d]' % (value, index))---by_xpath---0.096s
+2017-11-18 12:04:17,662 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.200s
+2017-11-18 12:04:17,850 - DEBUG: self.click_btn("当前")---click_btn---0.396s
+2017-11-18 12:04:17,930 - DEBUG: return self.by_xpath('//button[@type="button"][text()="%s"][%d]' % (value, index))---by_xpath---0.032s
+2017-11-18 12:04:17,930 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.076s
+2017-11-18 12:04:18,050 - DEBUG: self.click_btn("确认")---click_btn---0.200s
+2017-11-18 12:04:18,106 - DEBUG: 'input[@type="radio"][%d]' % (label, index))---by_xpath---0.048s
+2017-11-18 12:04:18,106 - DEBUG: self.find_radio_by_group_label(args[0], args[1]).click()---find_radio_by_group_label---0.052s
+2017-11-18 12:04:18,210 - DEBUG: self.check("支付方式", 1)---check---0.160s
+2017-11-18 12:04:46,041 - DEBUG: self.open(login_url)---open---2.855s
+2017-11-18 12:04:47,135 - DEBUG: input_elm = self.find_element(*label)---find_element---0.078s
+2017-11-18 12:04:47,355 - DEBUG: self.type(self.input_username_loc, username)---type---0.298s
+2017-11-18 12:04:47,391 - DEBUG: input_elm = self.find_element(*label)---find_element---0.032s
+2017-11-18 12:04:47,534 - DEBUG: self.type(self.input_password_loc, password)---type---0.179s
+2017-11-18 12:04:47,574 - DEBUG: self.find_element(*text).click()---find_element---0.036s
+2017-11-18 12:04:47,651 - DEBUG: self.click(self.btnLogin_loc)---click---0.118s
+2017-11-18 12:04:51,684 - DEBUG: self.clicks(menu)---clicks---3.032s
+2017-11-18 12:04:53,247 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.560s
+2017-11-18 12:04:53,267 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 12:04:53,267 - DEBUG: p.load()---load---4.615s
+2017-11-18 12:04:53,298 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.031s
+2017-11-18 12:04:53,298 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.031s
+2017-11-18 12:04:53,479 - DEBUG: self.type('电话搜索：', phone)---type---0.211s
+2017-11-18 12:04:53,523 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.036s
+2017-11-18 12:04:53,523 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.040s
+2017-11-18 12:04:53,583 - DEBUG: self.click_btn('搜索')---click_btn---0.104s
+2017-11-18 12:04:54,696 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.096s
+2017-11-18 12:04:54,696 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.108s
+2017-11-18 12:04:54,780 - DEBUG: self.click("显示更多内容")---click---0.196s
+2017-11-18 12:04:54,824 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 12:04:54,824 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.040s
+2017-11-18 12:05:20,829 - DEBUG: self.open(login_url)---open---1.762s
+2017-11-18 12:05:21,914 - DEBUG: input_elm = self.find_element(*label)---find_element---0.078s
+2017-11-18 12:05:22,065 - DEBUG: self.type(self.input_username_loc, username)---type---0.228s
+2017-11-18 12:05:22,093 - DEBUG: input_elm = self.find_element(*label)---find_element---0.028s
+2017-11-18 12:05:22,210 - DEBUG: self.type(self.input_password_loc, password)---type---0.145s
+2017-11-18 12:05:22,242 - DEBUG: self.find_element(*text).click()---find_element---0.028s
+2017-11-18 12:05:22,305 - DEBUG: self.click(self.btnLogin_loc)---click---0.095s
+2017-11-18 12:05:28,754 - DEBUG: self.clicks(menu)---clicks---5.442s
+2017-11-18 12:05:30,111 - DEBUG: actual_subject = self.find_element(By.XPATH, '//*[@id="iframe"]/div/h1').text---find_element---0.355s
+2017-11-18 12:05:30,143 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-18 12:05:30,143 - DEBUG: p.load()---load---6.835s
+2017-11-18 12:05:30,195 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.044s
+2017-11-18 12:05:30,199 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.052s
+2017-11-18 12:05:30,395 - DEBUG: self.type('电话搜索：', phone)---type---0.252s
+2017-11-18 12:05:30,427 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 12:05:30,431 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.032s
+2017-11-18 12:05:30,491 - DEBUG: self.click_btn('搜索')---click_btn---0.096s
+2017-11-18 12:05:31,571 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.060s
+2017-11-18 12:05:31,571 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.072s
+2017-11-18 12:05:31,723 - DEBUG: self.click("显示更多内容")---click---0.232s
+2017-11-18 12:05:31,787 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.052s
+2017-11-18 12:05:31,787 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.060s
+2017-11-18 12:05:31,919 - DEBUG: self.select("来电原由", "订单")---select---0.196s
+2017-11-18 12:05:31,963 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.036s
+2017-11-18 12:05:31,967 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.044s
+2017-11-18 12:05:32,095 - DEBUG: self.select("来电原由", "创建订单", 2)---select---0.176s
+2017-11-18 12:05:32,207 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.104s
+2017-11-18 12:05:32,207 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.108s
+2017-11-18 12:05:32,291 - DEBUG: self.type_area("备注", "自动化测试", 2)---type_area---0.196s
+2017-11-18 12:05:32,359 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 12:05:32,387 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.024s
+2017-11-18 12:05:32,387 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.028s
+2017-11-18 12:05:32,387 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.092s
+2017-11-18 12:05:32,455 - DEBUG: self.click_btn("保存", 2)---click_btn---0.164s
+2017-11-18 12:05:32,487 - DEBUG: [<selenium.webdriver.remote.webelement.WebElement (session="64e26d053fbb78bf5f6eca2bab2b92de", element="0.37139474134048633-14")>, <selenium.webdriver.remote.webelement.WebElement (session="64e26d053fbb78bf5f6eca2bab2b92de", element="0.37139474134048633-15")>, <selenium.webdriver.remote.webelement.WebElement (session="64e26d053fbb78bf5f6eca2bab2b92de", element="0.37139474134048633-16")>, <selenium.webdriver.remote.webelement.WebElement (session="64e26d053fbb78bf5f6eca2bab2b92de", element="0.37139474134048633-17")>]
+2017-11-18 12:05:32,495 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.040s
+2017-11-18 12:05:32,495 - DEBUG: self.find_link_by_text(text, index).click()---find_link_by_text---0.040s
+2017-11-18 12:05:32,583 - DEBUG: self.click("显示更多内容", 4)---click---0.128s
+2017-11-18 12:05:33,684 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.088s
+2017-11-18 12:05:33,684 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.096s
+2017-11-18 12:05:33,924 - DEBUG: self.select("配送站点", station)---select---0.340s
+2017-11-18 12:05:34,016 - DEBUG: return self.by_xpath('//input[@placeholder="%s"][%d]' % (hint_text, index))---by_xpath---0.040s
+2017-11-18 12:05:34,016 - DEBUG: input_elm = self.find_input_by_hint_text(label, index)---find_input_by_hint_text---0.044s
+2017-11-18 12:05:34,164 - DEBUG: self.type("请输入要查询商品的简码", code)---type---0.240s
+2017-11-18 12:05:35,244 - DEBUG: self.by_xpath("//*[text()='%s']" % text).click()---by_xpath---0.080s
+2017-11-18 12:05:36,433 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.080s
+2017-11-18 12:05:36,433 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.088s
+2017-11-18 12:05:36,569 - DEBUG: self.select("订单渠道：", "电话")---select---0.228s
+2017-11-18 12:05:36,601 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.024s
+2017-11-18 12:05:36,601 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.024s
+2017-11-18 12:05:36,697 - DEBUG: self.select("订单区域", "北京")---select---0.128s
+2017-11-18 12:05:36,729 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.028s
+2017-11-18 12:05:36,729 - DEBUG: self.find_input_by_label(label, index).click()---find_input_by_label---0.028s
+2017-11-18 12:05:36,841 - DEBUG: self.click_input("是否预定送餐时间", 4)---click_input---0.144s
+2017-11-18 12:05:39,033 - DEBUG: return self.by_xpath('//button[@type="button"][text()="%s"][%d]' % (value, index))---by_xpath---0.084s
+2017-11-18 12:05:39,033 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.188s
+2017-11-18 12:05:39,197 - DEBUG: self.click_btn("当前")---click_btn---0.356s
+2017-11-18 12:05:39,269 - DEBUG: return self.by_xpath('//button[@type="button"][text()="%s"][%d]' % (value, index))---by_xpath---0.028s
+2017-11-18 12:05:39,269 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.068s
+2017-11-18 12:05:39,369 - DEBUG: self.click_btn("确认")---click_btn---0.172s
+2017-11-18 12:05:39,417 - DEBUG: 'input[@type="radio"][%d]' % (label, index))---by_xpath---0.040s
+2017-11-18 12:05:39,417 - DEBUG: self.find_radio_by_group_label(args[0], args[1]).click()---find_radio_by_group_label---0.048s
+2017-11-18 12:05:39,521 - DEBUG: self.check("支付方式", 1)---check---0.152s
+2017-11-18 12:05:39,565 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::select[%d]' % (label, index))---by_xpath---0.032s
+2017-11-18 12:05:39,565 - DEBUG: select_elm = Select(self.find_select_by_label(label, index))---find_select_by_label---0.036s
+2017-11-18 12:05:39,657 - DEBUG: self.select("支付方式", "支付宝")---select---0.136s
+2017-11-18 12:05:39,753 - DEBUG: return self.by_xpath('//*[contains(text(),%s)]/following::textarea[%d]' % (label, index))---by_xpath---0.088s
+2017-11-18 12:05:39,753 - DEBUG: textarea_elm = self.find_textarea_by_label(label, index)---find_textarea_by_label---0.092s
+2017-11-18 12:05:39,897 - DEBUG: self.type_area("备注", "自动化测试下单", 3)---type_area---0.236s
+2017-11-18 12:05:39,957 - DEBUG: 找不到按钮'保存',尝试寻找该文本链接...
+2017-11-18 12:05:39,977 - DEBUG: return self.by_xpath("//a[text()='%s']" % text, index)---by_xpath---0.012s
+2017-11-18 12:05:39,977 - DEBUG: return self.find_link_by_text(value)---find_link_by_text---0.016s
+2017-11-18 12:05:39,977 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.080s
+2017-11-18 12:05:40,021 - DEBUG: self.click_btn("保存", 3)---click_btn---0.124s

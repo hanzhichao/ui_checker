@@ -13,10 +13,7 @@ Description:
 __author__ = 'Han Zhichao'
 
 #  -*- coding=utf-8  -*-
-<<<<<<< HEAD
-=======
 import sys
->>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
 import inspect
 from time import sleep
 
@@ -24,7 +21,6 @@ from util.file import ConfFile
 from selenium.webdriver.common.by import By
 from util.browser import Chrome
 from util import config
-<<<<<<< HEAD
 from util.decorator import exec_time
 from util.root import project_root
 from util.db import DB
@@ -39,7 +35,6 @@ from util.decorator import show_duration
 
 class Page(object):
 
->>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
     def __init__(self, driver, base_url=config.get('env', 'base_url')):
         self.driver = driver
         self.base_url = base_url
@@ -48,7 +43,6 @@ class Page(object):
 
         # 得到子类PageObject页面所对应的PageElm文件路径，并解析
         if __name__ != '__main__':
-<<<<<<< HEAD
             # page_obj_file = inspect.stack()[1][1]  # 获取上级调用函数的文件名
             # page_elm_file = page_obj_file.replace('page_obj', 'page_elm').replace('.py', '.ini')
             page_elm_file = project_root() + "/page/page_elm/" + self.page + ".ini"
@@ -67,7 +61,6 @@ class Page(object):
         return subject in actual_subject
 
     @exec_time
-=======
             print '---------------------------------------------------------------------'
             print inspect.stack()
             page_obj_file = inspect.stack()[1][1]  # 获取上级调用函数的文件名
@@ -82,12 +75,10 @@ class Page(object):
         return subject == actual_subject
 
     @show_duration
->>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
     def login(self):
         login_url = self.base_url + '/index/index/login'
         self.driver.get(login_url)
         sleep(1)
-<<<<<<< HEAD
         self._find_element(By.ID, 'nickname').clear()
         self._find_element(By.ID, 'nickname').send_keys(self.username)
         self._find_element(By.ID, 'password').clear()
@@ -137,16 +128,8 @@ class Page(object):
     @exec_time
     def get_text(self, element_name):
         return self.find_element(element_name).text
-
+    
     @exec_time
-=======
-        self.find_element(By.ID, 'nickname').clear()
-        self.driver.find_element(By.ID, 'nickname').send_keys(self.username)
-        self.driver.find_element(By.ID, 'password').clear()
-        self.driver.find_element(By.ID, 'password').send_keys(self.password)
-        self.driver.find_element(By.ID, 'login').click()
-        sleep(1)
-
     def logout(self):
         self.find_element(By.CLASS_NAME, 'btn-bg1').click()
 
@@ -169,12 +152,10 @@ class Page(object):
         return self.driver.find_element(*loc)
 
     @show_duration
->>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
     def type(self, element, *value):
         element.clear()
         element.send_keys(*value)
 
-<<<<<<< HEAD
     @exec_time
     def open(self, url):
         self.driver.get(url)
@@ -213,5 +194,4 @@ if __name__ == '__main__':
     p = Page(d)
     p.login()
     print d.title
->>>>>>> c981237763b50a6ecfb387b2b7de98b5aa55d259
     d.quit()

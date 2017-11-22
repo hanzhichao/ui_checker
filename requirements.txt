@@ -1,3 +1,9 @@
 selenium
 xlrd
 pymysql
+PyVirtualDisplay
+EasyProcess
+google-chrome-stable
+Xvfb
+libXfont
+xorg-x11-fonts*
