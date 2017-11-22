@@ -3,19 +3,19 @@
 import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import platform
-import sys
-sys.path.append("..")
-from util.root import project_root
-
+from pyvirtualdisplay import Display
+import root
 
 class Chrome(object):
     def __init__(self):
         pass
     if platform.system() == 'Windows':
-        chrome_driver = project_root() + '/driver/chromedriver.exe'
+        chrome_driver = root.project_root() + '/driver/chromedriver.exe'
     else:
-        chrome_driver = project_root() + '/driver/chromedriver'
+        chrome_driver = root.project_root() + '/driver/chromedriver'
+        #os.chmod(chrome_driver, 777)
 
     @classmethod
     def normal(cls):
@@ -31,8 +31,20 @@ class Chrome(object):
         options.add_argument('--disable-gpu')
         return webdriver.Chrome(cls.chrome_driver, chrome_options=options)
 
+    @classmethod
+    def remote(cls):
+        driver = webdriver.Remote(command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities=DesiredCapabilities.CHROME)
+        return driver
+
 
 if __name__ == '__main__':
-    print(os.path.abspath(__file__))
-    d = webdriver.Chrome('C:\\Users\\Administrator\\Projects\\ui_checker\\driver\\chromedriver.exe')
+    #display = Display(visible=0, size=(800,600))
+    #display.start()
+    # d = webdriver.Firefox()
+    #d = Chrome.remote()
+    d = Chrome.headless()
     d.get('http://www.baidu.com')
+    print(d.title)
+    # print(d.page_source)
+    d.quit()
+    #display.stop()

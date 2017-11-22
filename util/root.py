@@ -1,12 +1,9 @@
 # !/usr/bin/env python
 # -*- coding=utf-8 -*-
-
 import os
-
 
 def project_root():
     return os.path.dirname(os.path.dirname(__file__))
-
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 CONFIG_FILE = os.path.join(PROJECT_ROOT, 'conf/default.conf')
