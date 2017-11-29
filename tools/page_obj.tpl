@@ -7,7 +7,9 @@ from util.browser import Chrome
 
 
 class %s(BasePage):
-    page = __file__
+    # page = __file__
+    menu = ''
+    subject = ''
 
     def do_something(self):
         pass

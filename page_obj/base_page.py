@@ -7,7 +7,7 @@ from util.data_file_parser import ConfFile
 from util.log import logger
 from util.config import Config
 from selenium.webdriver.common.by import By
-from util.browser import Chrome
+from util.browser import Chrome, Firefox
 from util.decorator import exec_time
 from util.selenium_easy import WebPage
 from util.db import DB
@@ -92,7 +92,8 @@ class BasePage(WebPage):
             
     
 if __name__ == '__main__':
-    d = Chrome.headless()
+    # d = Chrome.headless()
+    d = Firefox.normal()
     d.get('http://jd.spicespirit.com/index/index/login/')
     p = BasePage(d)
     p.type("请输入用户名", "hanzhichao")

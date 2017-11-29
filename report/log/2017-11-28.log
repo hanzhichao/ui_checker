@@ -1,0 +1,60 @@
+2017-11-28 09:47:11,830 - DEBUG: setUp...
+2017-11-28 10:01:50,367 - DEBUG: setUp...
+2017-11-28 10:30:10,544 - DEBUG: setUp...
+2017-11-28 10:30:19,804 - DEBUG: self.open(login_url)---open---0.352s
+2017-11-28 10:30:20,862 - DEBUG: self.type(self.input_username_loc, username)---type---0.057s
+2017-11-28 10:30:20,896 - DEBUG: self.type(self.input_password_loc, password)---type---0.034s
+2017-11-28 10:30:24,073 - DEBUG: self.click(self.btnLogin_loc)---click---3.176s
+2017-11-28 10:30:26,421 - DEBUG: self.clicks(menu)---clicks---0.688s
+2017-11-28 10:30:27,437 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-28 10:30:27,438 - DEBUG: cls.page.load()---load---2.364s
+2017-11-28 10:30:27,454 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.008s
+2017-11-28 10:30:27,454 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.011s
+2017-11-28 10:30:27,493 - DEBUG: self.type('电话搜索：', phone)---type---0.055s
+2017-11-28 10:30:27,509 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.011s
+2017-11-28 10:30:27,509 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.013s
+2017-11-28 10:30:27,743 - DEBUG: self.click_btn('搜索')---click_btn---0.249s
+2017-11-28 10:30:28,753 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.007s
+2017-11-28 10:30:28,753 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.008s
+2017-11-28 10:30:28,762 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.018s
+2017-11-28 10:30:28,763 - DEBUG: tearDown...
+2017-11-28 15:17:19,611 - DEBUG: setUp...
+2017-11-28 15:17:28,763 - DEBUG: self.open(login_url)---open---0.293s
+2017-11-28 15:17:29,890 - DEBUG: self.type(self.input_username_loc, username)---type---0.127s
+2017-11-28 15:17:29,947 - DEBUG: self.type(self.input_password_loc, password)---type---0.056s
+2017-11-28 15:17:31,227 - DEBUG: self.click(self.btnLogin_loc)---click---1.279s
+2017-11-28 15:17:33,676 - DEBUG: self.clicks(menu)---clicks---0.738s
+2017-11-28 15:17:34,715 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-28 15:17:34,717 - DEBUG: cls.page.load()---load---2.488s
+2017-11-28 15:17:34,740 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.014s
+2017-11-28 15:17:34,740 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.018s
+2017-11-28 15:17:34,790 - DEBUG: self.type('电话搜索：', phone)---type---0.072s
+2017-11-28 15:17:34,801 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.006s
+2017-11-28 15:17:34,801 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.008s
+2017-11-28 15:17:35,019 - DEBUG: self.click_btn('搜索')---click_btn---0.229s
+2017-11-28 15:17:36,041 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.013s
+2017-11-28 15:17:36,041 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.017s
+2017-11-28 15:17:36,065 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.044s
+2017-11-28 15:17:36,066 - DEBUG: tearDown...
+2017-11-28 15:21:28,903 - DEBUG: setUp...
+2017-11-28 15:21:37,888 - DEBUG: self.open(login_url)---open---0.215s
+2017-11-28 15:21:38,960 - DEBUG: self.type(self.input_username_loc, username)---type---0.070s
+2017-11-28 15:21:38,990 - DEBUG: self.type(self.input_password_loc, password)---type---0.029s
+2017-11-28 15:21:41,136 - DEBUG: self.click(self.btnLogin_loc)---click---2.146s
+2017-11-28 15:21:44,721 - DEBUG: self.clicks(menu)---clicks---0.823s
+2017-11-28 15:21:45,767 - DEBUG: page_obj subject：会员信息---config subject：会员信息
+2017-11-28 15:21:45,768 - DEBUG: cls.page.load()---load---3.631s
+2017-11-28 15:21:45,808 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-28 15:21:45,808 - DEBUG: input_elm = self.find_input_by_label(label, index)---find_input_by_label---0.030s
+2017-11-28 15:21:45,854 - DEBUG: self.type('电话搜索：', phone)---type---0.085s
+2017-11-28 15:21:45,865 - DEBUG: return self.by_xpath('//input[@type="button"][@value="%s"][%d]' % (value, index))---by_xpath---0.007s
+2017-11-28 15:21:45,865 - DEBUG: self.find_button_by_value(value, index).click()---find_button_by_value---0.009s
+2017-11-28 15:21:46,088 - DEBUG: self.click_btn('搜索')---click_btn---0.234s
+2017-11-28 15:21:47,123 - DEBUG: return self.by_xpath('//*[contains(text(),"%s")]/following::input[%d]' % (label, index))---by_xpath---0.022s
+2017-11-28 15:21:47,123 - DEBUG: return self.find_input_by_label(label).get_attribute('value')---find_input_by_label---0.028s
+2017-11-28 15:21:47,147 - DEBUG: customer_phone = self.page.get_input_value('会员电话：')---get_input_value---0.057s
+2017-11-28 15:21:47,148 - DEBUG: tearDown...
+2017-11-28 21:31:58,630 - DEBUG: testMethod()---test_limit_time---3.007s
+2017-11-28 21:35:40,439 - DEBUG: testMethod()---test_limit_time---3.007s
+2017-11-28 21:36:07,189 - DEBUG: testMethod()---test_limit_time---3.008s
+2017-11-28 21:36:39,182 - DEBUG: testMethod()---test_limit_time---3.010s

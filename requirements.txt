@@ -1,3 +1,5 @@
 selenium
-xlrd
 pymysql
+xlrd
+#Xvld
+#pyvirtualdisplay

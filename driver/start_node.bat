@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.42.2.jar -role node -host 192.168.100.36 -hub http://192.168.100.36:4446/hub/register

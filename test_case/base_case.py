@@ -8,6 +8,7 @@ from page_obj.base_page import BasePage
 from page_obj.index.index.login import LoginPage
 from util.browser import Chrome
 from util.log import logger
+from selenium import webdriver
 
 
 class BaseCase(unittest.TestCase):
@@ -29,6 +30,7 @@ class BaseCase(unittest.TestCase):
         logger.debug("setUp...")
         # self.driver = Chrome.normal()
         cls.driver = Chrome.headless()
+        # cls.driver = webdriver.Firefox()
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
         page = LoginPage(cls.driver)
